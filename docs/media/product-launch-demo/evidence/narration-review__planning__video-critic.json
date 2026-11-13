@@ -1,0 +1,4 @@
+{
+  "decision": "ACCEPT",
+  "reason": "Technical handoff accepted for the exact candidate SHA-256 8a28fca46719de0e4e6eb9e2de9b476209d70d86e080252426754432246f96c9. The probe reports a valid 31.6-second MP4 with 1920x1080 progressive H.264 video at 30 fps (948 frames) and preserved stereo AAC audio at 48 kHz; narration is identified by receipts and hashes, remains untrimmed and unretimed, and has a reported 30.08-second speech duration. Source facts include explicit repository evidence paths. This is technical acceptance only: visual playback, listening, pronunciation, semantic timing, transcript fidelity, creative quality, and human/publication approval remain REVIEW_INCOMPLETE because visual_playback and audio_listening were unavailable. No deployment or publication is authorized."
+}

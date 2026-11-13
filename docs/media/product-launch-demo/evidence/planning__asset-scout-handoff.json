@@ -1,0 +1,22 @@
+{
+  "schema": "kujo.handoff/v1",
+  "assignment": "launch-21e469812099",
+  "currentOwner": "asset-scout",
+  "nextOwner": "media-generator",
+  "goal": "Product Launch Factory",
+  "scope": "Local registered-media composition",
+  "artifacts": [
+    "planning/asset-scout.json"
+  ],
+  "evidence": [
+    "planning/asset-scout.json"
+  ],
+  "decisions": [
+    "Registry provenance and rights are suitable for the proposed plan: all five scene assetIds resolve to first-party or owner-authorized assets, the Kujo mark is limited to identifying Kujo, and the bundled font records an SIL Open Font License. The four UI captures map directly to their corresponding scenes, and the logo maps to the bumper. Acceptance is based solely on supplied registry metadata and deterministically verified hashes; no visual inspection is claimed."
+  ],
+  "unresolvedQuestions": [],
+  "allowedNextActions": [
+    "media-generator"
+  ],
+  "stopCondition": "Required artifact or review capability missing"
+}

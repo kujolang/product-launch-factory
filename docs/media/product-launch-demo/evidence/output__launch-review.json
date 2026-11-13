@@ -1,0 +1,281 @@
+{
+  "candidateSha256": "8a28fca46719de0e4e6eb9e2de9b476209d70d86e080252426754432246f96c9",
+  "duration": 31.6,
+  "facts": [
+    {
+      "text": "Product Launch Factory coordinates a source evidence station, Publishing House, WebOps, VideoOps, and a final launch review package from one launch brief.",
+      "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/README.md"
+    },
+    {
+      "text": "The source station verifies captured source evidence before handing it to the next team.",
+      "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/ARCHITECTURE.md"
+    },
+    {
+      "text": "The retained example includes a reviewed article, newsletter, three social posts, a checked landing page, and a narrated launch video.",
+      "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/example-run/state.json"
+    },
+    {
+      "text": "WebOps checks the static landing page; VideoOps produces the launch video from registered evidence.",
+      "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/ARCHITECTURE.md"
+    },
+    {
+      "text": "Completed team handoffs bind exact input and output bytes; unchanged handoffs can be reused without repeating provider work.",
+      "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/ARCHITECTURE.md"
+    },
+    {
+      "text": "The finished package remains subject to human review before deployment; no deployment is authorized by the factory run.",
+      "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/example-run/state.json"
+    }
+  ],
+  "metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 485376,
+        "duration": "31.600000",
+        "bit_rate": "156666",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "948",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc62.11.100 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1506720,
+        "duration": "31.390000",
+        "bit_rate": "184300",
+        "nb_frames": "1473",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/product-launch-demo/production/factory-job/.runtime/runs/launch-21e469812099-2026-11-13T17-33-46-936Z/output/launch.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "31.600000",
+      "size": "1378664",
+      "bit_rate": "349028",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf62.3.100"
+      }
+    }
+  },
+  "narration": {
+    "audioPath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/product-launch-demo/media/media/product-launch-demo-voice-001/normalized.wav",
+    "receiptPath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/product-launch-demo/media/media/product-launch-demo-voice-001/result.json",
+    "sha256": "9d3781eae6111f16020c4e2c48b1116e9479705369d0d18eabd8ec1c62982eaf",
+    "receiptSha256": "1629e65b3b29540a874ed31c9501301e5466da68b3a4b5bc323ce27f565f62dc",
+    "originalPath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/product-launch-demo/media/media/product-launch-demo-voice-001/original.media",
+    "originalSha256": "089cd8a2ba6055ec6ff07cf259a0502bad99ec40bffc05063194b7b77afdfea6",
+    "requestId": "product-launch-demo-voice-001",
+    "verification": "live",
+    "usage": {
+      "cost": null,
+      "credits": 206,
+      "currency": "USD",
+      "reserved_cost": 0,
+      "reserved_credits": 468,
+      "source": "provider_header"
+    },
+    "model": "eleven_v4",
+    "voice": "eXpIbVcVbLo8ZJQDlDnl",
+    "rights": {
+      "attribution": null,
+      "evidence": {
+        "path": "requests/estimate-rights.json",
+        "sha256": "849ce4b36611085bc10cd5d433c1558abfde44db5fc7dcc5b42dcdf93d129a67"
+      },
+      "intended_use": "Kujo Product Launch Factory visual coordinator demo",
+      "license": "ElevenLabs paid-plan commercial output terms",
+      "restrictions": [
+        "Subject to ElevenLabs terms; acquisition is not editorial approval."
+      ]
+    },
+    "listening": "not_attested",
+    "speechDuration": 30.08,
+    "normalizedSha256": "8e4d0ea3781a815adb1bb6ecf6ec7deccf26e2836eb78380bba921560b5bf4c5"
+  },
+  "fit": {
+    "plan": {
+      "title": "Product Launch Factory",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "duration": 31.6,
+      "cta": "Build your next factory with Kujo",
+      "scenes": [
+        {
+          "id": "factory-overview",
+          "start": 0,
+          "duration": 6.333333333333333,
+          "headline": "",
+          "body": "",
+          "assetId": "factory-overview",
+          "theme": "ink"
+        },
+        {
+          "id": "publishing-team",
+          "start": 6.333333333333333,
+          "duration": 5.6,
+          "headline": "",
+          "body": "",
+          "assetId": "publishing-team",
+          "theme": "paper"
+        },
+        {
+          "id": "website-team",
+          "start": 11.933333333333334,
+          "duration": 5.633333333333334,
+          "headline": "",
+          "body": "",
+          "assetId": "website-team",
+          "theme": "ink"
+        },
+        {
+          "id": "team-handoffs",
+          "start": 17.566666666666666,
+          "duration": 9.133333333333333,
+          "headline": "",
+          "body": "",
+          "assetId": "team-handoffs",
+          "theme": "paper"
+        },
+        {
+          "id": "kujo-bumper",
+          "start": 26.7,
+          "duration": 4.9,
+          "headline": "",
+          "body": "",
+          "assetId": "kujo-logo",
+          "theme": "paper"
+        }
+      ]
+    },
+    "requestedDuration": 45,
+    "duration": 31.6,
+    "frames": 948,
+    "scale": 0.7022222222222223,
+    "speechDuration": 30.08,
+    "method": "Uniformly retime static evidence; round scene boundaries to the nearest 30fps frame. Narration remains untrimmed and unretimed.",
+    "alignment": "Closing scene placement is an editorial estimate; actual pronunciation and semantic alignment still require listening.",
+    "sourceVideoSha256": "27d88c645ec706c49c93af295eec8fb8eeecf2495a9d694676c2235e0d695589",
+    "sourcePlanSha256": "193a3fdc389f18b2d7bfd3830c93113f3a402a21452e1f55fadbfdbf30aaa936",
+    "sourceNarrationSha256": "9d3781eae6111f16020c4e2c48b1116e9479705369d0d18eabd8ec1c62982eaf"
+  },
+  "requestedDuration": 45,
+  "music": null,
+  "technical": "PASS",
+  "perceptual": "REVIEW_INCOMPLETE",
+  "missingCapabilities": [
+    "visual_playback",
+    "audio_listening"
+  ]
+}

@@ -7,9 +7,9 @@
 
 Give your team one launch brief. Get a website, article, newsletter, social posts and video tied to the same evidence and ready for review.
 
-https://github.com/user-attachments/assets/6b04bf89-832b-4083-bd0b-019e81e77f48
+https://github.com/user-attachments/assets/8edadc12-8bf9-4531-956a-53f0d036215f
 
-Example campaign output: a narrated WebOps launch video. [Download the MP4](https://raw.githubusercontent.com/kujolang/product-launch-factory/main/docs/example-run/package/video/launch.mp4).
+Watch Product Launch Factory coordinate the teams, hand off checked work and collect the launch package. [Download the demo](https://raw.githubusercontent.com/kujolang/product-launch-factory/main/docs/media/product-launch-demo/launch.mp4).
 
 Product Launch Factory coordinates the existing Kujo factories through versioned handoffs. Its visual floor shows the work, what passed, what is blocked and which files need your approval.
 
@@ -50,7 +50,7 @@ npm run demo
 npm start
 ```
 
-This imports the included campaign for read-only viewing and makes no model calls. Its floor is labeled **Recorded example**. The package includes the article, newsletter, three social posts, website, video and exact source evidence.
+This imports the included campaign for read-only viewing and makes no model calls. Its floor is labeled **Recorded example**. The package includes the article, newsletter, three social posts, website, video and exact source evidence. WebOps Factory is this example campaign's subject. Its [generated campaign clip](docs/example-run/package/video/launch.mp4) is separate from the coordinator demonstration at the top of this README.
 
 ![Product Launch Factory floor](docs/factory-floor.png)
 

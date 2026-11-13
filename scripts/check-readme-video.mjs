@@ -27,4 +27,4 @@ for(const [name,engine,launch,context] of [
   results.push({name,...initial,seek});console.log(name+' passed');
  }finally{await browser.close()}
 }
-await fs.writeFile(process.argv[3]||'docs/media/product-launch-demo/readme-playback.json',JSON.stringify({ok:true,results,listening:'not_attested',phone:'emulation, not physical device'},null,2)+'\n');
+await fs.writeFile(process.argv[3]||'docs/demo/readme-playback.json',JSON.stringify({ok:true,results,listening:'not_attested',phone:'emulation, not physical device'},null,2)+'\n');

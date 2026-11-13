@@ -1,0 +1,76 @@
+{
+  "alignment": {
+    "artifact": null,
+    "availability": "not_requested",
+    "source": null,
+    "time_origin": "original_media_start",
+    "units": "seconds"
+  },
+  "asset_id": "music.wav",
+  "attempt": 1,
+  "authorization_id": null,
+  "capability": "local_import",
+  "created_at": "2026-11-13T13:13:08.165897+00:00",
+  "derived": [],
+  "error": null,
+  "fingerprint": "2c71d02b2caba9e8d06b8b08222e3c10dd14dde1de2d5247b2876d952b6919b1",
+  "handoff_path": "media/webops-music-import/handoff.json",
+  "job_id": "webops-demo",
+  "latency_seconds": 0.5250470280006994,
+  "manifest_path": "assets/asset-manifest.json",
+  "metadata": {
+    "channels": 1,
+    "codec": "pcm_s16le",
+    "duration_seconds": 60.0,
+    "sample_rate": 48000,
+    "streams": [
+      {
+        "codec": "pcm_s16le",
+        "type": "audio"
+      }
+    ]
+  },
+  "model": null,
+  "original": {
+    "path": "media/webops-music-import/original.media",
+    "sha256": "68cf00d2d1063c4cf29ea70b51a7f033c4cb47ffc5e20db144ab387b76c851b1"
+  },
+  "output_format": "wav",
+  "provider": "local",
+  "provider_request_id": null,
+  "receipt_path": "media/webops-music-import/result.json",
+  "request_id": "webops-music-import",
+  "requirement_id": "music.wav",
+  "retries": 0,
+  "retry_of": null,
+  "rights": {
+    "attribution": null,
+    "evidence": {
+      "path": "assets/licenses.md",
+      "sha256": "2e7435f34cfdb6d923373742b7d12ff59fd5ec610e3758b182efb0ce4f35a985"
+    },
+    "intended_use": "Kujo WebOps Factory product demonstration",
+    "license": "User-owned original Kujo production music, authorized reuse",
+    "restrictions": []
+  },
+  "schema": "videoops-media-result/v1",
+  "settings": {},
+  "shot_ids": [
+    "intro",
+    "floor",
+    "review",
+    "outputs",
+    "bumper"
+  ],
+  "state": "SUCCESS",
+  "usage": {
+    "cost": 0,
+    "credits": 0,
+    "currency": "USD",
+    "reserved_cost": 0,
+    "reserved_credits": 0,
+    "source": "local"
+  },
+  "verification": "local",
+  "voice": null
+}

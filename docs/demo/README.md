@@ -13,3 +13,11 @@ The narration uses ElevenLabs Siren (`eleven_v4`) and closes with the requested 
 The first handoff capture arrived before every card had loaded. The revised capture waits for all five cards, and the floor now draws the grid only after every receipt has arrived. The corrected image replaces that shot in a separate editor revision; the baseline render and source hashes remain available. The original speech is retained without another generation call.
 
 The media readiness review now asks the Media Generator to assess the request before acquisition. It no longer asks for a finished render or receipt that cannot exist until after generation. The separate post-render Critic still checks the final candidate and preserves the human listening boundary.
+
+## Final candidate
+
+The coordinator demonstration is 31.6 seconds at 1920 × 1080 and 30 fps, with 948 frames. SHA-256: `60102b8d687173399387df3cd4bb1f4e37446538ef7705cabc524e94dc28fa45`. The [video and editable composition](../media/product-launch-demo/manifest.json) retain the source and revision hashes. Four actual coordinator views lead to the Kujo bumper. Every non-bumper shot keeps the Product Launch Factory identity visible.
+
+One Siren speech request used 206 provider-reported credits within the authorized included allowance. The original recording remains unchanged. The music master measured −17.27 LUFS integrated and −4.82 dBTP. The final border correction preserves the AAC packets exactly.
+
+Full media decoding, frame count, artifact hashes and composition checks passed. Frames around every cut and the ending were inspected; all coordinator shots use consistent dark side borders, and the complete five-card handoff is visible. The light ending is the intended Kujo bumper. Technical critic acceptance does not establish listening quality: pronunciation and full listening approval remain unverified.

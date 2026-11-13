@@ -1,0 +1,20 @@
+{
+  "version": "videoops-review-decision/v1",
+  "id": "master-technical-2",
+  "candidate_sha256": "60102b8d687173399387df3cd4bb1f4e37446538ef7705cabc524e94dc28fa45",
+  "technical": "PASS",
+  "perceptual": "REVIEW_INCOMPLETE",
+  "reviewer": {
+    "identity": "Product Launch demo pillar correction technical checks",
+    "type": "technical_tool",
+    "capabilities_exercised": [
+      "deterministic_validation"
+    ]
+  },
+  "evidence": [
+    "output/master-v2-review.json",
+    "independent-review-v2/planning/video-critic.json"
+  ],
+  "defects": [],
+  "reviewed_at": "2026-11-13T17:46:22.018Z"
+}

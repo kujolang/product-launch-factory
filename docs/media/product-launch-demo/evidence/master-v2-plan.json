@@ -1,0 +1,55 @@
+{
+  "title": "Product Launch Factory",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 31.6,
+  "cta": "Build your next factory with Kujo",
+  "scenes": [
+    {
+      "id": "factory-overview",
+      "start": 0,
+      "duration": 6.333333333333333,
+      "headline": "",
+      "body": "",
+      "assetId": "factory-overview",
+      "theme": "ink"
+    },
+    {
+      "id": "publishing-team",
+      "start": 6.333333333333333,
+      "duration": 5.6,
+      "headline": "",
+      "body": "",
+      "assetId": "publishing-team",
+      "theme": "ink"
+    },
+    {
+      "id": "website-team",
+      "start": 11.933333333333334,
+      "duration": 5.633333333333334,
+      "headline": "",
+      "body": "",
+      "assetId": "website-team",
+      "theme": "ink"
+    },
+    {
+      "id": "team-handoffs",
+      "start": 17.566666666666666,
+      "duration": 9.133333333333333,
+      "headline": "",
+      "body": "",
+      "assetId": "team-handoffs",
+      "theme": "ink"
+    },
+    {
+      "id": "kujo-bumper",
+      "start": 26.7,
+      "duration": 4.9,
+      "headline": "",
+      "body": "",
+      "assetId": "kujo-logo",
+      "theme": "paper"
+    }
+  ]
+}

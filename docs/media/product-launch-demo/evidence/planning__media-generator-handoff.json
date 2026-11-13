@@ -1,0 +1,22 @@
+{
+  "schema": "kujo.handoff/v1",
+  "assignment": "launch-21e469812099",
+  "currentOwner": "media-generator",
+  "nextOwner": "hyperframes-editor",
+  "goal": "Product Launch Factory",
+  "scope": "Local registered-media composition",
+  "artifacts": [
+    "planning/media-generator.json"
+  ],
+  "evidence": [
+    "planning/media-generator.json"
+  ],
+  "decisions": [
+    "Brief explicitly requests silent output using registered local assets; no provider call or spend."
+  ],
+  "unresolvedQuestions": [],
+  "allowedNextActions": [
+    "hyperframes-editor"
+  ],
+  "stopCondition": "Required artifact or review capability missing"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "departure-mono",
+    "file": "DepartureMono-Regular.woff2",
+    "kind": "font",
+    "source": "https://departuremono.com",
+    "rights": "SIL Open Font License; bundled license",
+    "sha256": "5b4fed1daa90708aa9c6ee1190abca9dc22164a1c1def0020386e46b61038cfb",
+    "path": "assets/DepartureMono-Regular.woff2"
+  },
+  {
+    "id": "kujo-logo",
+    "file": "kujo-logo.svg",
+    "kind": "image",
+    "source": "https://kujolang.ai/assets/images/kujo-logomark.svg",
+    "rights": "Kujo first-party mark; identify Kujo, not a third-party endorsement. Copied from verified kujo-hermes demo asset.",
+    "sha256": "cecb66eae65116fadf29a93ce3adae28956b17cfaf1e8d9e0910c280935ef412",
+    "path": "assets/kujo-logo.svg"
+  },
+  {
+    "id": "factory-overview",
+    "file": "factory-overview.png",
+    "kind": "image",
+    "sha256": "de556f3f316bff58604ceed6f6d38bb06967de9c072ea4ffefe0f652853269cc",
+    "source": "Actual Product Launch Factory UI at commit6ed3155 plus review-package presentation update; retained run20261113-165918-b8a6af61",
+    "rights": "First-party Kujo application capture, owner-authorized demo use.",
+    "path": "assets/factory-overview.png"
+  },
+  {
+    "id": "publishing-team",
+    "file": "publishing-team.png",
+    "kind": "image",
+    "sha256": "3205150df1c33aec8abefb3294d7673ee9b74494d5ddfaf5e6d6c6762f45a5c1",
+    "source": "Actual Product Launch Factory UI at commit6ed3155 plus review-package presentation update; retained run20261113-165918-b8a6af61",
+    "rights": "First-party Kujo application capture, owner-authorized demo use.",
+    "path": "assets/publishing-team.png"
+  },
+  {
+    "id": "website-team",
+    "file": "website-team.png",
+    "kind": "image",
+    "sha256": "fa3c6d938a13dfc2e1db6aa5680369f0259b2ac4731423294ea868be9f42b9a5",
+    "source": "Actual Product Launch Factory UI at commit6ed3155 plus review-package presentation update; retained run20261113-165918-b8a6af61",
+    "rights": "First-party Kujo application capture, owner-authorized demo use.",
+    "path": "assets/website-team.png"
+  },
+  {
+    "id": "team-handoffs",
+    "file": "team-handoffs.png",
+    "kind": "image",
+    "sha256": "b07ee8e284b53fa84ad422e8ee256b4ff627cd42e21acb71096644d4ec6a070d",
+    "source": "Actual Product Launch Factory UI at commit6ed3155 plus review-package presentation update; retained run20261113-165918-b8a6af61",
+    "rights": "First-party Kujo application capture, owner-authorized demo use.",
+    "path": "assets/team-handoffs.png"
+  }
+]

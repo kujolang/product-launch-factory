@@ -1,0 +1,4 @@
+{
+  "decision": "NOT_REQUIRED",
+  "reason": "Brief explicitly requests silent output using registered local assets; no provider call or spend."
+}

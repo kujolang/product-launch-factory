@@ -1,0 +1,22 @@
+{
+  "schema": "kujo.handoff/v1",
+  "assignment": "launch-21e469812099",
+  "currentOwner": "producer",
+  "nextOwner": "creative-director",
+  "goal": "Product Launch Factory",
+  "scope": "Local registered-media composition",
+  "artifacts": [
+    "planning/producer.json"
+  ],
+  "evidence": [
+    "planning/producer.json"
+  ],
+  "decisions": [
+    "The brief fits the bounded format: 45 seconds, 1920×1080 at 30 fps, silent local-review output, exactly five scenes, four supplied coordinator screenshots used once in the required order, and a final Kujo bumper. It requires screenshot-led visuals from the opening hook onward, prohibits captions, labels, standalone title cards, invented metrics, unsupported automation claims, and publication, while reserving narration attachment and timing verification for the coordinator."
+  ],
+  "unresolvedQuestions": [],
+  "allowedNextActions": [
+    "creative-director"
+  ],
+  "stopCondition": "Required artifact or review capability missing"
+}

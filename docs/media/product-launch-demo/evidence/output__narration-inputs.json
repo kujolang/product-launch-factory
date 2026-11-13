@@ -1,0 +1,58 @@
+{
+  "inputs": [
+    {
+      "kind": "requestPath",
+      "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/product-launch-demo/media/requests/speech.json",
+      "sha256": "b59f2890a9b5713a54c1974ddd67e316518c3f8cd927d7b75166a3df182f07c4"
+    },
+    {
+      "kind": "authorizationPath",
+      "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/product-launch-demo/media/requests/speech-authorization.json",
+      "sha256": "f1fcdf8b2c9ff107af083e3fb5be0570bb52c7de74b4527cee59d54d5a65c2a6"
+    },
+    {
+      "kind": "narrationText",
+      "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/product-launch-demo/media/requests/narration.txt",
+      "sha256": "a706fcfb24269c1cf3dd53423510a2198b728510d6db04f3d59b11ca9a9411a9"
+    },
+    {
+      "kind": "rightsEvidence",
+      "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/product-launch-demo/media/requests/estimate-rights.json",
+      "sha256": "849ce4b36611085bc10cd5d433c1558abfde44db5fc7dcc5b42dcdf93d129a67"
+    },
+    {
+      "kind": "entitlementEvidence",
+      "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/product-launch-demo/media/requests/subscription.json",
+      "sha256": "c8aeacf71929fc0e562856d8f45f5b4ede3fe7ec1773ab7fd01a589572105522"
+    }
+  ],
+  "script": "One brief. One place to see your launch take shape. Product Launch Factory keeps the teams working from the same evidence. Publishing House writes and reviews the campaign. WebOps checks the landing page. VideoOps builds the launch video. Follow each handoff on the factory floor, see what is blocked, and inspect the finished work before anything goes live. Less chasing updates. More control over your launch. Build your next factory with Kujo. Koo-joe LANG dot A I.",
+  "facts": [
+    {
+      "text": "Product Launch Factory coordinates a source evidence station, Publishing House, WebOps, VideoOps, and a final launch review package from one launch brief.",
+      "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/README.md"
+    },
+    {
+      "text": "The source station verifies captured source evidence before handing it to the next team.",
+      "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/ARCHITECTURE.md"
+    },
+    {
+      "text": "The retained example includes a reviewed article, newsletter, three social posts, a checked landing page, and a narrated launch video.",
+      "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/example-run/state.json"
+    },
+    {
+      "text": "WebOps checks the static landing page; VideoOps produces the launch video from registered evidence.",
+      "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/ARCHITECTURE.md"
+    },
+    {
+      "text": "Completed team handoffs bind exact input and output bytes; unchanged handoffs can be reused without repeating provider work.",
+      "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/ARCHITECTURE.md"
+    },
+    {
+      "text": "The finished package remains subject to human review before deployment; no deployment is authorized by the factory run.",
+      "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/example-run/state.json"
+    }
+  ],
+  "duration": 45,
+  "policy": "Only explicitly authorized canonical speech or registered music; preserve original; no perceptual approval"
+}

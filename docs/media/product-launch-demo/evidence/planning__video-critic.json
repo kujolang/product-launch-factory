@@ -1,0 +1,4 @@
+{
+  "decision": "ACCEPT",
+  "reason": "Technical handoff accepted for candidate SHA-256 27d88c645ec706c49c93af295eec8fb8eeecf2495a9d694676c2235e0d695589. The render matches the plan’s 1920x1080, 30 fps, 45.0-second specification; scene timings total 45 seconds; lint, runtime, layout, contrast, strict render, probe, and decode checks completed successfully. This is not perceptual approval: full playback and listening were unavailable, semanticApproval is false, and review remains REVIEW_INCOMPLETE. The file has no audio stream, and automated craft checks report long visually unchanged stretches at 0.00–8.88, 9.00–16.88, 17.00–24.88, 25.00–37.88, and 38.00–42.00. A capable multimodal reviewer or human must inspect the exact hashed candidate for narrative, hook, pacing, hierarchy, motion, brand, transcript/CTA fidelity, visual defects, and confirm whether silence is intentional before final approval."
+}

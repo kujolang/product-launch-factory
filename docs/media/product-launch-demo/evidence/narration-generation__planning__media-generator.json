@@ -1,0 +1,4 @@
+{
+  "decision": "ACCEPT",
+  "reason": "The pre-acquisition request is bounded and ready for canonical runtime verification: it supplies an exact narration script, a 45-second budget, hashed request/authorization/narration/rights/entitlement inputs, cited provenance for factual claims, and an explicit policy limiting acquisition to authorized canonical speech or registered music while preserving originals and withholding perceptual approval. Runtime must still verify file hashes, authorization scope and validity, entitlement, script identity, and provider capability before acquisition; playback, pronunciation, listening quality, measured duration, candidate hash, and preservation evidence remain post-generation checks."
+}

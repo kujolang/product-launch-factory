@@ -1,0 +1,22 @@
+{
+  "schema": "kujo.handoff/v1",
+  "assignment": "launch-21e469812099",
+  "currentOwner": "hyperframes-editor",
+  "nextOwner": "video-critic",
+  "goal": "Product Launch Factory",
+  "scope": "Local registered-media composition",
+  "artifacts": [
+    "planning/hyperframes-editor.json"
+  ],
+  "evidence": [
+    "planning/hyperframes-editor.json"
+  ],
+  "decisions": [
+    "Validated stage output"
+  ],
+  "unresolvedQuestions": [],
+  "allowedNextActions": [
+    "video-critic"
+  ],
+  "stopCondition": "Required artifact or review capability missing"
+}

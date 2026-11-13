@@ -1,0 +1,254 @@
+{
+  "schema": "kujo.product-launch.video-export/v1",
+  "status": "REVIEW_INCOMPLETE",
+  "candidateSha256": "60102b8d687173399387df3cd4bb1f4e37446538ef7705cabc524e94dc28fa45",
+  "previousCandidateSha256": "89edf8b38e7414d382b0da0155701593e1801b137a12ea94df2a53a98fe96aa8",
+  "baselineSha256": "8a28fca46719de0e4e6eb9e2de9b476209d70d86e080252426754432246f96c9",
+  "duration": 31.6,
+  "files": [
+    {
+      "path": "composition/assets/DepartureMono-LICENSE.txt",
+      "sha256": "b65e42750f3cb65437a97f4dfd781c58f199259949db2341012be60e32500e83"
+    },
+    {
+      "path": "composition/assets/asset-0.woff2",
+      "sha256": "5b4fed1daa90708aa9c6ee1190abca9dc22164a1c1def0020386e46b61038cfb"
+    },
+    {
+      "path": "composition/assets/asset-1.svg",
+      "sha256": "cecb66eae65116fadf29a93ce3adae28956b17cfaf1e8d9e0910c280935ef412"
+    },
+    {
+      "path": "composition/assets/asset-2.png",
+      "sha256": "de556f3f316bff58604ceed6f6d38bb06967de9c072ea4ffefe0f652853269cc"
+    },
+    {
+      "path": "composition/assets/asset-3.png",
+      "sha256": "3205150df1c33aec8abefb3294d7673ee9b74494d5ddfaf5e6d6c6762f45a5c1"
+    },
+    {
+      "path": "composition/assets/asset-4.png",
+      "sha256": "fa3c6d938a13dfc2e1db6aa5680369f0259b2ac4731423294ea868be9f42b9a5"
+    },
+    {
+      "path": "composition/assets/asset-5.png",
+      "sha256": "10c2969400feec80537b64b7b560e425261fad8801110ab2b5cbe061d207d8a1"
+    },
+    {
+      "path": "composition/assets/gsap.min.js",
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "path": "composition/assets/launch-audio.wav",
+      "sha256": "d5b3b7de04992946d97708052acd67a10522baa9bf724fbe1e90bfce72baeff7"
+    },
+    {
+      "path": "composition/assets/launch-narration.wav",
+      "sha256": "8e4d0ea3781a815adb1bb6ecf6ec7deccf26e2836eb78380bba921560b5bf4c5"
+    },
+    {
+      "path": "composition/compositions/shot-1.html",
+      "sha256": "44aeb66e8e4731f2e403fad820dcfb9c0bbbb8c5fb2a94379035afdf3a9bf625"
+    },
+    {
+      "path": "composition/compositions/shot-2.html",
+      "sha256": "ca3017d4861641934885107fdcede2584561d2846007da17d47f653b64d874b2"
+    },
+    {
+      "path": "composition/compositions/shot-3.html",
+      "sha256": "7278a002ff6a29346445910e618d35a506635079ff14e5d1e52bd6852ae62073"
+    },
+    {
+      "path": "composition/compositions/shot-4.html",
+      "sha256": "5b05100dc29cc0b50f29606ed4d64023a5f6a5844a674d8605cfac620875a566"
+    },
+    {
+      "path": "composition/compositions/shot-5.html",
+      "sha256": "706ef150244af934dd0e0e3c60408edb0cf47d996e4d7cceae65d80223aac8f7"
+    },
+    {
+      "path": "composition/index.html",
+      "sha256": "453dbcfb76bd52963fc951bfc122ae4982ac6bcb22f1ef0a6826824a8e38588b"
+    },
+    {
+      "path": "evidence/assets__launch-narration.wav",
+      "sha256": "8e4d0ea3781a815adb1bb6ecf6ec7deccf26e2836eb78380bba921560b5bf4c5"
+    },
+    {
+      "path": "evidence/assets__registry.json",
+      "sha256": "314cccd8a36214d7e7ab72753a5d0705190c6304118136f0edbb82653a5b1d32"
+    },
+    {
+      "path": "evidence/events.jsonl",
+      "sha256": "68cd04b3a0ca02dfd732460b28d774e64e8ef9a9e1cae07bf5c9241eca305c29"
+    },
+    {
+      "path": "evidence/master-critic.json",
+      "sha256": "b17403a7d94c9632bde99dc717784ff0f300d667cfb0dab53ed41939f1231eff"
+    },
+    {
+      "path": "evidence/master-decision.json",
+      "sha256": "4df7523412fd6633a35f4e86107dc722088064077cca52bb16f1ee233767f894"
+    },
+    {
+      "path": "evidence/master-revision.json",
+      "sha256": "8e19b1fad6d8f3c14113e855ee09e0c71bfae360313705cb290a0db9d62e65a5"
+    },
+    {
+      "path": "evidence/master-v2-critic.json",
+      "sha256": "acdf354675baadc9994d909a4de75e322b52c00be0c697581bd271c05a9db003"
+    },
+    {
+      "path": "evidence/master-v2-decision.json",
+      "sha256": "b01734bc0ca1d44d89bc411f6ce9a565920352f0ee379d8c8e3a0ad7bc9f12e6"
+    },
+    {
+      "path": "evidence/master-v2-plan.json",
+      "sha256": "29315daccef36612ddad88414ee9e8e85b0961cae3534b46b3fd661849564d7d"
+    },
+    {
+      "path": "evidence/master-v2-review.json",
+      "sha256": "a39845abe4dec4953907e2ffc17abc8d45c3d7f3d5d5ec78ea05d6ea15b86edd"
+    },
+    {
+      "path": "evidence/music-import-receipt.json",
+      "sha256": "366c13fe3e181058f818e24a32a9a97218bd5b69a606b08a835b501702409254"
+    },
+    {
+      "path": "evidence/music-original.wav",
+      "sha256": "68cf00d2d1063c4cf29ea70b51a7f033c4cb47ffc5e20db144ab387b76c851b1"
+    },
+    {
+      "path": "evidence/music-source-licenses.md",
+      "sha256": "2e7435f34cfdb6d923373742b7d12ff59fd5ec610e3758b182efb0ce4f35a985"
+    },
+    {
+      "path": "evidence/music-source-log.md",
+      "sha256": "cb242f5f28876be7e0117c70daaa4ef066a63c9e39a17a4e9a0ab5a2185903e1"
+    },
+    {
+      "path": "evidence/narration-generation__planning__media-generator.json",
+      "sha256": "751c10603fefdf91da0a755d81e62967dbb10dd0e52ef4ff8de550282105f378"
+    },
+    {
+      "path": "evidence/narration-review__planning__video-critic.json",
+      "sha256": "e64ab19034ba656022d61d04455e2e2429153cc6ea75611f2e49ac057b0e9eb8"
+    },
+    {
+      "path": "evidence/output__draft.mp4",
+      "sha256": "27d88c645ec706c49c93af295eec8fb8eeecf2495a9d694676c2235e0d695589"
+    },
+    {
+      "path": "evidence/output__launch-review.json",
+      "sha256": "910fcbda501d4007f054cc68a5f421e971890847c3c8f76d548e8449867a340e"
+    },
+    {
+      "path": "evidence/output__metadata.json",
+      "sha256": "7b96c21866c53d0c605dbbb38a4188ea66492ff9b20176c05d6a77bb8cd3e53e"
+    },
+    {
+      "path": "evidence/output__narration-inputs.json",
+      "sha256": "7fc5762a1e18df509ce1aa834326cac5e5f04e98a404b543d2cfa678e94fade7"
+    },
+    {
+      "path": "evidence/output__narration-original.media",
+      "sha256": "089cd8a2ba6055ec6ff07cf259a0502bad99ec40bffc05063194b7b77afdfea6"
+    },
+    {
+      "path": "evidence/output__narration-receipt.json",
+      "sha256": "1629e65b3b29540a874ed31c9501301e5466da68b3a4b5bc323ce27f565f62dc"
+    },
+    {
+      "path": "evidence/output__narration-source.wav",
+      "sha256": "9d3781eae6111f16020c4e2c48b1116e9479705369d0d18eabd8ec1c62982eaf"
+    },
+    {
+      "path": "evidence/output__narration-text.txt",
+      "sha256": "a706fcfb24269c1cf3dd53423510a2198b728510d6db04f3d59b11ca9a9411a9"
+    },
+    {
+      "path": "evidence/output__silent-fitted.mp4",
+      "sha256": "48e94a9036a8ccbfcd29dd2253be25af712dfce5b28e43f8791e32196bdb4fc9"
+    },
+    {
+      "path": "evidence/planning__asset-scout-handoff.json",
+      "sha256": "3902ea6309b9d9fd9add1467227e1ea1e93e5836c57c76cb7988011f8fbb1a3f"
+    },
+    {
+      "path": "evidence/planning__asset-scout.json",
+      "sha256": "e807014a9b766b3d41db749e6f8317e4906fd6c10724a52ae3017760d14428c6"
+    },
+    {
+      "path": "evidence/planning__creative-director-handoff.json",
+      "sha256": "7cd8e7eaeae9ae02730ea7c0dd73400113d2d3a58943fad5ee95bd5b836016a8"
+    },
+    {
+      "path": "evidence/planning__creative-director.json",
+      "sha256": "193a3fdc389f18b2d7bfd3830c93113f3a402a21452e1f55fadbfdbf30aaa936"
+    },
+    {
+      "path": "evidence/planning__fitted-plan.json",
+      "sha256": "9dda3d62b8f94f420d54bcd7568134788742de55fe92bd439433eb4180477971"
+    },
+    {
+      "path": "evidence/planning__hyperframes-editor-handoff.json",
+      "sha256": "70cfd87837ae0e53d306f6b600989f43d6c0b4c8ae056497c15eb59b703dce4d"
+    },
+    {
+      "path": "evidence/planning__hyperframes-editor.json",
+      "sha256": "9615f568f64c812ac165632aad48bea3da1b45c243be6e795c0cb2946a0ae1fc"
+    },
+    {
+      "path": "evidence/planning__media-generator-handoff.json",
+      "sha256": "0fa5cc67589fe9c1bc03b3d00a0b029d2d113ab47b833d8393d8711d7be33ecf"
+    },
+    {
+      "path": "evidence/planning__media-generator.json",
+      "sha256": "54c6e328e7e76736d94fd4c8695c7d90427830080f85f906cec9cab7c1ba32cc"
+    },
+    {
+      "path": "evidence/planning__narration-fit.json",
+      "sha256": "c06e555523374ccb742dd94e53fa369cc1c35ebf4449ef7cba8a28948905db73"
+    },
+    {
+      "path": "evidence/planning__plan.json",
+      "sha256": "193a3fdc389f18b2d7bfd3830c93113f3a402a21452e1f55fadbfdbf30aaa936"
+    },
+    {
+      "path": "evidence/planning__producer-handoff.json",
+      "sha256": "df72072b6da8c51e02a15c5f6c7bce839a8547c5249c21786de574147906245f"
+    },
+    {
+      "path": "evidence/planning__producer.json",
+      "sha256": "95e954c361823d78a484e9f21edd63768653ec74db2a6badd1cdc17e3972e300"
+    },
+    {
+      "path": "evidence/planning__video-critic-handoff.json",
+      "sha256": "ac7515e2a9762574e63c6aeb7a94198038e77841bdebfc61c21752a642acc778"
+    },
+    {
+      "path": "evidence/planning__video-critic.json",
+      "sha256": "b3f5e6a28e061f6debcd7c4eb933e66a6d3c8c296e5db97cb2771fe25fe8c383"
+    },
+    {
+      "path": "evidence/production__hyperframes__index.html",
+      "sha256": "d2e41cf62dde6ce10c98313028f44671460c3ef3f1ae7c09aecf476435316594"
+    },
+    {
+      "path": "evidence/state.json",
+      "sha256": "6d4c333c634e80b7b12d21cc78d32c98d312312fd24def6feb2a82986ec10edd"
+    },
+    {
+      "path": "evidence/team-handoffs-complete.png",
+      "sha256": "10c2969400feec80537b64b7b560e425261fad8801110ab2b5cbe061d207d8a1"
+    },
+    {
+      "path": "evidence/up__up__up__up__factory-provenance.json",
+      "sha256": "c01d5ba8e22c6b896d042fb4f5a81c52fd6251b08f8fa7a26c0495e7e5b10a04"
+    },
+    {
+      "path": "launch.mp4",
+      "sha256": "60102b8d687173399387df3cd4bb1f4e37446538ef7705cabc524e94dc28fa45"
+    }
+  ]
+}

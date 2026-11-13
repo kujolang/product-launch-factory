@@ -1,0 +1,4 @@
+{
+  "decision": "ACCEPT",
+  "reason": "Technical handoff accepted only. The candidate is identified by SHA-256 60102b8d687173399387df3cd4bb1f4e37446538ef7705cabc524e94dc28fa45 and differs from the prior candidate. Probe metadata consistently reports a 31.6-second MP4 with 948 progressive 1920x1080 H.264 frames at 30 fps and a coextensive 31.6-second stereo AAC track at 48 kHz. The handoff records audioUnchanged=true with packet hash d5b9a9e0aa3ea13e6ee2ca52e1505c54fbbef07a49fe01b068f0088d6ff6d5b5 and preserves prior loudness measurements. This text-only review cannot verify the claimed pillar-color correction, screenshot integrity, narration fidelity, pronunciation, listening quality, motion, hierarchy, brand treatment, bumper appearance, or overall perceptual quality. Perceptual approval therefore remains REVIEW_INCOMPLETE pending visual playback and audio listening of this exact candidate hash; this is neither publication approval nor human approval."
+}

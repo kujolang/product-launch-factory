@@ -1,0 +1,4 @@
+{
+  "decision": "ACCEPT",
+  "reason": "Registry provenance and rights are suitable for the proposed plan: all five scene assetIds resolve to first-party or owner-authorized assets, the Kujo mark is limited to identifying Kujo, and the bundled font records an SIL Open Font License. The four UI captures map directly to their corresponding scenes, and the logo maps to the bumper. Acceptance is based solely on supplied registry metadata and deterministically verified hashes; no visual inspection is claimed."
+}

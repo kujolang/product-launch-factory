@@ -1,0 +1,100 @@
+{
+  "id": "launch-21e469812099-2026-11-13T17-33-46-936Z",
+  "title": "Product Launch Factory",
+  "status": "REVIEW_INCOMPLETE",
+  "startedAt": "2026-11-13T17:33:46.938Z",
+  "finishedAt": "2026-11-13T17:36:27.487Z",
+  "elapsedMs": 160550,
+  "stage": "video-critic",
+  "brief": {
+    "schema": "kujo.videoops.brief/v1",
+    "id": "launch-21e469812099",
+    "title": "Product Launch Factory",
+    "request": "Show Product Launch Factory coordinating the teams from one brief. Benefits first. Every non-bumper scene MUST show an actual supplied Product Launch Factory coordinator screenshot, including the opening hook. NO standalone title card, empty asset ID, text-only scene, labels or captions. Use the four coordinator captures in supplied narrative order, then a final Kujo bumper. Explain Publishing House, WebOps, VideoOps handoffs and review control through narration. This is not another WebOps product demo or a setup tutorial. CTA: Build your next factory with Kujo. Exactly FIVE scenes: factory-overview, publishing-team, website-team, team-handoffs, then Kujo bumper. Use each registered screenshot exactly once, in that order. In the first four scenes the screenshot assetId is mandatory; no empty assetId and no title-only benefit hook. Benefits are delivered by narration while viewers see the actual coordinator UI. Keep the closing bumper near the final spoken CTA. Do not claim the factory builds new software automatically.\nUse only supplied claims and evidence. Start with a concrete benefit, show actual supplied product screens, end with the Kujo bumper. No captions, scene labels or invented metrics. This stage renders silent visuals; any authorized voice is attached by the coordinator after this run.\nApproved narration, supplied only as creative sequence/context and not as extra factual evidence: One brief. One place to see your launch take shape. Product Launch Factory keeps the teams working from the same evidence. Publishing House writes and reviews the campaign. WebOps checks the landing page. VideoOps builds the launch video. Follow each handoff on the factory floor, see what is blocked, and inspect the finished work before anything goes live. Less chasing updates. More control over your launch. Build your next factory with Kujo. Koo-joe LANG dot A I.\nCoordinate the visual sequence with this narration: keep benefit and product evidence shots before the closing CTA, and reserve the final Kujo bumper for the close. Do not add captions or labels. Speech timing has not yet been measured; do not claim proposed shot timings are verified narration alignment.",
+    "facts": [
+      {
+        "text": "Product Launch Factory coordinates a source evidence station, Publishing House, WebOps, VideoOps, and a final launch review package from one launch brief.",
+        "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/README.md"
+      },
+      {
+        "text": "The source station verifies captured source evidence before handing it to the next team.",
+        "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/ARCHITECTURE.md"
+      },
+      {
+        "text": "The retained example includes a reviewed article, newsletter, three social posts, a checked landing page, and a narrated launch video.",
+        "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/example-run/state.json"
+      },
+      {
+        "text": "WebOps checks the static landing page; VideoOps produces the launch video from registered evidence.",
+        "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/ARCHITECTURE.md"
+      },
+      {
+        "text": "Completed team handoffs bind exact input and output bytes; unchanged handoffs can be reused without repeating provider work.",
+        "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/ARCHITECTURE.md"
+      },
+      {
+        "text": "The finished package remains subject to human review before deployment; no deployment is authorized by the factory run.",
+        "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/docs/example-run/state.json"
+      }
+    ],
+    "assetIds": [
+      "departure-mono",
+      "kujo-logo",
+      "factory-overview",
+      "publishing-team",
+      "website-team",
+      "team-handoffs"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 45,
+    "cta": "Build your next factory with Kujo",
+    "audio": "silent"
+  },
+  "stages": [
+    {
+      "role": "producer",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:33:47.247Z",
+      "finishedAt": "2026-11-13T17:34:01.989Z",
+      "elapsedMs": 14742
+    },
+    {
+      "role": "creative-director",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:34:01.991Z",
+      "finishedAt": "2026-11-13T17:34:14.058Z",
+      "elapsedMs": 12067
+    },
+    {
+      "role": "asset-scout",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:34:14.077Z",
+      "finishedAt": "2026-11-13T17:34:21.309Z",
+      "elapsedMs": 7232
+    },
+    {
+      "role": "media-generator",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:34:21.312Z",
+      "finishedAt": "2026-11-13T17:34:21.313Z",
+      "elapsedMs": 1
+    },
+    {
+      "role": "hyperframes-editor",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:34:21.315Z",
+      "finishedAt": "2026-11-13T17:36:16.672Z",
+      "elapsedMs": 115357
+    },
+    {
+      "role": "video-critic",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:36:17.285Z",
+      "finishedAt": "2026-11-13T17:36:27.486Z",
+      "elapsedMs": 10201
+    }
+  ],
+  "output": "output/draft.mp4"
+}

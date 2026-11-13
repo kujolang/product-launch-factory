@@ -1,0 +1,4 @@
+{
+  "decision": "ACCEPT",
+  "reason": "The plan is bounded and compliant: exactly five contiguous scenes cover 45 seconds at 1920x1080/30fps; the four required coordinator screenshots appear exactly once in the required order with mandatory non-empty assetIds; the final scene uses the Kujo logo bumper; all headline/body fields are empty, so no captions, labels, standalone title card, invented claims, or arbitrary HTML/JS are proposed. Rendering remains silent, and the timings are presented without claiming verified narration alignment."
+}

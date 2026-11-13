@@ -1,0 +1,20 @@
+{
+  "version": "videoops-review-decision/v1",
+  "id": "master-technical-1",
+  "candidate_sha256": "89edf8b38e7414d382b0da0155701593e1801b137a12ea94df2a53a98fe96aa8",
+  "technical": "PASS",
+  "perceptual": "REVIEW_INCOMPLETE",
+  "reviewer": {
+    "identity": "Product Launch demo local Editor technical checks",
+    "type": "technical_tool",
+    "capabilities_exercised": [
+      "deterministic_validation"
+    ]
+  },
+  "evidence": [
+    "output/master-review.json",
+    "independent-review/planning/video-critic.json"
+  ],
+  "defects": [],
+  "reviewed_at": "2026-11-13T17:42:07.729Z"
+}
