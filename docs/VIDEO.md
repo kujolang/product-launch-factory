@@ -37,7 +37,9 @@ For an existing recording, supply `enabled: true`, `mediaWorkspace`, `receiptPat
 
 The first campaign uses ElevenLabs Siren with `eleven_v4`. Its closing line spells the domain for speech as “Koo-joe LANG dot A I,” where LANG rhymes with hang. Public copy keeps `kujolang.ai`. A text spelling is not proof of pronunciation: listening is still required.
 
-Speech starts 0.2 seconds into the film. It must leave at least 0.4 seconds at the end. The adapter normalizes the track to a target of −16 LUFS and −2 dBTP and adds silence to fill the film. It never cuts spoken words to fit. To reuse a music bed, supply `music: {path, sha256, source, rights}` with an absolute path and explicit rights. The adapter checks its bytes, mixes it quietly under the voice, and fades the last 0.4 seconds. Music can also accompany a film without speech. There is no automatic music generation.
+For narrated films, `duration` is the maximum visual budget. After speech acquisition, the adapter fits the static visual sequence to the speech duration plus 1.5 seconds, rounded up to a 30fps frame and capped at that budget. It preserves the original silent render and plan, records the scale and derived scene times, and updates both the final video and editable composition. Scene placement remains an editorial estimate until playback and listening confirm it.
+
+Speech starts 0.2 seconds into the film. It must leave at least 0.4 seconds at the end. The adapter normalizes the track to a target of −16 LUFS and −2 dBTP and adds silence to fill the fitted film. It never cuts spoken words to fit. To reuse a music bed, supply `music: {path, sha256, source, rights}` with an absolute path and explicit rights. The adapter checks its bytes, mixes it quietly under the voice, and fades the last 0.4 seconds. Music can also accompany a film without speech. There is no automatic music generation.
 
 ## Review and reuse
 

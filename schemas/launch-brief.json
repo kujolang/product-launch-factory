@@ -127,7 +127,8 @@
         "duration": {
           "type": "number",
           "minimum": 12,
-          "maximum": 60
+          "maximum": 60,
+          "description": "Silent video length, or maximum visual budget for narration. Narrated visuals fit the measured speech plus a short ending hold without trimming words."
         },
         "narration": {
           "type": "object"
