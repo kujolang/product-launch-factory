@@ -164,7 +164,8 @@ def editorial_stage(run, out, lock_fd):
     publishing['schema'] = 'kujo.publishing-house-factory.brief/v1'
     publishing['constraints'] = publishing['constraints']+[
         'Produce the article, newsletter, exactly three social posts and landing copy from captured evidence. Do not invent features or omit limitations.',
-        'This is a draft launch package, not publication. Preserve exact claims and source references for downstream factories.']
+        'This is a draft launch package, not publication. Preserve exact claims and source references for downstream factories.',
+        'Evidence claims may use only these sourceId values: '+', '.join(s['id'] for s in brief['sources'])+'. The brief, commissioning plan and review instructions are not evidence sources. Never cite brief or commission as sourceId; omit such claims.']
     write(work/'brief.json', publishing)
     request = write(work/'request.json', {'kind': 'publishing', 'factoryRoot': str(FACTORIES/'publishing-house-factory'),
                     'workspace': str(work), 'brief': str(work/'brief.json')})
