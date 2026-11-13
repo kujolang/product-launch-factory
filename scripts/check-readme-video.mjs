@@ -2,7 +2,7 @@
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 const {chromium,webkit}=await import(process.env.PLAYWRIGHT_MODULE||'playwright');
-const manifest=JSON.parse(await fs.readFile(process.argv[2]||'docs/example-run/package/video/manifest.json','utf8'));
+const manifest=JSON.parse(await fs.readFile(process.argv[2]||'docs/media/product-launch-demo/manifest.json','utf8'));
 const duration=manifest.duration;const results=[];
 for(const [name,engine,launch,context] of [
  ['Chrome desktop',chromium,{channel:'chrome'},{viewport:{width:1440,height:1000}}],
@@ -27,4 +27,4 @@ for(const [name,engine,launch,context] of [
   results.push({name,...initial,seek});console.log(name+' passed');
  }finally{await browser.close()}
 }
-await fs.writeFile('docs/readme-playback.json',JSON.stringify({ok:true,results,listening:'not_attested',phone:'emulation, not physical device'},null,2)+'\n');
+await fs.writeFile(process.argv[3]||'docs/media/product-launch-demo/readme-playback.json',JSON.stringify({ok:true,results,listening:'not_attested',phone:'emulation, not physical device'},null,2)+'\n');
