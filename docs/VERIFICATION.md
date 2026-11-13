@@ -43,3 +43,15 @@ These checks do not establish listening quality or pronunciation. The speech inp
 The original WebOps campaign clip [played in the README](readme-playback.json) and sought into the closing scene in Chrome desktop and WebKit phone emulation. This is not a physical-phone test or listening approval. The [direct download](download-verification.json) matched the exact candidate hash. A [fresh public checkout](replay-verification.json) imported and displayed the recorded campaign without factory dependencies, login or model calls, including mobile layout, article preview and video playback.
 
 The front-page presentation now focuses on the Product Launch Factory coordinator. See the [coordinator demonstration](demo/README.md) for its separate captures, narration and verification. The original campaign package above remains unchanged.
+
+## Fresh-runner installation qualification
+
+On November 13, 2026, a fresh GitHub-hosted Ubuntu 24.04 runner cloned the public repository, installed dependencies with empty application caches, passed the dependency doctor and opened the recorded factory floor. The [successful run](https://github.com/kujolang/product-launch-factory/actions/runs/43479881789) tested commit `5f5c697f9734b2c7ccb347993c19492ba4956325`.
+
+The [timing receipt](onboarding/receipt.json) records 67.073 seconds from clone through the pre-login dependency check, and 69.625 seconds including verification and browser checks. Git, Node 26.12.1 and Python 3.12 were provisioned before timing. The timed work includes FFmpeg and Chromium system libraries, root npm installation, pinned child setup and browser downloads. This is one fresh-runner observation, not a universal onboarding promise or a blank-operating-system benchmark. Account sign-in and live model calls were excluded; no credentials were copied to the runner.
+
+The [doctor](onboarding/doctor.json) passed every dependency check with no provider account configured. All 23 contract tests passed. The [browser check](onboarding/browser.json) verified five completed stations, five handoffs, actual video playback and a mobile layout without overflow. This supplements the earlier live campaign qualification; it does not represent a new live campaign or a clean macOS test.
+
+The [first attempt](onboarding/attempt-1.json) installed successfully but failed a case-sensitive test assertion: CSS displays the recorded-state label in uppercase. The assertion now accepts that presentation, and the complete test passed on a second fresh runner. Both attempts remain distinguishable.
+
+Run the manual **Clean onboarding** GitHub workflow to repeat this qualification. It uses no model credentials and retains logs and timing evidence as an Actions artifact.

@@ -72,6 +72,8 @@ The retained WebOps launch campaign completed all five stages. Its 200-file pack
 
 Dependency setup took 111.688 seconds on a busy development machine with existing tools and caches. That excludes prerequisites, cloning, root npm installation and login. It is **not a clean-machine onboarding benchmark** or a universal setup promise.
 
+A fresh Ubuntu runner also passed installation and browser checks in about 70 seconds, with Git, Node and Python already provisioned. Account sign-in and live generation were excluded. See the [installation evidence](docs/VERIFICATION.md#fresh-runner-installation-qualification) for the measured scope.
+
 Source text goes to the configured model account. Hashes detect changed bytes; they do not prove factual accuracy, test quality or authorship. The local floor binds to loopback. Its preview policy blocks scripts in generated pages. This is a single-operator tool, not a hosted multi-tenant service.
 
 ## Development
@@ -89,3 +91,7 @@ Contract tests need no provider credentials. Live factory qualification is separ
 - [Verification](docs/VERIFICATION.md)
 - [Security boundaries](SECURITY.md)
 - [Pinned factory revisions](sources.lock.json)
+
+## Releases
+
+See the [v0.1.0 release notes](docs/releases/v0.1.0.md) for the initial release scope.

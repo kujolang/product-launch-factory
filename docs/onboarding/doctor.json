@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "publishing-house-factory",
+      "ok": true
+    },
+    {
+      "name": "webops-factory",
+      "ok": true
+    },
+    {
+      "name": "videoops-factory",
+      "ok": true
+    },
+    {
+      "name": "software-factory",
+      "ok": true
+    },
+    {
+      "name": "ffmpeg",
+      "ok": true
+    }
+  ],
+  "providerConfigured": false,
+  "deploymentEnabled": false
+}

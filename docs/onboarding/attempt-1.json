@@ -1,0 +1,67 @@
+{
+  "ok": false,
+  "baseline": "Fresh GitHub Ubuntu 24.04 runner; Git, Node 26.12.1 and Python 3.12 provisioned before timing",
+  "emptyApplicationCaches": true,
+  "providerCalls": 0,
+  "loginTested": false,
+  "steps": [
+    {
+      "name": "clone",
+      "seconds": 1.819,
+      "exitCode": 0
+    },
+    {
+      "name": "checkout",
+      "seconds": 0.165,
+      "exitCode": 0
+    },
+    {
+      "name": "system-packages",
+      "seconds": 5.481,
+      "exitCode": 0
+    },
+    {
+      "name": "ffmpeg",
+      "seconds": 19.815,
+      "exitCode": 0
+    },
+    {
+      "name": "npm-ci",
+      "seconds": 3.128,
+      "exitCode": 0
+    },
+    {
+      "name": "browser-system-libraries",
+      "seconds": 8.741,
+      "exitCode": 0
+    },
+    {
+      "name": "setup",
+      "seconds": 37.977,
+      "exitCode": 0
+    },
+    {
+      "name": "doctor",
+      "seconds": 0.164,
+      "exitCode": 0
+    },
+    {
+      "name": "verify",
+      "seconds": 1.317,
+      "exitCode": 0
+    },
+    {
+      "name": "demo",
+      "seconds": 0.265,
+      "exitCode": 0
+    },
+    {
+      "name": "browser-smoke",
+      "seconds": 0.568,
+      "exitCode": 1
+    }
+  ],
+  "commit": "09ed84cd3cd5efbc102cd984c60ba371ffd85f44",
+  "readyBeforeLoginSeconds": 77.29,
+  "totalSeconds": 79.44
+}
