@@ -1,0 +1,83 @@
+{
+  "alignment": {
+    "artifact": null,
+    "availability": "not_requested",
+    "source": null,
+    "time_origin": "original_media_start",
+    "units": "seconds"
+  },
+  "asset_id": "launch-narration",
+  "attempt": 1,
+  "authorization_id": "webops-launch-speech-001",
+  "capability": "speech",
+  "created_at": "2026-11-13T17:09:54.126138+00:00",
+  "derived": [
+    {
+      "path": "media/webops-launch-voice-001/normalized.wav",
+      "sha256": "ba9a36e612579d3bb4ba4bb1fefff80ed876053f3a7c41c5fa426623fd97b5f5"
+    }
+  ],
+  "error": null,
+  "fingerprint": "1824f13ae7e21af35540e54360fa5d96aba47cb233eec884f11ff9da7d45a33c",
+  "handoff_path": "media/webops-launch-voice-001/handoff.json",
+  "job_id": "product-launch-webops",
+  "latency_seconds": 7.94626780499857,
+  "manifest_path": "assets/asset-manifest.json",
+  "metadata": {
+    "channels": 1,
+    "codec": "mp3",
+    "duration_seconds": 23.92,
+    "sample_rate": 44100,
+    "streams": [
+      {
+        "codec": "mp3",
+        "type": "audio"
+      }
+    ]
+  },
+  "model": "eleven_v4",
+  "original": {
+    "path": "media/webops-launch-voice-001/original.media",
+    "sha256": "6c81e475772bbc397b4846b50b52aa253327f951aa9084ad2b0ff67da77fe01c"
+  },
+  "output_format": "mp3_44100_128",
+  "provider": "elevenlabs",
+  "provider_request_id": "CqwTu6PmXgXjAL2PlVaB",
+  "receipt_path": "media/webops-launch-voice-001/result.json",
+  "request_id": "webops-launch-voice-001",
+  "requirement_id": "launch-narration",
+  "retries": 0,
+  "retry_of": null,
+  "rights": {
+    "attribution": null,
+    "evidence": {
+      "path": "requests/estimate-rights.json",
+      "sha256": "cda567c00f6f4aa654bae6cc905225f5cc28c3fc24d474ff30804114681063f8"
+    },
+    "intended_use": "Kujo WebOps Factory first Product Launch Factory campaign",
+    "license": "ElevenLabs paid-plan commercial output terms",
+    "restrictions": [
+      "Subject to ElevenLabs terms; acquisition is not editorial approval."
+    ]
+  },
+  "schema": "videoops-media-result/v1",
+  "settings": {
+    "similarity_boost": 0.75,
+    "speed": 1.0,
+    "stability": 0.5
+  },
+  "shot_ids": [
+    "launch"
+  ],
+  "state": "SUCCESS",
+  "usage": {
+    "cost": null,
+    "credits": 170.0,
+    "currency": "USD",
+    "reserved_cost": 0,
+    "reserved_credits": 387,
+    "source": "provider_header"
+  },
+  "verification": "live",
+  "voice": "eXpIbVcVbLo8ZJQDlDnl"
+}

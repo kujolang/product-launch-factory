@@ -1,0 +1,22 @@
+{
+  "schema": "kujo.handoff/v1",
+  "assignment": "launch-f6a3cf9b3ed5",
+  "currentOwner": "media-generator",
+  "nextOwner": "hyperframes-editor",
+  "goal": "Launch WebOps Factory",
+  "scope": "Local registered-media composition",
+  "artifacts": [
+    "planning/media-generator.json"
+  ],
+  "evidence": [
+    "planning/media-generator.json"
+  ],
+  "decisions": [
+    "Brief explicitly requests silent output using registered local assets; no provider call or spend."
+  ],
+  "unresolvedQuestions": [],
+  "allowedNextActions": [
+    "hyperframes-editor"
+  ],
+  "stopCondition": "Required artifact or review capability missing"
+}

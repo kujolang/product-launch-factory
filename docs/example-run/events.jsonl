@@ -1,0 +1,22 @@
+{"at": "2026-11-13T16:59:18.815595+00:00", "stage": "source", "status": "ready", "detail": "Launch brief and source evidence captured"}
+{"at": "2026-11-13T16:59:19.110001+00:00", "stage": "source", "status": "started", "detail": "Source evidence received verified inputs"}
+{"at": "2026-11-13T16:59:19.180121+00:00", "stage": "source", "status": "completed", "detail": "Exact output inventory sealed for the next factory"}
+{"at": "2026-11-13T16:59:19.184343+00:00", "stage": "editorial", "status": "started", "detail": "Publishing House received verified inputs"}
+{"at": "2026-11-13T17:03:10.917716+00:00", "stage": "editorial", "status": "completed", "detail": "Exact output inventory sealed for the next factory"}
+{"at": "2026-11-13T17:03:10.921047+00:00", "stage": "website", "status": "started", "detail": "WebOps received verified inputs"}
+{"at": "2026-11-13T17:03:41.311717+00:00", "stage": "website", "status": "completed", "detail": "Exact output inventory sealed for the next factory"}
+{"at": "2026-11-13T17:03:41.317316+00:00", "stage": "video", "status": "started", "detail": "VideoOps received verified inputs"}
+{"at": "2026-11-13T17:04:24.333065+00:00", "stage": "video", "status": "blocked", "detail": "videoops failed; inspect logs/videoops.log"}
+{"at": "2026-11-13T17:05:54.846901+00:00", "stage": "video", "status": "retry-requested", "detail": "Blocked video attempt preserved at work-history/video-1794589554846006000"}
+{"at": "2026-11-13T17:05:55.194683+00:00", "stage": "source", "status": "reused", "detail": "Exact prior handoff verified; no repeated provider calls"}
+{"at": "2026-11-13T17:05:55.383883+00:00", "stage": "editorial", "status": "reused", "detail": "Exact prior handoff verified; no repeated provider calls"}
+{"at": "2026-11-13T17:05:55.434318+00:00", "stage": "website", "status": "reused", "detail": "Exact prior handoff verified; no repeated provider calls"}
+{"at": "2026-11-13T17:05:55.439769+00:00", "stage": "video", "status": "started", "detail": "VideoOps received verified inputs"}
+{"at": "2026-11-13T17:10:50.224269+00:00", "stage": "video", "status": "blocked", "detail": "videoops failed; inspect logs/videoops.log"}
+{"at": "2026-11-13T17:14:05.029348+00:00", "stage": "source", "status": "reused", "detail": "Exact prior handoff verified; no repeated provider calls"}
+{"at": "2026-11-13T17:14:05.159297+00:00", "stage": "editorial", "status": "reused", "detail": "Exact prior handoff verified; no repeated provider calls"}
+{"at": "2026-11-13T17:14:05.192159+00:00", "stage": "website", "status": "reused", "detail": "Exact prior handoff verified; no repeated provider calls"}
+{"at": "2026-11-13T17:14:05.195321+00:00", "stage": "video", "status": "started", "detail": "VideoOps received verified inputs"}
+{"at": "2026-11-13T17:14:57.967086+00:00", "stage": "video", "status": "completed", "detail": "Exact output inventory sealed for the next factory"}
+{"at": "2026-11-13T17:14:57.970262+00:00", "stage": "package", "status": "started", "detail": "Launch review received verified inputs"}
+{"at": "2026-11-13T17:14:58.424710+00:00", "stage": "package", "status": "completed", "detail": "Exact output inventory sealed for the next factory"}

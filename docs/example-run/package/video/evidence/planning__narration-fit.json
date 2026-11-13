@@ -1,0 +1,58 @@
+{
+  "plan": {
+    "title": "Launch WebOps Factory",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 25.433333333333334,
+    "cta": "Build your next factory with Kujo. Setup: https://github.com/kujolang/webops-factory",
+    "scenes": [
+      {
+        "id": "benefit-hook",
+        "start": 0,
+        "duration": 4.933333333333334,
+        "headline": "A clear path from website problems to a checked repair.",
+        "body": "Move from supported findings to a focused, reviewable candidate.",
+        "assetId": "",
+        "theme": "ink"
+      },
+      {
+        "id": "factory-floor",
+        "start": 4.933333333333334,
+        "duration": 7.066666666666666,
+        "headline": "",
+        "body": "",
+        "assetId": "webops-floor",
+        "theme": "ink"
+      },
+      {
+        "id": "finished-page",
+        "start": 12,
+        "duration": 7.066666666666666,
+        "headline": "",
+        "body": "",
+        "assetId": "launch-website",
+        "theme": "ink"
+      },
+      {
+        "id": "kujo-close",
+        "start": 19.066666666666666,
+        "duration": 6.366666666666666,
+        "headline": "Build your next factory with Kujo.",
+        "body": "Setup: https://github.com/kujolang/webops-factory",
+        "assetId": "kujo-logo",
+        "theme": "paper"
+      }
+    ]
+  },
+  "requestedDuration": 36,
+  "duration": 25.433333333333334,
+  "frames": 763,
+  "scale": 0.7064814814814815,
+  "speechDuration": 23.92,
+  "method": "Uniformly retime static evidence; round scene boundaries to the nearest 30fps frame. Narration remains untrimmed and unretimed.",
+  "alignment": "Closing scene placement is an editorial estimate; actual pronunciation and semantic alignment still require listening.",
+  "sourceVideoSha256": "0ea85c36ffdd0269187c54830fb860a3888402d2002ef60b9a82e2d3c162f476",
+  "sourcePlanSha256": "57feb592c4ccb8d1e6a766295b7885cbaba6424e5d49e7c77893ddeec86d023f",
+  "sourceNarrationSha256": "ba9a36e612579d3bb4ba4bb1fefff80ed876053f3a7c41c5fa426623fd97b5f5"
+}

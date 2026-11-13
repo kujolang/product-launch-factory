@@ -1,0 +1,324 @@
+{
+  "candidateSha256": "0ff71fa75f8da432817133379de450d4369127ac153d9e8544d1084e91a2aead",
+  "duration": 25.433333,
+  "facts": [
+    {
+      "text": "Readers can be directed to the WebOps Factory repository README for product details, prerequisites, setup, and review guidance.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "The repository describes a workflow that copies a static website, inspects it, requests specialist repairs, applies allowed edits to the copy, checks the result again, and sends the exact patch to an independent model reviewer.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "The repository says the visual floor displays handoffs, repair values, reasons, screenshots, verification reports, and statuses derived from retained run records.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "The documented prerequisites are macOS or Linux, Git, Python 3.10 or newer, Node 26.12.1 or a later 26.x release, and a Codex account for live workers.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "The README provides an exact command sequence to clone the repository, install dependencies, set up and authenticate, run diagnostics, execute the live example, and start the interface.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "The README instructs users to open a local interface at port 4383 and says setup installs pinned Kujo sources, the runtime, and Chromium; Linux may require an additional administrator-level dependency command, while native Windows is unsupported and WSL is advised.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "The README documents a way to inspect checked-in evidence without executing a new mission or making model calls.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "This release documents four supported repair categories: missing or empty titles, missing or empty search descriptions, images lacking alt attributes, and broken internal file links.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "The repository says agents cannot introduce commands, executables, arbitrary HTML, external repair targets, or new repair operations, and that failed checks or requested revisions block approval packaging.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "Additional findings may remain visible, while the supported checks do not establish perfect SEO, accessibility conformance, or security certification; homepage browser checks and static audits also have documented scope limits.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "The documented input is a bounded static export, not a framework project or server application, with restrictions on active content and limits of 120 files, 8 MB, and 150 KB of worker context.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "The README says each run retains the original imported bytes, repaired candidate, before-and-after findings, specialist and independent-review responses, exact repair diff, SiteProbe and Lens artifacts, and a hash-bound package.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "The README provides commands for run verification and repository verification, then requires people to review the patch and candidate before incorporating changes into their release process.",
+      "source": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "text": "The verification record reports that one identified live example repaired five supported findings across three pages in 43.443 seconds using four provider calls, ending in approval_required rather than deployment.",
+      "source": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+    },
+    {
+      "text": "For the recorded example, the verification document reports that the original site was unchanged, SiteProbe artifact verification passed before and after repairs, Lens passed final homepage desktop and mobile checks, and the independent reviewer returned pass, while out-of-scope findings remained visible.",
+      "source": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+    },
+    {
+      "text": "The verification record explicitly says its setup timing came from a busy, resource-limited development machine with warm caches and was not a clean-machine installation benchmark; it supports no ranking, revenue, WCAG, or deployment claim.",
+      "source": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+    },
+    {
+      "text": "The verification document reports a fresh-clone portability check covering clone, dependency installation, setup, recorded-example import, and a fixture mission, with 75.179 seconds total and 48.896 seconds for setup.",
+      "source": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+    },
+    {
+      "text": "The verification record reports technical media checks but states that listening quality remains un-attested and that the film shows completed evidence rather than real-time agent execution.",
+      "source": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+    },
+    {
+      "text": "The verification document reports successful README-player and download checks but limits the phone result to browser emulation rather than a physical-device test.",
+      "source": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+    }
+  ],
+  "metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 390656,
+        "duration": "25.433333",
+        "bit_rate": "72689",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "763",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc62.11.100 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1207872,
+        "duration": "25.164000",
+        "bit_rate": "182786",
+        "nb_frames": "1181",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/launch.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "25.433333",
+      "size": "835857",
+      "bit_rate": "262917",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf62.3.100"
+      }
+    }
+  },
+  "narration": {
+    "audioPath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/media/webops-launch-voice-001/normalized.wav",
+    "receiptPath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/media/webops-launch-voice-001/result.json",
+    "sha256": "ba9a36e612579d3bb4ba4bb1fefff80ed876053f3a7c41c5fa426623fd97b5f5",
+    "receiptSha256": "a42119af0666db2ad4a30f3dd483e7954478487bdd2413049ff3e45dde735aed",
+    "originalPath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/media/webops-launch-voice-001/original.media",
+    "originalSha256": "6c81e475772bbc397b4846b50b52aa253327f951aa9084ad2b0ff67da77fe01c",
+    "requestId": "webops-launch-voice-001",
+    "verification": "live",
+    "usage": {
+      "cost": null,
+      "credits": 170,
+      "currency": "USD",
+      "reserved_cost": 0,
+      "reserved_credits": 387,
+      "source": "provider_header"
+    },
+    "model": "eleven_v4",
+    "voice": "eXpIbVcVbLo8ZJQDlDnl",
+    "rights": {
+      "attribution": null,
+      "evidence": {
+        "path": "requests/estimate-rights.json",
+        "sha256": "cda567c00f6f4aa654bae6cc905225f5cc28c3fc24d474ff30804114681063f8"
+      },
+      "intended_use": "Kujo WebOps Factory first Product Launch Factory campaign",
+      "license": "ElevenLabs paid-plan commercial output terms",
+      "restrictions": [
+        "Subject to ElevenLabs terms; acquisition is not editorial approval."
+      ]
+    },
+    "listening": "not_attested",
+    "speechDuration": 23.92,
+    "normalizedSha256": "324198262db30b3307987ee21b9cc385b828f0d2e6dffb8f30909e2899fc127a"
+  },
+  "fit": {
+    "plan": {
+      "title": "Launch WebOps Factory",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "duration": 25.433333333333334,
+      "cta": "Build your next factory with Kujo. Setup: https://github.com/kujolang/webops-factory",
+      "scenes": [
+        {
+          "id": "benefit-hook",
+          "start": 0,
+          "duration": 4.933333333333334,
+          "headline": "A clear path from website problems to a checked repair.",
+          "body": "Move from supported findings to a focused, reviewable candidate.",
+          "assetId": "",
+          "theme": "ink"
+        },
+        {
+          "id": "factory-floor",
+          "start": 4.933333333333334,
+          "duration": 7.066666666666666,
+          "headline": "",
+          "body": "",
+          "assetId": "webops-floor",
+          "theme": "ink"
+        },
+        {
+          "id": "finished-page",
+          "start": 12,
+          "duration": 7.066666666666666,
+          "headline": "",
+          "body": "",
+          "assetId": "launch-website",
+          "theme": "ink"
+        },
+        {
+          "id": "kujo-close",
+          "start": 19.066666666666666,
+          "duration": 6.366666666666666,
+          "headline": "Build your next factory with Kujo.",
+          "body": "Setup: https://github.com/kujolang/webops-factory",
+          "assetId": "kujo-logo",
+          "theme": "paper"
+        }
+      ]
+    },
+    "requestedDuration": 36,
+    "duration": 25.433333333333334,
+    "frames": 763,
+    "scale": 0.7064814814814815,
+    "speechDuration": 23.92,
+    "method": "Uniformly retime static evidence; round scene boundaries to the nearest 30fps frame. Narration remains untrimmed and unretimed.",
+    "alignment": "Closing scene placement is an editorial estimate; actual pronunciation and semantic alignment still require listening.",
+    "sourceVideoSha256": "0ea85c36ffdd0269187c54830fb860a3888402d2002ef60b9a82e2d3c162f476",
+    "sourcePlanSha256": "57feb592c4ccb8d1e6a766295b7885cbaba6424e5d49e7c77893ddeec86d023f",
+    "sourceNarrationSha256": "ba9a36e612579d3bb4ba4bb1fefff80ed876053f3a7c41c5fa426623fd97b5f5"
+  },
+  "requestedDuration": 36,
+  "music": null,
+  "technical": "PASS",
+  "perceptual": "REVIEW_INCOMPLETE",
+  "missingCapabilities": [
+    "visual_playback",
+    "audio_listening"
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "commit": "dcf2dc4fa7311f59ba3dd16f58a227439a155979",
+  "files": [
+    {
+      "path": "assets/DepartureMono-LICENSE.txt",
+      "sha256": "b65e42750f3cb65437a97f4dfd781c58f199259949db2341012be60e32500e83"
+    },
+    {
+      "path": "assets/DepartureMono-Regular.woff2",
+      "sha256": "5b4fed1daa90708aa9c6ee1190abca9dc22164a1c1def0020386e46b61038cfb"
+    },
+    {
+      "path": "assets/catalog.json",
+      "sha256": "ab55918a1b003c9ccd4e372e6ab32bc044bd8a571bcf750520c9197bb529b268"
+    },
+    {
+      "path": "assets/converter-app-portrait.png",
+      "sha256": "d247d25727e63884432944eeb01c19c226e3cd7429223c6c2433930652eeb100"
+    },
+    {
+      "path": "assets/converter-app.png",
+      "sha256": "21f04c1316bb91ca6a73cb7a216539d8fb1e714c9473c48c206b4d9a3495f1ed"
+    },
+    {
+      "path": "assets/factory-floor-portrait.png",
+      "sha256": "ee4d832c7a2cbb4e670c9e6c05712a70cdcaf2486cf6822804ddf079e82900e1"
+    },
+    {
+      "path": "assets/factory-floor.png",
+      "sha256": "b0e3c586a151bc177cacee3e5b817cd1368f0b77211b82c57f3921d09c40c341"
+    },
+    {
+      "path": "assets/kujo-logo.svg",
+      "sha256": "cecb66eae65116fadf29a93ce3adae28956b17cfaf1e8d9e0910c280935ef412"
+    },
+    {
+      "path": "bin/videoops-factory.mjs",
+      "sha256": "b645eabf954859932206497816d46d291f4fcbca7f33b37900422a02c50b33ec"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "70d55e33c9ff0ac1917b41ed528df8bf51e8aa3fb9d789930de3b344db437863"
+    },
+    {
+      "path": "package.json",
+      "sha256": "bb8050aa62b11849889e0d5ff9bcf74cd11c856fad2a487a935de40e720afa5a"
+    },
+    {
+      "path": "src/agent.mjs",
+      "sha256": "bafc6cc8389202e529aad07c2d9137ccf9b467654536b3fdae4c0383ee4645f6"
+    },
+    {
+      "path": "src/contracts.mjs",
+      "sha256": "73bc8c16687f331a3d9c3c0bde970d17467d478e61f0598df5121363928b788f"
+    },
+    {
+      "path": "src/process.mjs",
+      "sha256": "aec6f2fd1f234bdbdcce4cd131e99bd2279a0c4be67c2e59edf0e6a9c5ce534c"
+    },
+    {
+      "path": "src/render.mjs",
+      "sha256": "02e7ee9016fbc7c95d17fba582135a10128fa4bb032849778c82365eaa5ef23b"
+    },
+    {
+      "path": "src/runner.mjs",
+      "sha256": "8679d8d4ae558377546adeb545eb4097642b02ae1e418b5e33b2d745f1629290"
+    },
+    {
+      "path": "src/server.mjs",
+      "sha256": "b1a73f69fe2e9c98c538cb4171ed6e7ece4260bef60ec26d228d6529f0a648e4"
+    },
+    {
+      "path": "src/settings.mjs",
+      "sha256": "8d9d33a501e9f88b1a9a68da28eedf3c925837d3c5b1048a0467289e3e18b465"
+    },
+    {
+      "path": "src/template.mjs",
+      "sha256": "ab8f53f0fef19988ee8f41d13c0886915ff761a4c354b53c39f9574b1052fb55"
+    }
+  ],
+  "staticTemplateSha256": "9c7f89407fafb68ff5384778e8d7dfadb98899143613cf0aca9c48a51025da44",
+  "jobFiles": [
+    {
+      "path": "assets/DepartureMono-LICENSE.txt",
+      "sha256": "b65e42750f3cb65437a97f4dfd781c58f199259949db2341012be60e32500e83"
+    },
+    {
+      "path": "assets/DepartureMono-Regular.woff2",
+      "sha256": "5b4fed1daa90708aa9c6ee1190abca9dc22164a1c1def0020386e46b61038cfb"
+    },
+    {
+      "path": "assets/catalog.json",
+      "sha256": "fdceb58237b2307164f82ba0b365327ffc834472b300ebc5883091a33e9d775a"
+    },
+    {
+      "path": "assets/converter-app-portrait.png",
+      "sha256": "d247d25727e63884432944eeb01c19c226e3cd7429223c6c2433930652eeb100"
+    },
+    {
+      "path": "assets/converter-app.png",
+      "sha256": "21f04c1316bb91ca6a73cb7a216539d8fb1e714c9473c48c206b4d9a3495f1ed"
+    },
+    {
+      "path": "assets/factory-floor-portrait.png",
+      "sha256": "ee4d832c7a2cbb4e670c9e6c05712a70cdcaf2486cf6822804ddf079e82900e1"
+    },
+    {
+      "path": "assets/factory-floor.png",
+      "sha256": "b0e3c586a151bc177cacee3e5b817cd1368f0b77211b82c57f3921d09c40c341"
+    },
+    {
+      "path": "assets/kujo-logo.svg",
+      "sha256": "cecb66eae65116fadf29a93ce3adae28956b17cfaf1e8d9e0910c280935ef412"
+    },
+    {
+      "path": "bin/videoops-factory.mjs",
+      "sha256": "b645eabf954859932206497816d46d291f4fcbca7f33b37900422a02c50b33ec"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "70d55e33c9ff0ac1917b41ed528df8bf51e8aa3fb9d789930de3b344db437863"
+    },
+    {
+      "path": "package.json",
+      "sha256": "bb8050aa62b11849889e0d5ff9bcf74cd11c856fad2a487a935de40e720afa5a"
+    },
+    {
+      "path": "src/agent.mjs",
+      "sha256": "bafc6cc8389202e529aad07c2d9137ccf9b467654536b3fdae4c0383ee4645f6"
+    },
+    {
+      "path": "src/contracts.mjs",
+      "sha256": "73bc8c16687f331a3d9c3c0bde970d17467d478e61f0598df5121363928b788f"
+    },
+    {
+      "path": "src/process.mjs",
+      "sha256": "aec6f2fd1f234bdbdcce4cd131e99bd2279a0c4be67c2e59edf0e6a9c5ce534c"
+    },
+    {
+      "path": "src/render.mjs",
+      "sha256": "02e7ee9016fbc7c95d17fba582135a10128fa4bb032849778c82365eaa5ef23b"
+    },
+    {
+      "path": "src/runner.mjs",
+      "sha256": "8679d8d4ae558377546adeb545eb4097642b02ae1e418b5e33b2d745f1629290"
+    },
+    {
+      "path": "src/server.mjs",
+      "sha256": "b1a73f69fe2e9c98c538cb4171ed6e7ece4260bef60ec26d228d6529f0a648e4"
+    },
+    {
+      "path": "src/settings.mjs",
+      "sha256": "8d9d33a501e9f88b1a9a68da28eedf3c925837d3c5b1048a0467289e3e18b465"
+    },
+    {
+      "path": "src/template.mjs",
+      "sha256": "9c7f89407fafb68ff5384778e8d7dfadb98899143613cf0aca9c48a51025da44"
+    },
+    {
+      "path": "src/template-original.mjs",
+      "sha256": "ab8f53f0fef19988ee8f41d13c0886915ff761a4c354b53c39f9574b1052fb55"
+    },
+    {
+      "path": "assets/webops-floor.png",
+      "sha256": "4e6120a0cea8a467981e4995f66ad1cd2c1c1599a616883a38417fd517e64d9d"
+    },
+    {
+      "path": "assets/launch-website.png",
+      "sha256": "cd845bf05d5ac11e5eacd9fb89dd5f3f3ae47130c63b0084722c3e3d78a669b1"
+    }
+  ],
+  "description": "Pinned factory controller with registered launch assets and an explicitly hashed static template overlay"
+}

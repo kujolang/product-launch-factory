@@ -1,0 +1,144 @@
+{
+  "proposal": {
+    "newsletter": {
+      "title": "A Visible Path from Website Finding to Checked Repair",
+      "blocks": [
+        {
+          "text": "Small web teams need a clear way to repair static sites without losing sight of what changed. WebOps Factory’s repository describes a workflow that copies a site, identifies supported findings, requests specialist repairs, applies allowed edits to the copy, checks the result and sends the exact patch to an independent model reviewer. The original remains unchanged, and reviewers receive evidence before deciding what happens next.",
+          "claimIds": [
+            "copied-site-repair-and-review-workflow",
+            "reviewable-run-outputs"
+          ]
+        },
+        {
+          "text": "The factory floor presents retained records including handoffs, proposed values, reasons, screenshots, verification reports, before-and-after findings and the repair diff. These records make a candidate easier to inspect; they do not prove that it is correct or ready for release.",
+          "claimIds": [
+            "visible-floor-retained-records",
+            "reviewable-run-outputs"
+          ]
+        },
+        {
+          "text": "This release is limited to four repair categories: missing or empty titles, missing or empty search descriptions, images without alt attributes and broken internal file links. It accepts bounded static exports—not framework projects or server applications. Its checks do not establish perfect SEO, accessibility conformance or security certification. Browser checks cover the homepage at desktop and mobile sizes, while the static audit examines imported HTML pages.",
+          "claimIds": [
+            "supported-repair-types",
+            "static-export-intake-boundaries",
+            "coverage-and-exclusions"
+          ]
+        },
+        {
+          "text": "Failed checks or requested revisions remain blocked with their evidence. Human review and deployment stay separate from the factory workflow. For complete, current prerequisites, setup instructions and review guidance, open the repository README: https://github.com/kujolang/webops-factory",
+          "claimIds": [
+            "controller-input-and-failure-boundaries",
+            "verification-commands-and-human-review",
+            "reader-action-open-repository-readme"
+          ]
+        }
+      ]
+    },
+    "social": [
+      {
+        "title": "From Finding to Reviewable Repair",
+        "blocks": [
+          {
+            "text": "WebOps Factory’s repository describes a visible path from a supported static-site finding to a checked repair candidate. It works on a copy, retains the exact diff and supporting evidence, and sends the patch to an independent model reviewer. The original site is not edited.",
+            "claimIds": [
+              "copied-site-repair-and-review-workflow",
+              "reviewable-run-outputs"
+            ]
+          },
+          {
+            "text": "The workflow stops at human review: it neither approves nor deploys the candidate. See the repository README for complete prerequisites, setup and review guidance: https://github.com/kujolang/webops-factory",
+            "claimIds": [
+              "verification-commands-and-human-review",
+              "reader-action-open-repository-readme"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Focused Repairs, Visible Boundaries",
+        "blocks": [
+          {
+            "text": "The current WebOps Factory release supports four repair categories: missing or empty titles, missing or empty search descriptions, images without alt attributes and broken internal file links. Failed checks or requested revisions leave the run blocked with its evidence rather than producing an approval package.",
+            "claimIds": [
+              "supported-repair-types",
+              "controller-input-and-failure-boundaries"
+            ]
+          },
+          {
+            "text": "The scope is bounded: static exports only, not framework projects or server applications. The checks do not establish perfect SEO, accessibility conformance or security certification. Human review and deployment remain separate.",
+            "claimIds": [
+              "static-export-intake-boundaries",
+              "coverage-and-exclusions",
+              "verification-commands-and-human-review"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Evidence Reviewers Can Inspect",
+        "blocks": [
+          {
+            "text": "WebOps Factory’s repository says each run retains the imported bytes, repaired candidate, before-and-after findings, specialist and independent-review responses, exact repair diff, SiteProbe and Lens artifacts, and a package binding the candidate and evidence to file hashes.",
+            "claimIds": [
+              "reviewable-run-outputs"
+            ]
+          },
+          {
+            "text": "Those records support inspection; they do not prove that a repair is correct or ready for release. Browser checks cover the homepage at desktop and mobile sizes, while the static audit examines imported HTML pages. Review the README for full setup and review guidance: https://github.com/kujolang/webops-factory",
+            "claimIds": [
+              "reviewable-run-outputs",
+              "coverage-and-exclusions",
+              "reader-action-open-repository-readme"
+            ]
+          }
+        ]
+      }
+    ],
+    "landing": {
+      "title": "Turn Supported Static-Site Findings into Reviewable Repair Candidates",
+      "blocks": [
+        {
+          "text": "WebOps Factory’s repository describes a workflow that copies a static website, identifies supported findings, requests focused repairs, applies allowed edits to the copy and checks the result again. An independent model reviewer examines the exact patch, while the original site remains unchanged.",
+          "claimIds": [
+            "copied-site-repair-and-review-workflow"
+          ]
+        },
+        {
+          "text": "Reviewers can inspect retained evidence including handoffs, proposed repair values, reasons, screenshots, verification reports, before-and-after findings and the exact diff. This evidence supports review; it does not prove correctness or release readiness.",
+          "claimIds": [
+            "visible-floor-retained-records",
+            "reviewable-run-outputs"
+          ]
+        },
+        {
+          "text": "The current release supports missing or empty titles, missing or empty search descriptions, images without alt attributes and broken internal file links. It accepts bounded static exports, not framework projects or server applications. Its checks do not establish perfect SEO, accessibility conformance or security certification, and browser checks are limited to the homepage at desktop and mobile sizes. Human review and deployment remain separate.",
+          "claimIds": [
+            "supported-repair-types",
+            "static-export-intake-boundaries",
+            "coverage-and-exclusions",
+            "verification-commands-and-human-review"
+          ]
+        },
+        {
+          "text": "Open the repository README for complete, current prerequisites, setup instructions and review guidance: https://github.com/kujolang/webops-factory",
+          "claimIds": [
+            "reader-action-open-repository-readme"
+          ]
+        }
+      ]
+    }
+  },
+  "usage": [
+    {
+      "input_tokens": 19362,
+      "cached_input_tokens": 12416,
+      "output_tokens": 1202,
+      "reasoning_output_tokens": 70
+    }
+  ],
+  "role": "franchise-adaptation-editor",
+  "provider": "codex",
+  "model": "account-default",
+  "durationSeconds": 25.654
+}

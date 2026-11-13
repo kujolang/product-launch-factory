@@ -1,0 +1,4 @@
+{
+  "decision": "ACCEPT",
+  "reason": "Technical handoff accepted for the exact candidate SHA-256 0ff71fa75f8da432817133379de450d4369127ac153d9e8544d1084e91a2aead only. Recorded metadata shows a valid 25.433333-second MP4 with 1920x1080 progressive H.264 video at 30 fps and AAC-LC stereo audio at 48 kHz; narration is documented as preserved, untrimmed, and unretimed. Source facts and review limitations are explicitly recorded. This is not creative, publication, or human approval: visual playback, narrative and transcript fidelity, pacing, hierarchy, motion, brand presentation, CTA rendering, pronunciation, listening quality, semantic alignment, and audio-visual synchronization remain REVIEW_INCOMPLETE because visual_playback and audio_listening were unavailable."
+}

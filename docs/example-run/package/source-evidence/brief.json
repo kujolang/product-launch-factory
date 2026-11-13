@@ -1,0 +1,49 @@
+{
+  "schema": "kujo.product-launch.brief/v1",
+  "title": "Launch WebOps Factory",
+  "audience": "Small web teams and agency owners who need a reviewable way to repair static websites.",
+  "objective": "Create a benefits-first launch campaign for WebOps Factory. Show small web teams how a visible factory floor turns supported static-site findings into focused repairs and a reviewable candidate. Invite readers to open the repository README for complete setup instructions. This campaign introduces the product; it is not an installation tutorial.",
+  "voice": "Plain, confident English. Concrete benefits, no hype, no invented personal biography.",
+  "constraints": [
+    "Attribute repository-described behavior clearly. Treat recorded timings as observations, never promises.",
+    "State that supported static-site checks are bounded; human review and deployment remain separate.",
+    "Do not reproduce command sequences or partial setup instructions in any format. Link to the repository README for full prerequisites and setup.",
+    "Lead with the practical benefit: a visible path from a finding to a checked repair, with evidence available to reviewers. Use plain language and avoid repetitive qualifications; keep claim-specific limits close to their claims."
+  ],
+  "sources": [
+    {
+      "id": "readme",
+      "path": "sources/readme.txt",
+      "url": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "id": "verification",
+      "path": "sources/verification.txt",
+      "url": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+    }
+  ],
+  "evidence": {
+    "kind": "webops-package",
+    "path": "evidence"
+  },
+  "visuals": [
+    {
+      "id": "webops-floor",
+      "path": "visuals/webops-floor.png",
+      "url": "https://github.com/kujolang/webops-factory/blob/main/docs/factory-floor.png",
+      "description": "WebOps Factory floor showing the recorded example website checks and repair stages.",
+      "rights": "First-party Kujo screenshot, reused with owner authorization.",
+      "sha256": "4e6120a0cea8a467981e4995f66ad1cd2c1c1599a616883a38417fd517e64d9d"
+    }
+  ],
+  "video": {
+    "duration": 36,
+    "narration": {
+      "enabled": true,
+      "mediaWorkspace": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch",
+      "requestPath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/requests/speech.json",
+      "authorizationPath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/requests/speech-authorization.json",
+      "authorize": true
+    }
+  }
+}

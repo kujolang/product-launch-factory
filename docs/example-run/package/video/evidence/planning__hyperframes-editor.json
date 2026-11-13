@@ -1,0 +1,4 @@
+{
+  "decision": "ACCEPT",
+  "reason": "The plan is bounded and internally valid: four contiguous scenes cover exactly 36 seconds at 1920×1080/30 fps, use only supplied asset IDs, place product evidence before the CTA, reserve the final scene for the Kujo close, and introduce no arbitrary HTML/JS, invented metrics, or narration-alignment claims. The trusted renderer should enforce full-frame treatment for the two screenshot scenes and keep the output silent."
+}

@@ -1,0 +1,28 @@
+{
+  "proposal": {
+    "verdict": "pass",
+    "findings": [],
+    "dimensions": {
+      "consequence": "STRONG",
+      "distinctiveness": "ADEQUATE",
+      "insight": "ADEQUATE",
+      "defensibility": "STRONG",
+      "craft": "STRONG",
+      "brand_integrity": "STRONG",
+      "format_fidelity": "STRONG",
+      "strategic_purpose": "STRONG"
+    }
+  },
+  "usage": [
+    {
+      "input_tokens": 19082,
+      "cached_input_tokens": 0,
+      "output_tokens": 344,
+      "reasoning_output_tokens": 266
+    }
+  ],
+  "role": "copy-chief",
+  "provider": "codex",
+  "model": "account-default",
+  "durationSeconds": 10.002
+}

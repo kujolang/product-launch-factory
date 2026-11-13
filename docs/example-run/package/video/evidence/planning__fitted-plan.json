@@ -1,0 +1,46 @@
+{
+  "title": "Launch WebOps Factory",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 25.433333333333334,
+  "cta": "Build your next factory with Kujo. Setup: https://github.com/kujolang/webops-factory",
+  "scenes": [
+    {
+      "id": "benefit-hook",
+      "start": 0,
+      "duration": 4.933333333333334,
+      "headline": "A clear path from website problems to a checked repair.",
+      "body": "Move from supported findings to a focused, reviewable candidate.",
+      "assetId": "",
+      "theme": "ink"
+    },
+    {
+      "id": "factory-floor",
+      "start": 4.933333333333334,
+      "duration": 7.066666666666666,
+      "headline": "",
+      "body": "",
+      "assetId": "webops-floor",
+      "theme": "ink"
+    },
+    {
+      "id": "finished-page",
+      "start": 12,
+      "duration": 7.066666666666666,
+      "headline": "",
+      "body": "",
+      "assetId": "launch-website",
+      "theme": "ink"
+    },
+    {
+      "id": "kujo-close",
+      "start": 19.066666666666666,
+      "duration": 6.366666666666666,
+      "headline": "Build your next factory with Kujo.",
+      "body": "Setup: https://github.com/kujolang/webops-factory",
+      "assetId": "kujo-logo",
+      "theme": "paper"
+    }
+  ]
+}

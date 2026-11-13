@@ -1,0 +1,28 @@
+{
+  "proposal": {
+    "verdict": "pass",
+    "findings": [],
+    "dimensions": {
+      "consequence": "STRONG",
+      "distinctiveness": "ADEQUATE",
+      "insight": "ADEQUATE",
+      "defensibility": "STRONG",
+      "craft": "STRONG",
+      "brand_integrity": "STRONG",
+      "format_fidelity": "STRONG",
+      "strategic_purpose": "STRONG"
+    }
+  },
+  "usage": [
+    {
+      "input_tokens": 21943,
+      "cached_input_tokens": 12416,
+      "output_tokens": 303,
+      "reasoning_output_tokens": 225
+    }
+  ],
+  "role": "standards-evidence-editor",
+  "provider": "codex",
+  "model": "account-default",
+  "durationSeconds": 10.163
+}

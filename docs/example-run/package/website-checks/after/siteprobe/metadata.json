@@ -1,0 +1,13 @@
+{
+  "descriptions": {
+    "Turn supported static-site findings into reviewable repair candidates while preserving evidence, human review and separate deployment.": [
+      "http://127.0.0.1:62477/"
+    ]
+  },
+  "schema": "siteprobe.metadata/v1",
+  "titles": {
+    "Turn Supported Static-Site Findings into Reviewable Repair Candidates": [
+      "http://127.0.0.1:62477/"
+    ]
+  }
+}

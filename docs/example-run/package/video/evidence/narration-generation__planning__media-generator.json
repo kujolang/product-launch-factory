@@ -1,0 +1,4 @@
+{
+  "decision": "ACCEPT",
+  "reason": "Technical handoff only: the request records the narration, 36-second target, source-backed product facts, exact input paths with SHA-256 hashes, authorization/rights/entitlement evidence, and a preserve-original/no-perceptual-approval policy. Visual playback, duration confirmation against the produced candidate, pronunciation—including “Koo-joe LANG dot A I”—and listening quality remain REVIEW_INCOMPLETE. This does not imply human approval, publication approval, or deployment."
+}

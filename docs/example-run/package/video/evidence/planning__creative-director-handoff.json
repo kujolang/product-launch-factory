@@ -1,0 +1,22 @@
+{
+  "schema": "kujo.handoff/v1",
+  "assignment": "launch-f6a3cf9b3ed5",
+  "currentOwner": "creative-director",
+  "nextOwner": "asset-scout",
+  "goal": "Launch WebOps Factory",
+  "scope": "Local registered-media composition",
+  "artifacts": [
+    "planning/creative-director.json"
+  ],
+  "evidence": [
+    "planning/creative-director.json"
+  ],
+  "decisions": [
+    "Validated stage output"
+  ],
+  "unresolvedQuestions": [],
+  "allowedNextActions": [
+    "asset-scout"
+  ],
+  "stopCondition": "Required artifact or review capability missing"
+}

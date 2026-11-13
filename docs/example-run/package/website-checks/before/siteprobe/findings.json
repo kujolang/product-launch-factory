@@ -1,0 +1,12 @@
+{
+  "findings": [
+    {
+      "check": "missing-description",
+      "evidence": {},
+      "id": "SP-4A1290D6F65530F2",
+      "severity": "warning",
+      "target": "http://127.0.0.1:62405/"
+    }
+  ],
+  "schema": "siteprobe.findings/v1"
+}

@@ -7,6 +7,10 @@
 
 Give your team one launch brief. Get a website, article, newsletter, social posts and video tied to the same evidence and ready for review.
 
+https://github.com/user-attachments/assets/6b04bf89-832b-4083-bd0b-019e81e77f48
+
+Example campaign output: a narrated WebOps launch video. [Download the MP4](https://raw.githubusercontent.com/kujolang/product-launch-factory/main/docs/example-run/package/video/launch.mp4).
+
 Product Launch Factory coordinates the existing Kujo factories through versioned handoffs. Its visual floor shows the work, what passed, what is blocked and which files need your approval.
 
 ## What it does
@@ -39,6 +43,17 @@ In another terminal, run `npm start` and open `http://127.0.0.1:4384`. The examp
 
 Give your agent the [setup guide](docs/AGENT-SETUP.md), your product idea and its source evidence. The guide covers installation, brief changes, recovery and review.
 
+## Inspect the recorded example
+
+```sh
+npm run demo
+npm start
+```
+
+This imports the included campaign for read-only viewing and makes no model calls. Its floor is labeled **Recorded example**. The package includes the article, newsletter, three social posts, website, video and exact source evidence.
+
+![Product Launch Factory floor](docs/factory-floor.png)
+
 ## Resume and review
 
 ```sh
@@ -53,7 +68,7 @@ Review every deliverable before recording approval. Play the entire video with s
 
 ## Qualification and limits
 
-The first end-to-end campaign is still running. Do not treat the repository as fully qualified until its final artifacts and retained evidence are published here. See [verification](docs/VERIFICATION.md) for completed checks and remaining work.
+The retained WebOps launch campaign completed all five stages. Its 200-file package verifies, and a repeat invocation reuses all handoffs without changing provider artifacts. The video has ElevenLabs Siren narration and a Kujo bumper. Technical verification is complete; human editorial approval and full listening review remain required. See [verification](docs/VERIFICATION.md) for evidence and limits.
 
 Dependency setup took 111.688 seconds on a busy development machine with existing tools and caches. That excludes prerequisites, cloning, root npm installation and login. It is **not a clean-machine onboarding benchmark** or a universal setup promise.
 

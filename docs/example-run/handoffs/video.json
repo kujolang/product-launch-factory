@@ -1,0 +1,548 @@
+{
+  "schema": "kujo.product-launch.handoff/v1",
+  "stage": "video",
+  "next": "package",
+  "inputHash": "c40beca9841c2b2e5aba7565fdb4ca5b3b21076d08151cf2d263bddf4453586f",
+  "outputHash": "57ef5be63fe2b9083904150862a7c7c5c398afb689cda29088a2406a3be0aa71",
+  "files": {
+    "child.json": "721185a64bf17ff5fee9f059f9fba25c106882e0716820a3a52256a4bcf7ce12",
+    "production/composition/assets/DepartureMono-LICENSE.txt": "b65e42750f3cb65437a97f4dfd781c58f199259949db2341012be60e32500e83",
+    "production/composition/assets/asset-0.woff2": "5b4fed1daa90708aa9c6ee1190abca9dc22164a1c1def0020386e46b61038cfb",
+    "production/composition/assets/asset-1.svg": "cecb66eae65116fadf29a93ce3adae28956b17cfaf1e8d9e0910c280935ef412",
+    "production/composition/assets/asset-2.png": "4e6120a0cea8a467981e4995f66ad1cd2c1c1599a616883a38417fd517e64d9d",
+    "production/composition/assets/asset-3.png": "cd845bf05d5ac11e5eacd9fb89dd5f3f3ae47130c63b0084722c3e3d78a669b1",
+    "production/composition/assets/gsap.min.js": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+    "production/composition/assets/launch-narration.wav": "324198262db30b3307987ee21b9cc385b828f0d2e6dffb8f30909e2899fc127a",
+    "production/composition/compositions/shot-1.html": "675880a26bce42dbc03aeb939926715bc3451ffb0566d97ca851eb6e552050d9",
+    "production/composition/compositions/shot-2.html": "3a0c2dd5c04e9398f4a684f4ea5aeefe9604e6d7d595455cbb5099a91cd5bce3",
+    "production/composition/compositions/shot-3.html": "10b7e3b78e1445fb98215a24465f815e9e09ab470074b23de9ac4c9254e7edfa",
+    "production/composition/compositions/shot-4.html": "7e4e4a29944dda3c1c09c1dd0a4ff2d54ec377d8654e5818e0b8e38ea66662d1",
+    "production/composition/index.html": "570c47aea758d1127aac8c3677b9821f0776a8c7e44ab809dc1ffdaa98bc78c8",
+    "production/evidence/assets__launch-narration.wav": "324198262db30b3307987ee21b9cc385b828f0d2e6dffb8f30909e2899fc127a",
+    "production/evidence/assets__registry.json": "990e13ac0c5276f39b03454def273da2d8cd0053ab45bba5db9991e24c5a72db",
+    "production/evidence/events.jsonl": "cf5abfedc6dcdeab3d57ad2f99be56dc1eb8ade3f46ce56c7fcd22142c013d27",
+    "production/evidence/narration-generation__planning__media-generator.json": "0dc41569ac289dc25b59f68f6d7fb125a6e756dd1ca3a4cfdea39dc9a5490c2a",
+    "production/evidence/narration-review__planning__video-critic.json": "9b36ad277d050e60f914f7f49d2487167015069facca33932739d2886657b8b2",
+    "production/evidence/output__draft.mp4": "0ea85c36ffdd0269187c54830fb860a3888402d2002ef60b9a82e2d3c162f476",
+    "production/evidence/output__launch-review.json": "0cdce9b29889e5800ed7c5ca1c68ada5bb2036de81e405f9fe5f60d51a10d626",
+    "production/evidence/output__metadata.json": "847e0d1ed0210c4a08b12e3f6868a7c9341da5241c2636b7942aa41e8b2a8997",
+    "production/evidence/output__narration-inputs.json": "efa904910fde6a22557fd3de6a4f3fc26855c1d080fe91579ecfd249362798e0",
+    "production/evidence/output__narration-original.media": "6c81e475772bbc397b4846b50b52aa253327f951aa9084ad2b0ff67da77fe01c",
+    "production/evidence/output__narration-receipt.json": "a42119af0666db2ad4a30f3dd483e7954478487bdd2413049ff3e45dde735aed",
+    "production/evidence/output__narration-source.wav": "ba9a36e612579d3bb4ba4bb1fefff80ed876053f3a7c41c5fa426623fd97b5f5",
+    "production/evidence/output__narration-text.txt": "d71c15951edbad7da139524fd0cb2e3df7c00e5a856de4b36df763da93f51e63",
+    "production/evidence/output__silent-fitted.mp4": "d6800cde290620c790c6cb912eed1dddf2aaa60b693967a0b8e1be57d5f3c011",
+    "production/evidence/planning__asset-scout-handoff.json": "3cd9d3a90326562d0431d1a489ce9ba56550b1d3691348541b5b0b90a09a7210",
+    "production/evidence/planning__asset-scout.json": "2f27eb94c5d65474bb7a3128c94c837d1791b567ed60aa9827e6da5eada35313",
+    "production/evidence/planning__creative-director-handoff.json": "9202a57694b5cd19b4a17783a1db6067a8e837eab70023fbed6a020b4851653f",
+    "production/evidence/planning__creative-director.json": "57feb592c4ccb8d1e6a766295b7885cbaba6424e5d49e7c77893ddeec86d023f",
+    "production/evidence/planning__fitted-plan.json": "f3c2f9b7204194497a93dd60da1aab9e90e257a803eb287887130be3af9ec9c1",
+    "production/evidence/planning__hyperframes-editor-handoff.json": "df821f06d41a55093ab0ce03cf8c77fdcae05f603b5c558d69d5b84492901b69",
+    "production/evidence/planning__hyperframes-editor.json": "d5785a2dd65a8deb016713543c46d245d03715094c90d1ddc9615ae532c58f0b",
+    "production/evidence/planning__media-generator-handoff.json": "adf9e0fb44661a0f29fb091eaeb40b4f473cdac7f0b2cecf11ebc23c0c2b398d",
+    "production/evidence/planning__media-generator.json": "54c6e328e7e76736d94fd4c8695c7d90427830080f85f906cec9cab7c1ba32cc",
+    "production/evidence/planning__narration-fit.json": "44a529568cd8809419e25803217d34b94f795f97e66e0c61f7fe2a5cabacce5a",
+    "production/evidence/planning__plan.json": "57feb592c4ccb8d1e6a766295b7885cbaba6424e5d49e7c77893ddeec86d023f",
+    "production/evidence/planning__producer-handoff.json": "64d6e4bd0318f6ede23ac0a005abd08dd93ef6f4958f79eb8e34087f504e4ae1",
+    "production/evidence/planning__producer.json": "68f4cdd0c7fe8db60b6aa27a73d6ad2af577179ac7671d07003d16d24171a7b6",
+    "production/evidence/planning__video-critic-handoff.json": "a24e676c8cdb30445cea8f42867920135d672d62222e3d879c91576d5dce134d",
+    "production/evidence/planning__video-critic.json": "1ec5f7923af3f081bbe12ba3c604337b81d65fb51130956740336daa429b279e",
+    "production/evidence/production__hyperframes__index.html": "570c47aea758d1127aac8c3677b9821f0776a8c7e44ab809dc1ffdaa98bc78c8",
+    "production/evidence/state.json": "98c32844f2922004324f416ff7a68f52cab2c2d30ff3aa60fe6846f353b12d96",
+    "production/evidence/up__up__up__up__factory-provenance.json": "58a882e12a11b21c3029283bdfa15ccf4ae0d2381ed7564b1ff53dbfb4c0b343",
+    "production/launch.mp4": "0ff71fa75f8da432817133379de450d4369127ac153d9e8544d1084e91a2aead",
+    "production/manifest.json": "cba29f83622cb900deb7e83a38eeb699841ce4f34dc70c164dabffed5be8b069"
+  },
+  "factoryRevisions": {
+    "publishing-house-factory": {
+      "url": "https://github.com/kujolang/publishing-house-factory.git",
+      "commit": "38e7900a16f8482d12ad6b8b6a15f538d7ee3099"
+    },
+    "webops-factory": {
+      "url": "https://github.com/kujolang/webops-factory.git",
+      "commit": "a2aba2c63777f37bf47d64dc93748949658b977b"
+    },
+    "videoops-factory": {
+      "url": "https://github.com/kujolang/videoops-factory.git",
+      "commit": "dcf2dc4fa7311f59ba3dd16f58a227439a155979"
+    },
+    "software-factory": {
+      "url": "https://github.com/kujolang/software-factory.git",
+      "commit": "259aff26e3ca627873eec6b40a89d6942b039d7c"
+    }
+  },
+  "result": {
+    "schema": "kujo.product-launch.video/v1",
+    "status": "REVIEW_INCOMPLETE",
+    "exportRoot": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export",
+    "childRun": "launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z",
+    "childRunId": "launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z",
+    "childWorkspace": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z",
+    "candidateSha256": "0ff71fa75f8da432817133379de450d4369127ac153d9e8544d1084e91a2aead",
+    "requestedDuration": 36,
+    "fit": {
+      "plan": {
+        "title": "Launch WebOps Factory",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "duration": 25.433333333333334,
+        "cta": "Build your next factory with Kujo. Setup: https://github.com/kujolang/webops-factory",
+        "scenes": [
+          {
+            "id": "benefit-hook",
+            "start": 0,
+            "duration": 4.933333333333334,
+            "headline": "A clear path from website problems to a checked repair.",
+            "body": "Move from supported findings to a focused, reviewable candidate.",
+            "assetId": "",
+            "theme": "ink"
+          },
+          {
+            "id": "factory-floor",
+            "start": 4.933333333333334,
+            "duration": 7.066666666666666,
+            "headline": "",
+            "body": "",
+            "assetId": "webops-floor",
+            "theme": "ink"
+          },
+          {
+            "id": "finished-page",
+            "start": 12,
+            "duration": 7.066666666666666,
+            "headline": "",
+            "body": "",
+            "assetId": "launch-website",
+            "theme": "ink"
+          },
+          {
+            "id": "kujo-close",
+            "start": 19.066666666666666,
+            "duration": 6.366666666666666,
+            "headline": "Build your next factory with Kujo.",
+            "body": "Setup: https://github.com/kujolang/webops-factory",
+            "assetId": "kujo-logo",
+            "theme": "paper"
+          }
+        ]
+      },
+      "requestedDuration": 36,
+      "duration": 25.433333333333334,
+      "frames": 763,
+      "scale": 0.7064814814814815,
+      "speechDuration": 23.92,
+      "method": "Uniformly retime static evidence; round scene boundaries to the nearest 30fps frame. Narration remains untrimmed and unretimed.",
+      "alignment": "Closing scene placement is an editorial estimate; actual pronunciation and semantic alignment still require listening.",
+      "sourceVideoSha256": "0ea85c36ffdd0269187c54830fb860a3888402d2002ef60b9a82e2d3c162f476",
+      "sourcePlanSha256": "57feb592c4ccb8d1e6a766295b7885cbaba6424e5d49e7c77893ddeec86d023f",
+      "sourceNarrationSha256": "ba9a36e612579d3bb4ba4bb1fefff80ed876053f3a7c41c5fa426623fd97b5f5"
+    },
+    "duration": 25.433333,
+    "durationSeconds": 25.433333,
+    "videoPath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/launch.mp4",
+    "paths": {
+      "video": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/launch.mp4",
+      "review": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/launch-review.json",
+      "state": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/state.json",
+      "events": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/events.jsonl",
+      "composition": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/production/hyperframes"
+    },
+    "factory": {
+      "commit": "dcf2dc4fa7311f59ba3dd16f58a227439a155979",
+      "provenancePath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-provenance.json"
+    },
+    "narration": {
+      "audioPath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/media/webops-launch-voice-001/normalized.wav",
+      "receiptPath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/media/webops-launch-voice-001/result.json",
+      "sha256": "ba9a36e612579d3bb4ba4bb1fefff80ed876053f3a7c41c5fa426623fd97b5f5",
+      "receiptSha256": "a42119af0666db2ad4a30f3dd483e7954478487bdd2413049ff3e45dde735aed",
+      "originalPath": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/media/webops-launch-voice-001/original.media",
+      "originalSha256": "6c81e475772bbc397b4846b50b52aa253327f951aa9084ad2b0ff67da77fe01c",
+      "requestId": "webops-launch-voice-001",
+      "verification": "live",
+      "usage": {
+        "cost": null,
+        "credits": 170,
+        "currency": "USD",
+        "reserved_cost": 0,
+        "reserved_credits": 387,
+        "source": "provider_header"
+      },
+      "model": "eleven_v4",
+      "voice": "eXpIbVcVbLo8ZJQDlDnl",
+      "rights": {
+        "attribution": null,
+        "evidence": {
+          "path": "requests/estimate-rights.json",
+          "sha256": "cda567c00f6f4aa654bae6cc905225f5cc28c3fc24d474ff30804114681063f8"
+        },
+        "intended_use": "Kujo WebOps Factory first Product Launch Factory campaign",
+        "license": "ElevenLabs paid-plan commercial output terms",
+        "restrictions": [
+          "Subject to ElevenLabs terms; acquisition is not editorial approval."
+        ]
+      },
+      "listening": "not_attested",
+      "speechDuration": 23.92,
+      "normalizedSha256": "324198262db30b3307987ee21b9cc385b828f0d2e6dffb8f30909e2899fc127a"
+    },
+    "music": null,
+    "inputs": [
+      {
+        "kind": "image",
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/input/visuals/webops-floor.png",
+        "sha256": "4e6120a0cea8a467981e4995f66ad1cd2c1c1599a616883a38417fd517e64d9d"
+      },
+      {
+        "kind": "image",
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/stages/website/inspection/evidence/after/lens/screenshots/desktop.png",
+        "sha256": "cd845bf05d5ac11e5eacd9fb89dd5f3f3ae47130c63b0084722c3e3d78a669b1"
+      },
+      {
+        "kind": "requestPath",
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/requests/speech.json",
+        "sha256": "0260cd10689e3a6d4aa80ad3e14c4c93538b7eeab1a35d3317947475bfc1e356"
+      },
+      {
+        "kind": "authorizationPath",
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/requests/speech-authorization.json",
+        "sha256": "6c11d3caafaf608bb3bac1b51ca7564413fcab03a7a7e59049321d53982c22bc"
+      },
+      {
+        "kind": "narrationText",
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/requests/narration.txt",
+        "sha256": "d71c15951edbad7da139524fd0cb2e3df7c00e5a856de4b36df763da93f51e63"
+      },
+      {
+        "kind": "rightsEvidence",
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/requests/estimate-rights.json",
+        "sha256": "cda567c00f6f4aa654bae6cc905225f5cc28c3fc24d474ff30804114681063f8"
+      },
+      {
+        "kind": "entitlementEvidence",
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/media/webops-launch/requests/subscription.json",
+        "sha256": "7f0ca40c931de3693b2260807d520567d578ab6b4d6de96bfdaabb1d6f379542"
+      }
+    ],
+    "files": [
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/launch.mp4",
+        "sha256": "0ff71fa75f8da432817133379de450d4369127ac153d9e8544d1084e91a2aead"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/launch-review.json",
+        "sha256": "0cdce9b29889e5800ed7c5ca1c68ada5bb2036de81e405f9fe5f60d51a10d626"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-provenance.json",
+        "sha256": "58a882e12a11b21c3029283bdfa15ccf4ae0d2381ed7564b1ff53dbfb4c0b343"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/silent-fitted.mp4",
+        "sha256": "d6800cde290620c790c6cb912eed1dddf2aaa60b693967a0b8e1be57d5f3c011"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/draft.mp4",
+        "sha256": "0ea85c36ffdd0269187c54830fb860a3888402d2002ef60b9a82e2d3c162f476"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/metadata.json",
+        "sha256": "847e0d1ed0210c4a08b12e3f6868a7c9341da5241c2636b7942aa41e8b2a8997"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/narration-original.media",
+        "sha256": "6c81e475772bbc397b4846b50b52aa253327f951aa9084ad2b0ff67da77fe01c"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/narration-inputs.json",
+        "sha256": "efa904910fde6a22557fd3de6a4f3fc26855c1d080fe91579ecfd249362798e0"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/narration-generation/planning/media-generator.json",
+        "sha256": "0dc41569ac289dc25b59f68f6d7fb125a6e756dd1ca3a4cfdea39dc9a5490c2a"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/narration-review/planning/video-critic.json",
+        "sha256": "9b36ad277d050e60f914f7f49d2487167015069facca33932739d2886657b8b2"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/production/hyperframes/index.html",
+        "sha256": "570c47aea758d1127aac8c3677b9821f0776a8c7e44ab809dc1ffdaa98bc78c8"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/narration-text.txt",
+        "sha256": "d71c15951edbad7da139524fd0cb2e3df7c00e5a856de4b36df763da93f51e63"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/asset-scout-handoff.json",
+        "sha256": "3cd9d3a90326562d0431d1a489ce9ba56550b1d3691348541b5b0b90a09a7210"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/asset-scout.json",
+        "sha256": "2f27eb94c5d65474bb7a3128c94c837d1791b567ed60aa9827e6da5eada35313"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/creative-director-handoff.json",
+        "sha256": "9202a57694b5cd19b4a17783a1db6067a8e837eab70023fbed6a020b4851653f"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/creative-director.json",
+        "sha256": "57feb592c4ccb8d1e6a766295b7885cbaba6424e5d49e7c77893ddeec86d023f"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/fitted-plan.json",
+        "sha256": "f3c2f9b7204194497a93dd60da1aab9e90e257a803eb287887130be3af9ec9c1"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/hyperframes-editor-handoff.json",
+        "sha256": "df821f06d41a55093ab0ce03cf8c77fdcae05f603b5c558d69d5b84492901b69"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/hyperframes-editor.json",
+        "sha256": "d5785a2dd65a8deb016713543c46d245d03715094c90d1ddc9615ae532c58f0b"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/media-generator-handoff.json",
+        "sha256": "adf9e0fb44661a0f29fb091eaeb40b4f473cdac7f0b2cecf11ebc23c0c2b398d"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/media-generator.json",
+        "sha256": "54c6e328e7e76736d94fd4c8695c7d90427830080f85f906cec9cab7c1ba32cc"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/narration-fit.json",
+        "sha256": "44a529568cd8809419e25803217d34b94f795f97e66e0c61f7fe2a5cabacce5a"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/plan.json",
+        "sha256": "57feb592c4ccb8d1e6a766295b7885cbaba6424e5d49e7c77893ddeec86d023f"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/producer-handoff.json",
+        "sha256": "64d6e4bd0318f6ede23ac0a005abd08dd93ef6f4958f79eb8e34087f504e4ae1"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/producer.json",
+        "sha256": "68f4cdd0c7fe8db60b6aa27a73d6ad2af577179ac7671d07003d16d24171a7b6"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/video-critic-handoff.json",
+        "sha256": "a24e676c8cdb30445cea8f42867920135d672d62222e3d879c91576d5dce134d"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/planning/video-critic.json",
+        "sha256": "1ec5f7923af3f081bbe12ba3c604337b81d65fb51130956740336daa429b279e"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/state.json",
+        "sha256": "98c32844f2922004324f416ff7a68f52cab2c2d30ff3aa60fe6846f353b12d96"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/events.jsonl",
+        "sha256": "cf5abfedc6dcdeab3d57ad2f99be56dc1eb8ade3f46ce56c7fcd22142c013d27"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/assets/registry.json",
+        "sha256": "990e13ac0c5276f39b03454def273da2d8cd0053ab45bba5db9991e24c5a72db"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/assets/launch-narration.wav",
+        "sha256": "324198262db30b3307987ee21b9cc385b828f0d2e6dffb8f30909e2899fc127a"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/narration-receipt.json",
+        "sha256": "a42119af0666db2ad4a30f3dd483e7954478487bdd2413049ff3e45dde735aed"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/factory-job/.runtime/runs/launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z/output/narration-source.wav",
+        "sha256": "ba9a36e612579d3bb4ba4bb1fefff80ed876053f3a7c41c5fa426623fd97b5f5"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/composition/assets/DepartureMono-LICENSE.txt",
+        "sha256": "b65e42750f3cb65437a97f4dfd781c58f199259949db2341012be60e32500e83"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/composition/assets/asset-0.woff2",
+        "sha256": "5b4fed1daa90708aa9c6ee1190abca9dc22164a1c1def0020386e46b61038cfb"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/composition/assets/asset-1.svg",
+        "sha256": "cecb66eae65116fadf29a93ce3adae28956b17cfaf1e8d9e0910c280935ef412"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/composition/assets/asset-2.png",
+        "sha256": "4e6120a0cea8a467981e4995f66ad1cd2c1c1599a616883a38417fd517e64d9d"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/composition/assets/asset-3.png",
+        "sha256": "cd845bf05d5ac11e5eacd9fb89dd5f3f3ae47130c63b0084722c3e3d78a669b1"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/composition/assets/gsap.min.js",
+        "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/composition/assets/launch-narration.wav",
+        "sha256": "324198262db30b3307987ee21b9cc385b828f0d2e6dffb8f30909e2899fc127a"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/composition/compositions/shot-1.html",
+        "sha256": "675880a26bce42dbc03aeb939926715bc3451ffb0566d97ca851eb6e552050d9"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/composition/compositions/shot-2.html",
+        "sha256": "3a0c2dd5c04e9398f4a684f4ea5aeefe9604e6d7d595455cbb5099a91cd5bce3"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/composition/compositions/shot-3.html",
+        "sha256": "10b7e3b78e1445fb98215a24465f815e9e09ab470074b23de9ac4c9254e7edfa"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/composition/compositions/shot-4.html",
+        "sha256": "7e4e4a29944dda3c1c09c1dd0a4ff2d54ec377d8654e5818e0b8e38ea66662d1"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/composition/index.html",
+        "sha256": "570c47aea758d1127aac8c3677b9821f0776a8c7e44ab809dc1ffdaa98bc78c8"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/assets__launch-narration.wav",
+        "sha256": "324198262db30b3307987ee21b9cc385b828f0d2e6dffb8f30909e2899fc127a"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/assets__registry.json",
+        "sha256": "990e13ac0c5276f39b03454def273da2d8cd0053ab45bba5db9991e24c5a72db"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/events.jsonl",
+        "sha256": "cf5abfedc6dcdeab3d57ad2f99be56dc1eb8ade3f46ce56c7fcd22142c013d27"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/narration-generation__planning__media-generator.json",
+        "sha256": "0dc41569ac289dc25b59f68f6d7fb125a6e756dd1ca3a4cfdea39dc9a5490c2a"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/narration-review__planning__video-critic.json",
+        "sha256": "9b36ad277d050e60f914f7f49d2487167015069facca33932739d2886657b8b2"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/output__draft.mp4",
+        "sha256": "0ea85c36ffdd0269187c54830fb860a3888402d2002ef60b9a82e2d3c162f476"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/output__launch-review.json",
+        "sha256": "0cdce9b29889e5800ed7c5ca1c68ada5bb2036de81e405f9fe5f60d51a10d626"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/output__metadata.json",
+        "sha256": "847e0d1ed0210c4a08b12e3f6868a7c9341da5241c2636b7942aa41e8b2a8997"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/output__narration-inputs.json",
+        "sha256": "efa904910fde6a22557fd3de6a4f3fc26855c1d080fe91579ecfd249362798e0"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/output__narration-original.media",
+        "sha256": "6c81e475772bbc397b4846b50b52aa253327f951aa9084ad2b0ff67da77fe01c"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/output__narration-receipt.json",
+        "sha256": "a42119af0666db2ad4a30f3dd483e7954478487bdd2413049ff3e45dde735aed"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/output__narration-source.wav",
+        "sha256": "ba9a36e612579d3bb4ba4bb1fefff80ed876053f3a7c41c5fa426623fd97b5f5"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/output__narration-text.txt",
+        "sha256": "d71c15951edbad7da139524fd0cb2e3df7c00e5a856de4b36df763da93f51e63"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/output__silent-fitted.mp4",
+        "sha256": "d6800cde290620c790c6cb912eed1dddf2aaa60b693967a0b8e1be57d5f3c011"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__asset-scout-handoff.json",
+        "sha256": "3cd9d3a90326562d0431d1a489ce9ba56550b1d3691348541b5b0b90a09a7210"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__asset-scout.json",
+        "sha256": "2f27eb94c5d65474bb7a3128c94c837d1791b567ed60aa9827e6da5eada35313"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__creative-director-handoff.json",
+        "sha256": "9202a57694b5cd19b4a17783a1db6067a8e837eab70023fbed6a020b4851653f"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__creative-director.json",
+        "sha256": "57feb592c4ccb8d1e6a766295b7885cbaba6424e5d49e7c77893ddeec86d023f"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__fitted-plan.json",
+        "sha256": "f3c2f9b7204194497a93dd60da1aab9e90e257a803eb287887130be3af9ec9c1"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__hyperframes-editor-handoff.json",
+        "sha256": "df821f06d41a55093ab0ce03cf8c77fdcae05f603b5c558d69d5b84492901b69"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__hyperframes-editor.json",
+        "sha256": "d5785a2dd65a8deb016713543c46d245d03715094c90d1ddc9615ae532c58f0b"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__media-generator-handoff.json",
+        "sha256": "adf9e0fb44661a0f29fb091eaeb40b4f473cdac7f0b2cecf11ebc23c0c2b398d"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__media-generator.json",
+        "sha256": "54c6e328e7e76736d94fd4c8695c7d90427830080f85f906cec9cab7c1ba32cc"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__narration-fit.json",
+        "sha256": "44a529568cd8809419e25803217d34b94f795f97e66e0c61f7fe2a5cabacce5a"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__plan.json",
+        "sha256": "57feb592c4ccb8d1e6a766295b7885cbaba6424e5d49e7c77893ddeec86d023f"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__producer-handoff.json",
+        "sha256": "64d6e4bd0318f6ede23ac0a005abd08dd93ef6f4958f79eb8e34087f504e4ae1"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__producer.json",
+        "sha256": "68f4cdd0c7fe8db60b6aa27a73d6ad2af577179ac7671d07003d16d24171a7b6"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__video-critic-handoff.json",
+        "sha256": "a24e676c8cdb30445cea8f42867920135d672d62222e3d879c91576d5dce134d"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/planning__video-critic.json",
+        "sha256": "1ec5f7923af3f081bbe12ba3c604337b81d65fb51130956740336daa429b279e"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/production__hyperframes__index.html",
+        "sha256": "570c47aea758d1127aac8c3677b9821f0776a8c7e44ab809dc1ffdaa98bc78c8"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/state.json",
+        "sha256": "98c32844f2922004324f416ff7a68f52cab2c2d30ff3aa60fe6846f353b12d96"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/evidence/up__up__up__up__factory-provenance.json",
+        "sha256": "58a882e12a11b21c3029283bdfa15ccf4ae0d2381ed7564b1ff53dbfb4c0b343"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/launch.mp4",
+        "sha256": "0ff71fa75f8da432817133379de450d4369127ac153d9e8544d1084e91a2aead"
+      },
+      {
+        "path": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/video/export/manifest.json",
+        "sha256": "cba29f83622cb900deb7e83a38eeb699841ce4f34dc70c164dabffed5be8b069"
+      }
+    ]
+  },
+  "finishedAt": "2026-11-13T17:14:57.964824+00:00"
+}

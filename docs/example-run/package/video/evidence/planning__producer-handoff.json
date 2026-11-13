@@ -1,0 +1,22 @@
+{
+  "schema": "kujo.handoff/v1",
+  "assignment": "launch-f6a3cf9b3ed5",
+  "currentOwner": "producer",
+  "nextOwner": "creative-director",
+  "goal": "Launch WebOps Factory",
+  "scope": "Local registered-media composition",
+  "artifacts": [
+    "planning/producer.json"
+  ],
+  "evidence": [
+    "planning/producer.json"
+  ],
+  "decisions": [
+    "The brief fits the bounded format: it specifies a 36-second, 1920×1080, 30 fps, silent, screenshot-led launch video using supplied product screens and a final Kujo bumper. It is benefits-first, introduces rather than teaches installation, limits claims to supplied evidence, forbids invented metrics and captions/scene labels, preserves the required visual order, and identifies the result as a local review candidate rather than an automatic publication. Narration is clearly context-only, with timing explicitly unverified."
+  ],
+  "unresolvedQuestions": [],
+  "allowedNextActions": [
+    "creative-director"
+  ],
+  "stopCondition": "Required artifact or review capability missing"
+}

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/factories/webops-factory/.runtime/deps/siteprobe/siteprobe",
+    "crawl",
+    "http://127.0.0.1:62477",
+    "--out",
+    "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/website/child-runs/20261113T170311Z-41aa3628/evidence/after/siteprobe",
+    "--allow-private-network",
+    "--max-pages",
+    "30",
+    "--max-depth",
+    "3",
+    "--max-output-bytes",
+    "10485760",
+    "--json"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 0.133,
+  "stdout": "{\"counts\":{\"findings\":0,\"findings_by_severity\":{},\"links\":1,\"pages\":1,\"redirects\":0},\"run\":\"/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-165918-b8a6af61/work/website/child-runs/20261113T170311Z-41aa3628/evidence/after/siteprobe\"}\n",
+  "stderr": ""
+}

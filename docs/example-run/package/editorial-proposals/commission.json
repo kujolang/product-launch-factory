@@ -1,0 +1,34 @@
+{
+  "proposal": {
+    "angle": "WebOps Factory gives small web teams a visible, reviewable path from supported static-site findings to a checked repair candidate—complete with before-and-after evidence and an exact patch—while leaving approval and deployment to people. Position it as a bounded review workflow, not an autonomous fixer or installation tutorial. Evidence: readme; verification.",
+    "outline": [
+      "Lead with the reader problem: small teams need to fix website issues without losing visibility or control.",
+      "Introduce the benefit: WebOps Factory works on a copied static site, moves supported findings through specialist repair and independent review, and retains evidence for reviewers. [sourceId: readme]",
+      "Show the visible factory floor: handoffs, proposed values, reasons, screenshots, reports, and statuses backed by retained run records. [sourceId: readme]",
+      "Define the current boundary: four supported repair types—titles, search descriptions, missing alt attributes, and broken internal file links—while other reported findings remain visible. [sourceId: readme]",
+      "Use the recorded example as evidence, not a promise: five supported findings across three pages were repaired in 43.443 seconds with four provider calls; checks passed and the final state was approval_required, not deployed. [sourceId: verification]",
+      "Explain reviewer control: the original site remains unchanged; reviewers can inspect the candidate, exact patch, before-and-after findings, browser artifacts, independent review, and hashed package. [sourceId: readme; verification]",
+      "Close with the reader promise: gain a focused, inspectable repair candidate without handing deployment authority to the system. Direct readers to the repository README for complete prerequisites and setup."
+    ],
+    "risks": [
+      "Do not imply broad site repair, perfect SEO, WCAG conformance, security certification, ranking gains, revenue gains, or production readiness; the supported checks are explicitly bounded.",
+      "Treat 43.443 seconds and all setup or portability timings as observations from specific recorded conditions, never performance or onboarding promises.",
+      "State clearly that the factory handles static exports, does not edit the original site, and neither approves nor deploys changes.",
+      "Do not reproduce commands, configuration fragments, or partial setup steps; link to the README instead.",
+      "The demo’s listening review is incomplete, and phone playback was checked through browser emulation rather than a physical device. Avoid stronger media-quality claims. [sourceId: verification]",
+      "Any claim beyond the captured README and verification record remains unverified and should be omitted or labeled uncertain."
+    ]
+  },
+  "usage": [
+    {
+      "input_tokens": 16879,
+      "cached_input_tokens": 0,
+      "output_tokens": 564,
+      "reasoning_output_tokens": 57
+    }
+  ],
+  "role": "commissioning-editor",
+  "provider": "codex",
+  "model": "account-default",
+  "durationSeconds": 16.2
+}

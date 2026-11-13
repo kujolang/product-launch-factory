@@ -1,0 +1,22 @@
+{
+  "schema": "kujo.handoff/v1",
+  "assignment": "launch-f6a3cf9b3ed5",
+  "currentOwner": "asset-scout",
+  "nextOwner": "media-generator",
+  "goal": "Launch WebOps Factory",
+  "scope": "Local registered-media composition",
+  "artifacts": [
+    "planning/asset-scout.json"
+  ],
+  "evidence": [
+    "planning/asset-scout.json"
+  ],
+  "decisions": [
+    "Registry provenance and stated rights are suitable for the proposed plan. The Kujo logo is used to identify Kujo without implying third-party endorsement; both screenshots are first-party or owner-authorized campaign assets mapped to relevant scenes; and Departure Mono has a bundled SIL Open Font License suitable for production typography. Asset IDs, paths, and verified SHA-256 values are supplied. This decision covers source, rights, and plan fit only; no visual inspection is claimed."
+  ],
+  "unresolvedQuestions": [],
+  "allowedNextActions": [
+    "media-generator"
+  ],
+  "stopCondition": "Required artifact or review capability missing"
+}

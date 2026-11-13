@@ -1,0 +1,44 @@
+{
+  "schema": "kujo.product-launch.handoff/v1",
+  "stage": "source",
+  "next": "editorial",
+  "inputHash": "6cbaae173f0dcf9dd363008841a64daebb2eaa263d6f4ec85a3adcdd59e69a95",
+  "outputHash": "50a2a6eae29641c05ce8fe0d3d6274136af088fab50912bd23a6723e67c5d6dd",
+  "files": {
+    "readme.txt": "fc98a4889e15a76011192828f13427b119c725c7e3fcdb06f1bceb219cb516af",
+    "verification.json": "fb17dc15d0f71c0fa72966f03bed27dd11cb2fd51d88f09e4bef4f74cd48912a",
+    "verification.txt": "6ba61576c5b1b158a7125da60a019a282587bb8036a6656138cf1bdae7c2ef44"
+  },
+  "factoryRevisions": {
+    "publishing-house-factory": {
+      "url": "https://github.com/kujolang/publishing-house-factory.git",
+      "commit": "38e7900a16f8482d12ad6b8b6a15f538d7ee3099"
+    },
+    "webops-factory": {
+      "url": "https://github.com/kujolang/webops-factory.git",
+      "commit": "a2aba2c63777f37bf47d64dc93748949658b977b"
+    },
+    "videoops-factory": {
+      "url": "https://github.com/kujolang/videoops-factory.git",
+      "commit": "dcf2dc4fa7311f59ba3dd16f58a227439a155979"
+    },
+    "software-factory": {
+      "url": "https://github.com/kujolang/software-factory.git",
+      "commit": "259aff26e3ca627873eec6b40a89d6942b039d7c"
+    }
+  },
+  "result": {
+    "factory": "webops-factory",
+    "operation": "existing-product-evidence",
+    "manifestSha256": "1e4676ba50bcab12753eb8b9ae7b4270ebec7948504e29b958afa779587cb2c3",
+    "productRun": "20261113T131253Z-6e15286b",
+    "counts": {
+      "before": 5,
+      "after": 0,
+      "pages": 3,
+      "repaired": 5
+    },
+    "newSoftwareBuild": false
+  },
+  "finishedAt": "2026-11-13T16:59:19.175347+00:00"
+}

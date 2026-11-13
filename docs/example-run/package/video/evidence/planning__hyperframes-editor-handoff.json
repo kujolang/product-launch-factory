@@ -1,0 +1,22 @@
+{
+  "schema": "kujo.handoff/v1",
+  "assignment": "launch-f6a3cf9b3ed5",
+  "currentOwner": "hyperframes-editor",
+  "nextOwner": "video-critic",
+  "goal": "Launch WebOps Factory",
+  "scope": "Local registered-media composition",
+  "artifacts": [
+    "planning/hyperframes-editor.json"
+  ],
+  "evidence": [
+    "planning/hyperframes-editor.json"
+  ],
+  "decisions": [
+    "Validated stage output"
+  ],
+  "unresolvedQuestions": [],
+  "allowedNextActions": [
+    "video-critic"
+  ],
+  "stopCondition": "Required artifact or review capability missing"
+}

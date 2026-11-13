@@ -1,0 +1,150 @@
+{
+  "id": "launch-f6a3cf9b3ed5-2026-11-13T17-05-55-994Z",
+  "title": "Launch WebOps Factory",
+  "status": "REVIEW_INCOMPLETE",
+  "startedAt": "2026-11-13T17:05:55.997Z",
+  "finishedAt": "2026-11-13T17:09:44.797Z",
+  "elapsedMs": 228801,
+  "stage": "video-critic",
+  "brief": {
+    "schema": "kujo.videoops.brief/v1",
+    "id": "launch-f6a3cf9b3ed5",
+    "title": "Launch WebOps Factory",
+    "request": "Create a benefits-first launch campaign for WebOps Factory. Show small web teams how a visible factory floor turns supported static-site findings into focused repairs and a reviewable candidate. Invite readers to open the repository README for complete setup instructions. This campaign introduces the product; it is not an installation tutorial.\nUse only supplied claims and evidence. Start with a concrete benefit, show actual supplied product screens, end with the Kujo bumper. No captions, scene labels or invented metrics. This stage renders silent visuals; any authorized voice is attached by the coordinator after this run.\nApproved narration, supplied only as creative sequence/context and not as extra factual evidence: Give your team a clear path from website problems to a checked repair. WebOps Factory audits a static site, assigns focused fixes, and checks the result before you review it. Follow the work on the factory floor, then inspect the evidence and the finished page. Spend less time chasing handoffs, and more time improving your site. Build your next factory with Kujo. Koo-joe LANG dot A I.\nCoordinate the visual sequence with this narration: keep benefit and product evidence shots before the closing CTA, and reserve the final Kujo bumper for the close. Do not add captions or labels. Speech timing has not yet been measured; do not claim proposed shot timings are verified narration alignment.",
+    "facts": [
+      {
+        "text": "Readers can be directed to the WebOps Factory repository README for product details, prerequisites, setup, and review guidance.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "The repository describes a workflow that copies a static website, inspects it, requests specialist repairs, applies allowed edits to the copy, checks the result again, and sends the exact patch to an independent model reviewer.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "The repository says the visual floor displays handoffs, repair values, reasons, screenshots, verification reports, and statuses derived from retained run records.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "The documented prerequisites are macOS or Linux, Git, Python 3.10 or newer, Node 26.12.1 or a later 26.x release, and a Codex account for live workers.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "The README provides an exact command sequence to clone the repository, install dependencies, set up and authenticate, run diagnostics, execute the live example, and start the interface.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "The README instructs users to open a local interface at port 4383 and says setup installs pinned Kujo sources, the runtime, and Chromium; Linux may require an additional administrator-level dependency command, while native Windows is unsupported and WSL is advised.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "The README documents a way to inspect checked-in evidence without executing a new mission or making model calls.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "This release documents four supported repair categories: missing or empty titles, missing or empty search descriptions, images lacking alt attributes, and broken internal file links.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "The repository says agents cannot introduce commands, executables, arbitrary HTML, external repair targets, or new repair operations, and that failed checks or requested revisions block approval packaging.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "Additional findings may remain visible, while the supported checks do not establish perfect SEO, accessibility conformance, or security certification; homepage browser checks and static audits also have documented scope limits.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "The documented input is a bounded static export, not a framework project or server application, with restrictions on active content and limits of 120 files, 8 MB, and 150 KB of worker context.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "The README says each run retains the original imported bytes, repaired candidate, before-and-after findings, specialist and independent-review responses, exact repair diff, SiteProbe and Lens artifacts, and a hash-bound package.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "The README provides commands for run verification and repository verification, then requires people to review the patch and candidate before incorporating changes into their release process.",
+        "source": "https://github.com/kujolang/webops-factory"
+      },
+      {
+        "text": "The verification record reports that one identified live example repaired five supported findings across three pages in 43.443 seconds using four provider calls, ending in approval_required rather than deployment.",
+        "source": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+      },
+      {
+        "text": "For the recorded example, the verification document reports that the original site was unchanged, SiteProbe artifact verification passed before and after repairs, Lens passed final homepage desktop and mobile checks, and the independent reviewer returned pass, while out-of-scope findings remained visible.",
+        "source": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+      },
+      {
+        "text": "The verification record explicitly says its setup timing came from a busy, resource-limited development machine with warm caches and was not a clean-machine installation benchmark; it supports no ranking, revenue, WCAG, or deployment claim.",
+        "source": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+      },
+      {
+        "text": "The verification document reports a fresh-clone portability check covering clone, dependency installation, setup, recorded-example import, and a fixture mission, with 75.179 seconds total and 48.896 seconds for setup.",
+        "source": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+      },
+      {
+        "text": "The verification record reports technical media checks but states that listening quality remains un-attested and that the film shows completed evidence rather than real-time agent execution.",
+        "source": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+      },
+      {
+        "text": "The verification document reports successful README-player and download checks but limits the phone result to browser emulation rather than a physical-device test.",
+        "source": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+      }
+    ],
+    "assetIds": [
+      "departure-mono",
+      "kujo-logo",
+      "webops-floor",
+      "launch-website"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 36,
+    "cta": "Build your next factory with Kujo. Setup: https://github.com/kujolang/webops-factory",
+    "audio": "silent"
+  },
+  "stages": [
+    {
+      "role": "producer",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:05:56.388Z",
+      "finishedAt": "2026-11-13T17:06:10.979Z",
+      "elapsedMs": 14591
+    },
+    {
+      "role": "creative-director",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:06:10.984Z",
+      "finishedAt": "2026-11-13T17:06:21.443Z",
+      "elapsedMs": 10459
+    },
+    {
+      "role": "asset-scout",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:06:21.457Z",
+      "finishedAt": "2026-11-13T17:06:29.706Z",
+      "elapsedMs": 8249
+    },
+    {
+      "role": "media-generator",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:06:29.709Z",
+      "finishedAt": "2026-11-13T17:06:29.713Z",
+      "elapsedMs": 4
+    },
+    {
+      "role": "hyperframes-editor",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:06:29.715Z",
+      "finishedAt": "2026-11-13T17:09:33.696Z",
+      "elapsedMs": 183981
+    },
+    {
+      "role": "video-critic",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:09:34.669Z",
+      "finishedAt": "2026-11-13T17:09:44.795Z",
+      "elapsedMs": 10126
+    }
+  ],
+  "output": "output/draft.mp4"
+}

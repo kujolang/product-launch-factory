@@ -1,0 +1,31 @@
+{
+  "proposal": {
+    "verdict": "revise",
+    "findings": [
+      "Social post 2 does not attribute its product behavior and scope claims to the repository, as the brief requires. Add clear repository attribution without weakening the stated boundaries.",
+      "Social post 2 omits the required invitation to open the repository README for complete prerequisites, setup instructions, and review guidance. Add the README link; do not add partial setup steps."
+    ],
+    "dimensions": {
+      "consequence": "ADEQUATE",
+      "distinctiveness": "ADEQUATE",
+      "insight": "ADEQUATE",
+      "defensibility": "ADEQUATE",
+      "craft": "STRONG",
+      "brand_integrity": "STRONG",
+      "format_fidelity": "STRONG",
+      "strategic_purpose": "ADEQUATE"
+    }
+  },
+  "usage": [
+    {
+      "input_tokens": 19044,
+      "cached_input_tokens": 0,
+      "output_tokens": 539,
+      "reasoning_output_tokens": 388
+    }
+  ],
+  "role": "copy-chief",
+  "provider": "codex",
+  "model": "account-default",
+  "durationSeconds": 14.911
+}

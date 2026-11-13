@@ -1,0 +1,36 @@
+{
+  "schema": "kujo.product-launch.handoff/v1",
+  "stage": "package",
+  "next": "human-review",
+  "inputHash": "9717885eeb2a57ecf39a5389c017ad2f1f6434eae9848a6ae73c2b1014496eba",
+  "outputHash": "c3aa80d71c494d7405bcf99478ff0230cf518755fdc4b8ef56344822e2f2366b",
+  "files": {
+    "receipt.json": "4cebc67c2caee22415ee559c031c3ebbc480297106470a761dc4956668632bba"
+  },
+  "factoryRevisions": {
+    "publishing-house-factory": {
+      "url": "https://github.com/kujolang/publishing-house-factory.git",
+      "commit": "38e7900a16f8482d12ad6b8b6a15f538d7ee3099"
+    },
+    "webops-factory": {
+      "url": "https://github.com/kujolang/webops-factory.git",
+      "commit": "a2aba2c63777f37bf47d64dc93748949658b977b"
+    },
+    "videoops-factory": {
+      "url": "https://github.com/kujolang/videoops-factory.git",
+      "commit": "dcf2dc4fa7311f59ba3dd16f58a227439a155979"
+    },
+    "software-factory": {
+      "url": "https://github.com/kujolang/software-factory.git",
+      "commit": "259aff26e3ca627873eec6b40a89d6942b039d7c"
+    }
+  },
+  "result": {
+    "ok": true,
+    "packageSha256": "a92b94a045a1e916ea97a7e392405aafd9448d952e2b87290959e6efaa69d8c7",
+    "files": 200,
+    "approvalValid": false,
+    "deploymentAuthorized": false
+  },
+  "finishedAt": "2026-11-13T17:14:58.423139+00:00"
+}

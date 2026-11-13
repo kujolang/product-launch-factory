@@ -1,0 +1,54 @@
+{
+  "artifacts": {
+    "findings.json": {
+      "bytes": 58,
+      "sha256": "6dbde2efffea64b313c3b9f858f0f42d0d2c4de8e71506bc690a3b61c098099f"
+    },
+    "links.json": {
+      "bytes": 192,
+      "sha256": "ecbcab0c3a0f11a421de439ba9ca0f30ef962676471d4a40b679cb29dc678854"
+    },
+    "metadata.json": {
+      "bytes": 383,
+      "sha256": "090bb4f80fb91fcf2429b26c831c38421029f66696322a31d6307c8639bbe353"
+    },
+    "pages.jsonl": {
+      "bytes": 1506,
+      "sha256": "c0da998b651eb3db39a682442f835f8141831bdb936159671f015c7b5630dd4e"
+    },
+    "redirects.json": {
+      "bytes": 60,
+      "sha256": "b606ef4cb9e6357d498e907c633bf4fd48091e77bbbc6e84dd23df1ae287859a"
+    },
+    "report.md": {
+      "bytes": 244,
+      "sha256": "03d02e885805648c12f27fb71bd6780ca67b456ed4199a8d25936ddb92368d6d"
+    },
+    "robots.json": {
+      "bytes": 212,
+      "sha256": "eda74878ef44d5d8d45432dfa839d5664e7c36d21b54adb624e56c06b7a265ff"
+    },
+    "run.json": {
+      "bytes": 1242,
+      "sha256": "ba207584277d88695c61f71963b2afaf9eccd9ca8afc12a7a98aa4558c2ea673"
+    },
+    "site.json": {
+      "bytes": 276,
+      "sha256": "0cb5abcb60936a4c86b7853a0ef782d461cb9239622ad09e443074ddb8c36a54"
+    },
+    "sitemap.json": {
+      "bytes": 223,
+      "sha256": "5c4ae75b29a2bdf4ff921210921617b75d369655289873a743cfa941a9781b2d"
+    },
+    "structured-data.json": {
+      "bytes": 62,
+      "sha256": "d1c585f7e10e5cd93e4a643f5c8317ed3f6fe048f92bc766b2942174f4669220"
+    }
+  },
+  "digest_algorithm": "sha256",
+  "schema": "siteprobe.manifest/v1",
+  "signature": {
+    "algorithm": "none",
+    "value": ""
+  }
+}

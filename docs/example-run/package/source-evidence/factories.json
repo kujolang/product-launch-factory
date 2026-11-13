@@ -1,0 +1,21 @@
+{
+  "schema": "kujo.product-launch.sources/v1",
+  "repositories": {
+    "publishing-house-factory": {
+      "url": "https://github.com/kujolang/publishing-house-factory.git",
+      "commit": "38e7900a16f8482d12ad6b8b6a15f538d7ee3099"
+    },
+    "webops-factory": {
+      "url": "https://github.com/kujolang/webops-factory.git",
+      "commit": "a2aba2c63777f37bf47d64dc93748949658b977b"
+    },
+    "videoops-factory": {
+      "url": "https://github.com/kujolang/videoops-factory.git",
+      "commit": "dcf2dc4fa7311f59ba3dd16f58a227439a155979"
+    },
+    "software-factory": {
+      "url": "https://github.com/kujolang/software-factory.git",
+      "commit": "259aff26e3ca627873eec6b40a89d6942b039d7c"
+    }
+  }
+}

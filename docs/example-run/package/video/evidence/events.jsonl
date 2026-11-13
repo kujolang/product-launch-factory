@@ -1,0 +1,13 @@
+{"at":"2026-11-13T17:05:56.388Z","role":"producer","status":"started","message":"PLANNING"}
+{"at":"2026-11-13T17:06:10.981Z","role":"producer","status":"completed","message":"producer completed in 14.6s"}
+{"at":"2026-11-13T17:06:10.984Z","role":"creative-director","status":"started","message":"PLANNING"}
+{"at":"2026-11-13T17:06:21.443Z","role":"creative-director","status":"completed","message":"creative-director completed in 10.5s"}
+{"at":"2026-11-13T17:06:21.457Z","role":"asset-scout","status":"started","message":"ASSETING"}
+{"at":"2026-11-13T17:06:29.707Z","role":"asset-scout","status":"completed","message":"asset-scout completed in 8.2s"}
+{"at":"2026-11-13T17:06:29.709Z","role":"media-generator","status":"started","message":"GENERATING"}
+{"at":"2026-11-13T17:06:29.713Z","role":"media-generator","status":"completed","message":"media-generator completed in 0.0s"}
+{"at":"2026-11-13T17:06:29.715Z","role":"hyperframes-editor","status":"started","message":"EDITING"}
+{"at":"2026-11-13T17:09:33.698Z","role":"hyperframes-editor","status":"completed","message":"hyperframes-editor completed in 184.0s"}
+{"at":"2026-11-13T17:09:34.669Z","role":"video-critic","status":"started","message":"REVIEWING"}
+{"at":"2026-11-13T17:09:44.796Z","role":"video-critic","status":"completed","message":"video-critic completed in 10.1s"}
+{"at":"2026-11-13T17:09:44.798Z","role":"producer","status":"pending","message":"Candidate rendered and technically verified. Full playback review is required before promotion."}

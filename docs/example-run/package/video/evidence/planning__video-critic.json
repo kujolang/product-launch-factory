@@ -1,0 +1,4 @@
+{
+  "decision": "ACCEPT",
+  "reason": "Technical handoff accepted for candidate SHA-256 0ea85c36ffdd0269187c54830fb860a3888402d2002ef60b9a82e2d3c162f476. The render matches the supplied plan’s 1920x1080 resolution, 30 fps, 36-second duration, and four scene time ranges; lint, runtime, layout, contrast, strict render, probe, and full decode completed successfully. The file contains one H.264 video stream and no audio stream. Craft checks report five non-blocking dead-stretch warnings spanning 0.00–6.88, 7.00–16.88, 17.00–26.88, and 27.00–33.00, plus a silent-film warning. REVIEW_INCOMPLETE remains: this text-only review did not inspect full playback, extracted frames, motion, CTA legibility, visual hierarchy, brand execution, or listening quality. This ACCEPT is not perceptual or final creative approval."
+}

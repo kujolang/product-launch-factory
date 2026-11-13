@@ -1,0 +1,54 @@
+{
+  "schema": "kujo.product-launch.run/v1",
+  "id": "20261113-165918-b8a6af61",
+  "title": "Launch WebOps Factory",
+  "status": "approval_required",
+  "startedAt": "2026-11-13T16:59:18.814572+00:00",
+  "stage": "package",
+  "stages": [
+    {
+      "id": "source",
+      "name": "Source evidence",
+      "status": "completed",
+      "startedAt": "2026-11-13T16:59:19.109108+00:00",
+      "durationSeconds": 0.067,
+      "finishedAt": "2026-11-13T16:59:19.176943+00:00"
+    },
+    {
+      "id": "editorial",
+      "name": "Publishing House",
+      "status": "completed",
+      "startedAt": "2026-11-13T16:59:19.183382+00:00",
+      "durationSeconds": 231.732,
+      "finishedAt": "2026-11-13T17:03:10.916541+00:00"
+    },
+    {
+      "id": "website",
+      "name": "WebOps",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:03:10.920329+00:00",
+      "durationSeconds": 30.389,
+      "finishedAt": "2026-11-13T17:03:41.310029+00:00"
+    },
+    {
+      "id": "video",
+      "name": "VideoOps",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:14:05.194612+00:00",
+      "durationSeconds": 52.771,
+      "finishedAt": "2026-11-13T17:14:57.966274+00:00"
+    },
+    {
+      "id": "package",
+      "name": "Launch review",
+      "status": "completed",
+      "startedAt": "2026-11-13T17:14:57.969549+00:00",
+      "durationSeconds": 0.454,
+      "finishedAt": "2026-11-13T17:14:58.423896+00:00"
+    }
+  ],
+  "mode": "live",
+  "deploymentAuthorized": false,
+  "updatedAt": "2026-11-13T17:14:58.531348+00:00",
+  "packageSha256": "a92b94a045a1e916ea97a7e392405aafd9448d952e2b87290959e6efaa69d8c7"
+}

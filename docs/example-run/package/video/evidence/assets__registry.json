@@ -1,0 +1,38 @@
+[
+  {
+    "id": "departure-mono",
+    "file": "DepartureMono-Regular.woff2",
+    "kind": "font",
+    "source": "https://departuremono.com",
+    "rights": "SIL Open Font License; bundled license",
+    "sha256": "5b4fed1daa90708aa9c6ee1190abca9dc22164a1c1def0020386e46b61038cfb",
+    "path": "assets/DepartureMono-Regular.woff2"
+  },
+  {
+    "id": "kujo-logo",
+    "file": "kujo-logo.svg",
+    "kind": "image",
+    "source": "https://kujolang.ai/assets/images/kujo-logomark.svg",
+    "rights": "Kujo first-party mark; identify Kujo, not a third-party endorsement. Copied from verified kujo-hermes demo asset.",
+    "sha256": "cecb66eae65116fadf29a93ce3adae28956b17cfaf1e8d9e0910c280935ef412",
+    "path": "assets/kujo-logo.svg"
+  },
+  {
+    "id": "webops-floor",
+    "file": "webops-floor.png",
+    "kind": "image",
+    "sha256": "4e6120a0cea8a467981e4995f66ad1cd2c1c1599a616883a38417fd517e64d9d",
+    "source": "https://github.com/kujolang/webops-factory/blob/main/docs/factory-floor.png",
+    "rights": "First-party Kujo screenshot, reused with owner authorization.",
+    "path": "assets/webops-floor.png"
+  },
+  {
+    "id": "launch-website",
+    "file": "launch-website.png",
+    "kind": "image",
+    "sha256": "cd845bf05d5ac11e5eacd9fb89dd5f3f3ae47130c63b0084722c3e3d78a669b1",
+    "source": "Verified launch website from this run",
+    "rights": "Owner-authorized campaign screenshot",
+    "path": "assets/launch-website.png"
+  }
+]
