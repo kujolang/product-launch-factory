@@ -1,0 +1,26 @@
+name: Clean onboarding
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  install:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '26.12.1'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install from public clone with empty application caches
+        run: python3 scripts/test-onboarding.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: onboarding-evidence
+          path: onboarding-evidence/
