@@ -2,10 +2,75 @@
 
 [![Version](https://img.shields.io/badge/version-0.1.0-black)](package.json)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
+[![Verify](https://img.shields.io/github/actions/workflow/status/kujolang/product-launch-factory/verify.yml?label=verify&color=333333)](https://github.com/kujolang/product-launch-factory/actions)
 [![built with Kujo](https://img.shields.io/badge/built%20with-Kujo-white.svg)](https://github.com/kujolang/kujo)
 
 Give your team one launch brief. Get a website, article, newsletter, social posts and video tied to the same evidence and ready for review.
 
 Product Launch Factory coordinates the existing Kujo factories through versioned handoffs. Its visual floor shows the work, what passed, what is blocked and which files need your approval.
 
-Implementation and qualification are in progress. See [architecture](docs/ARCHITECTURE.md) and [security boundaries](SECURITY.md). A completed campaign and measured setup instructions will be recorded here after verification.
+## What it does
+
+| Station | Work | Output |
+| --- | --- | --- |
+| Source evidence | Verify a Software Factory export or an existing WebOps package. | Captured product evidence and source texts. |
+| Publishing House | Commission, draft, independently edit and adapt the campaign. | Article, newsletter, three social posts and landing copy. |
+| WebOps | Check the static landing page and review bounded repairs. | Website candidate, browser screenshots and check evidence. |
+| VideoOps | Plan, compile, render and check a video from registered product images. | MP4, editable composition and production records. |
+| Launch review | Collect exact versions and detect drift. | A local package awaiting human approval. |
+
+The controller reuses pinned factories. A new product changes the brief and source packet, not the controller. This release verifies existing software evidence; it does not build a new application or publish a campaign automatically.
+
+## Get started
+
+Use macOS or Linux with Git, Python 3.10+, Node 26.12.1, npm and FFmpeg. Chromium also needs its operating-system libraries. A Codex login with model access is required for live work.
+
+```sh
+git clone https://github.com/kujolang/product-launch-factory.git
+cd product-launch-factory
+npm ci
+npm run setup
+npm run login
+npm run doctor
+npm run factory -- run examples/webops-launch.json
+```
+
+In another terminal, run `npm start` and open `http://127.0.0.1:4384`. The example launches WebOps Factory from captured repository evidence. It makes real model calls and produces a silent video by default. [Narration](docs/VIDEO.md) requires a separately configured, explicitly authorized speech request or existing recording.
+
+Give your agent the [setup guide](docs/AGENT-SETUP.md), your product idea and its source evidence. The guide covers installation, brief changes, recovery and review.
+
+## Resume and review
+
+```sh
+npm run factory -- status
+npm run factory -- resume RUN_ID
+npm run factory -- verify RUN_ID
+```
+
+Completed handoffs are reused only when their exact bytes still match. Blocked work stays blocked until its cause is resolved. Changed inputs require a new launch version. The floor previews copy, the website and video while showing the real stage state.
+
+Review every deliverable before recording approval. Play the entire video with sound. Approval names the exact package hash and remains local; this repository has no deployment command. Editing, adding or deleting a packaged file invalidates its reviewed version.
+
+## Qualification and limits
+
+The first end-to-end campaign is still running. Do not treat the repository as fully qualified until its final artifacts and retained evidence are published here. See [verification](docs/VERIFICATION.md) for completed checks and remaining work.
+
+Dependency setup took 111.688 seconds on a busy development machine with existing tools and caches. That excludes prerequisites, cloning, root npm installation and login. It is **not a clean-machine onboarding benchmark** or a universal setup promise.
+
+Source text goes to the configured model account. Hashes detect changed bytes; they do not prove factual accuracy, test quality or authorship. The local floor binds to loopback. Its preview policy blocks scripts in generated pages. This is a single-operator tool, not a hosted multi-tenant service.
+
+## Development
+
+```sh
+npm ci
+npm run verify
+```
+
+Contract tests need no provider credentials. Live factory qualification is separate. Keep private inputs, credentials and runtime work out of Git.
+
+- [Agent setup](docs/AGENT-SETUP.md)
+- [Architecture and handoffs](docs/ARCHITECTURE.md)
+- [Video and narration](docs/VIDEO.md)
+- [Verification](docs/VERIFICATION.md)
+- [Security boundaries](SECURITY.md)
+- [Pinned factory revisions](sources.lock.json)
