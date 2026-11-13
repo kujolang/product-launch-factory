@@ -1,0 +1,10 @@
+{
+  "run": "20261113-165615-254a74df",
+  "status": "blocked",
+  "files": {
+    "state.json": "ab3694739c3e38761a7c6f8eee98859c418198509b48cdd5820a56dd3ede4b0f",
+    "editorial-blocker.json": "c6bb0be72b62a3e060edf7eea97243f14b608e5b62c29f52baf368cb1722b7da",
+    "rejected-evidence.json": "ae335d33734afcf23d01ad1d805680fd5aedf8b036fade55637d20624c3654d5"
+  },
+  "meaning": "Retained first-party records of blocked editorial attempts; no approval or publication."
+}

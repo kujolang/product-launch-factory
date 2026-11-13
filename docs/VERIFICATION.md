@@ -19,3 +19,9 @@ The live example launches WebOps Factory using its pinned README, verification r
 Technical checks and model reviews do not establish factual truth, human approval or publication authority. Listening remains required for the exact narrated candidate, especially the `kujolang.ai` pronunciation.
 
 The Software Factory source adapter also verified the existing 160-file export `factory-2026-11-13T03-52-04-284Z` with the pinned portable verifier. Its manifest hash was `e67356fadc9fbc0ea4b3846ed67d6cb1c744ca37da32f4203378c139285e2dd8`. This checked byte integrity and recorded identity agreement, not new execution or authenticated approval.
+
+## Retained blocked attempts
+
+The first live campaign exhausted its editorial revision allowance because its short setup instructions omitted prerequisites or the browser step. Its review findings are preserved in [attempt 1](qualification/attempt-1/manifest.json). The next brief linked readers to complete setup instructions instead of reproducing partial procedures.
+
+The second attempt cited `brief` and `commission` as claim sources even though only `readme` and `verification` were registered. The evidence validator rejected it; [attempt 2](qualification/attempt-2/manifest.json) preserves the rejected ledger and blocked state. The generic editorial handoff now explicitly lists permitted source IDs. Neither failure was relabeled as a pass, and neither reached video generation.

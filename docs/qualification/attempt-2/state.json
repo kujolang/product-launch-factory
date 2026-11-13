@@ -1,0 +1,28 @@
+{
+  "schema": "kujo.product-launch.run/v1",
+  "id": "20261113-165615-254a74df",
+  "title": "Launch WebOps Factory",
+  "status": "blocked",
+  "startedAt": "2026-11-13T16:56:15.703845+00:00",
+  "stage": "editorial",
+  "stages": [
+    {
+      "id": "source",
+      "name": "Source evidence",
+      "status": "completed",
+      "startedAt": "2026-11-13T16:56:16.345328+00:00",
+      "durationSeconds": 0.368,
+      "finishedAt": "2026-11-13T16:56:16.742656+00:00"
+    },
+    {
+      "id": "editorial",
+      "name": "Publishing House",
+      "status": "blocked",
+      "startedAt": "2026-11-13T16:56:16.747755+00:00"
+    }
+  ],
+  "mode": "live",
+  "deploymentAuthorized": false,
+  "error": "publishing-house failed; inspect logs/publishing-house.log",
+  "updatedAt": "2026-11-13T16:57:53.781207+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "proposal": {
+    "verdict": "revise",
+    "findings": [
+      "Add the documented platform and tool requirements to every recorded-demo instruction, especially social post 3. The demo sequence is presented as complete, but it omits macOS/Linux, Git, Python 3.10+, Node 26.12.1 or later 26.x, the WSL requirement for Windows, and the possible Linux Chromium system-package step. Do not describe these as requirements only for live setup; the recorded demo also uses the repository setup and local runtime."
+    ],
+    "dimensions": {
+      "consequence": "ADEQUATE",
+      "distinctiveness": "ADEQUATE",
+      "insight": "ADEQUATE",
+      "defensibility": "ADEQUATE",
+      "craft": "ADEQUATE",
+      "brand_integrity": "STRONG",
+      "format_fidelity": "ADEQUATE",
+      "strategic_purpose": "ADEQUATE"
+    }
+  },
+  "usage": [
+    {
+      "input_tokens": 19998,
+      "cached_input_tokens": 0,
+      "output_tokens": 489,
+      "reasoning_output_tokens": 310
+    }
+  ],
+  "role": "copy-chief",
+  "provider": "codex",
+  "model": "account-default",
+  "durationSeconds": 13.965
+}

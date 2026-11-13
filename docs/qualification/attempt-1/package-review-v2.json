@@ -1,0 +1,32 @@
+{
+  "proposal": {
+    "verdict": "revise",
+    "findings": [
+      "Newsletter recorded-demo instructions say readers can “inspect” the example but stop at `npm start`; add the README’s next step: open `http://127.0.0.1:4383`.",
+      "Social post 3 calls its recorded-demo sequence complete but omits the required browser step; add “Open `http://127.0.0.1:4383`” after `npm start`.",
+      "Landing-page recorded-demo instructions promise inspection but omit where to view the floor; add the documented `http://127.0.0.1:4383` step."
+    ],
+    "dimensions": {
+      "consequence": "ADEQUATE",
+      "distinctiveness": "ADEQUATE",
+      "insight": "ADEQUATE",
+      "defensibility": "STRONG",
+      "craft": "ADEQUATE",
+      "brand_integrity": "STRONG",
+      "format_fidelity": "STRONG",
+      "strategic_purpose": "ADEQUATE"
+    }
+  },
+  "usage": [
+    {
+      "input_tokens": 19916,
+      "cached_input_tokens": 0,
+      "output_tokens": 577,
+      "reasoning_output_tokens": 377
+    }
+  ],
+  "role": "copy-chief",
+  "provider": "codex",
+  "model": "account-default",
+  "durationSeconds": 15.52
+}

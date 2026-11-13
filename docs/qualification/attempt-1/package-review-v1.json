@@ -1,0 +1,30 @@
+{
+  "proposal": {
+    "verdict": "revise",
+    "findings": [
+      "Make every `npm run demo` procedure operationally complete. The article, newsletter, third social post, and landing page tell readers to run `npm run demo` and `npm start` before establishing that they must first clone the repository, enter its directory, install dependencies, and run setup. Reorder the instructions or explicitly state the prerequisites; the standalone social post should link to or include the prerequisite sequence rather than presenting two commands as sufficient."
+    ],
+    "dimensions": {
+      "consequence": "ADEQUATE",
+      "distinctiveness": "ADEQUATE",
+      "insight": "ADEQUATE",
+      "defensibility": "STRONG",
+      "craft": "ADEQUATE",
+      "brand_integrity": "STRONG",
+      "format_fidelity": "STRONG",
+      "strategic_purpose": "ADEQUATE"
+    }
+  },
+  "usage": [
+    {
+      "input_tokens": 19720,
+      "cached_input_tokens": 0,
+      "output_tokens": 455,
+      "reasoning_output_tokens": 284
+    }
+  ],
+  "role": "copy-chief",
+  "provider": "codex",
+  "model": "account-default",
+  "durationSeconds": 14.229
+}

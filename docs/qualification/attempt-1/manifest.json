@@ -1,0 +1,12 @@
+{
+  "run": "20261113-164949-a86d6ebb",
+  "status": "blocked",
+  "files": {
+    "state.json": "6044667f96d377d4b544fa20d6b7501e2446d89a70d11f3a962c2a1f244eca05",
+    "editorial-blocker.json": "ff0c9aceb1070b4ee2cf96aeae9737e9785f3e0c6928f1b2f533e1ba2cd38bd8",
+    "package-review-v2.json": "8700aa5d042c6db8a4fff26a11b55c547682c9e92c340c06c6359b89a5d055f3",
+    "package-review-v3.json": "4bb1c7a63ae2ec114f95b30ce5e9d4cb6fcd735060e3839a6dc0e047a636be61",
+    "package-review-v1.json": "8d44679b0479c960870afcb37bba0d5b069018f20e1d9a1af90f69c5cbbea6c8"
+  },
+  "meaning": "Retained first-party records of blocked editorial attempts; no approval or publication."
+}

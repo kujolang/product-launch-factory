@@ -1,0 +1,167 @@
+{
+  "proposal": {
+    "claims": [
+      {
+        "id": "reader-action-open-readme",
+        "text": "The launch package should direct readers to the repository README for prerequisites and complete setup instructions.",
+        "sourceId": "brief",
+        "quote": "Invite readers to open the repository README for complete setup instructions. This campaign introduces the product; it is not an installation tutorial.",
+        "qualification": "This is a commissioning instruction, not evidence that the linked repository is available or accurate. The campaign must not reproduce commands or partial setup instructions."
+      },
+      {
+        "id": "repository-url",
+        "text": "The supplied repository URL is https://github.com/kujolang/webops-factory.",
+        "sourceId": "readme",
+        "quote": "https://github.com/kujolang/webops-factory",
+        "qualification": "This is the URL supplied with the captured source. Its current accessibility, ownership, contents, and link integrity were not independently verified."
+      },
+      {
+        "id": "finding-to-candidate-workflow",
+        "text": "The README describes a workflow that copies a static website, inspects it, requests specialist repairs, applies allowed edits to the copy, checks it again, and sends the exact patch to an independent model reviewer.",
+        "sourceId": "readme",
+        "quote": "WebOps Factory copies a static website, inspects it with SiteProbe and Lens, asks specialist agents for repairs, applies allowed edits to the copy, and checks the result again. An independent model reviewer examines the exact patch.",
+        "qualification": "Repository-described behavior only. No independent execution or code inspection was performed."
+      },
+      {
+        "id": "human-review-no-deployment",
+        "text": "The documented workflow ends at human review and neither edits the original site nor deploys the candidate.",
+        "sourceId": "readme",
+        "quote": "The factory stops at human review; it does not edit the original site or deploy anything.",
+        "qualification": "Repository-described boundary. Human review is still required, and publication or deployment remains outside the factory and this proposal."
+      },
+      {
+        "id": "visible-floor-evidence",
+        "text": "The README says the visual floor displays handoffs, repair values, reasons, browser screenshots, and verification reports from retained run records.",
+        "sourceId": "readme",
+        "quote": "The visual floor shows the handoffs, repair values, reasons, browser screenshots and verification reports. Every displayed status comes from a retained run record.",
+        "qualification": "This claim is attributed to the README; the floor and retained records were not independently inspected."
+      },
+      {
+        "id": "setup-prerequisites",
+        "text": "Documented prerequisites are macOS or Linux, Git, Python 3.10 or later, Node 26.12.1 or a later 26.x release, and a Codex account for live workers.",
+        "sourceId": "readme",
+        "quote": "Requirements: macOS or Linux, Git, Python 3.10+, Node 26.12.1 or later 26.x, and a Codex account for live workers. No API key is required when using Codex account authentication. Provider access and usage remain subject to your account.",
+        "qualification": "Repository-described prerequisites may change. Native Windows is separately described as unsupported except through WSL. The launch package should link to the README rather than reproduce setup details."
+      },
+      {
+        "id": "setup-command-sequence",
+        "text": "The README provides an exact clone, dependency installation, setup, login, diagnostic, live-run, and server-start sequence.",
+        "sourceId": "readme",
+        "quote": "```bash\ngit clone https://github.com/kujolang/webops-factory.git\ncd webops-factory\nnpm ci\nnpm run setup\nnpm run login\nnpm run doctor\nnpm run factory -- run examples/studio.json --live\nnpm start\n```",
+        "qualification": "Procedural evidence is preserved in this ledger because it is material to how the software is tried. The commissioned campaign explicitly forbids reproducing commands or partial setup instructions and must instead link to the README. The commands were not executed."
+      },
+      {
+        "id": "local-interface-and-platform-limits",
+        "text": "The README directs users to a local address, says setup installs pinned Kujo sources, the runtime, and Chromium, and identifies additional Linux and Windows constraints.",
+        "sourceId": "readme",
+        "quote": "Open `http://127.0.0.1:4383`. Setup installs pinned Kujo sources, the runtime and Chromium. Linux hosts may also need `npx playwright install-deps chromium`; that command installs system packages and may require administrator access. Native Windows is not supported; use WSL.",
+        "qualification": "These are repository instructions, not independently verified setup results. The campaign must not reproduce this partial setup instruction."
+      },
+      {
+        "id": "four-supported-repair-types",
+        "text": "This release documents four repair categories: missing or empty page titles, missing or empty search descriptions, images without alt attributes, and broken internal file links.",
+        "sourceId": "readme",
+        "quote": "| Finding | Specialist | Allowed change |\n| --- | --- | --- |\n| Missing or empty page title | Metadata Auditor | Plain title text |\n| Missing or empty search description | Metadata Auditor | Description content |\n| Image without an `alt` attribute | Accessibility Auditor | Plain alternative text |\n| Broken internal file link | Link Health Auditor | Existing local destination |",
+        "qualification": "The scope is bounded to the listed findings and allowed changes. This does not establish general SEO, accessibility, link-health, or security coverage."
+      },
+      {
+        "id": "repair-input-safety-boundary",
+        "text": "The controller accepts values only for known findings and rejects agent-supplied commands, executable files, arbitrary HTML, external link targets, and new repair operations.",
+        "sourceId": "readme",
+        "quote": "The controller accepts values for known findings. Agents cannot supply commands, executable files, arbitrary HTML, external link targets or new repair operations. A failed check or requested revision leaves the run blocked with its evidence; it does not produce an approval package.",
+        "qualification": "Repository-described safeguards only; their implementation and resistance to bypass were not independently tested."
+      },
+      {
+        "id": "checks-scope-and-exclusions",
+        "text": "The static audit covers imported HTML pages, while Lens checks only the homepage at desktop and mobile sizes; fragment-only links, external link health, rankings, and analytics are excluded.",
+        "sourceId": "readme",
+        "quote": "SiteProbe can report additional problems outside this table. Those reports remain visible. Zero supported findings does not mean perfect SEO, full accessibility conformance or a security certification. Lens checks the homepage at desktop and mobile sizes; the static audit examines every imported HTML page. Fragment-only links, external link health, rankings and analytics are outside this release.",
+        "qualification": "Claims must keep these limits nearby. Zero supported findings cannot be presented as comprehensive quality, accessibility, SEO, or security evidence."
+      },
+      {
+        "id": "static-site-intake-boundary",
+        "text": "The documented input is a static export directory rather than a framework project or server application, with restrictions on active content and caps of 120 files, 8 MB, and 150 KB of worker context.",
+        "sourceId": "readme",
+        "quote": "Point a mission at a static export directory, not a framework project or server application. The directory may contain HTML, CSS, SVG, common images, text and XML. Scripts, inline event handlers, frames, symlinks and active HTML embeds are rejected. Hidden files and `node_modules` are not imported. Intake is capped at 120 files and 8 MB; worker context is capped at 150 KB.",
+        "qualification": "Repository-described intake policy. Supported file variants, enforcement behavior, and current limits were not independently verified."
+      },
+      {
+        "id": "reviewer-output-artifacts",
+        "text": "Each documented run retains the original imported bytes, repaired candidate, before-and-after findings, model responses, exact diff, SiteProbe and Lens evidence, and a hash-bound package.",
+        "sourceId": "readme",
+        "quote": "- `before/` preserves imported bytes; `candidate/` holds the repaired copy.\n- `before-findings.json` and `after-findings.json` show supported checks.\n- `proposals/` retains specialist and independent-review responses.\n- `patches/repairs.diff` shows the exact changes.\n- `evidence/` contains the actual SiteProbe and Lens artifacts.\n- `package.json` binds the review candidate and evidence to file hashes.",
+        "qualification": "Supported output structure is described by the README. The referenced artifacts and hash binding were not independently examined."
+      },
+      {
+        "id": "verification-command-sequence",
+        "text": "The README provides commands for verifying an individual run and the repository.",
+        "sourceId": "readme",
+        "quote": "```bash\nnpm run factory -- verify RUN_ID\nnpm run verify\n```",
+        "qualification": "These commands are procedural evidence but were not executed. The commissioned campaign must not reproduce them or any partial setup instructions."
+      },
+      {
+        "id": "manual-release-and-no-resume",
+        "text": "Reviewers are instructed to inspect the patch and candidate before moving changes into their own release process; the floor has no deploy button, and automatic retries and resume are not implemented.",
+        "sourceId": "readme",
+        "quote": "Review the patch and candidate before moving changes into your own release process. The floor has no deploy button, and the runner has no apply-to-source command. If a run stops, inspect its error and retained evidence, clarify the mission or repair the input, and start a new run. Automatic retries and resume are not implemented.",
+        "qualification": "This supports a manual review and deployment boundary. It should not be reframed as automatic approval, source mutation, deployment, retry, or resumability."
+      },
+      {
+        "id": "recorded-run-observation",
+        "text": "The verification record reports that one run repaired five supported findings across three pages in 43.443 seconds using three specialist calls and one independent review, ending in approval_required rather than deployment.",
+        "sourceId": "verification",
+        "quote": "Run `20261113T131253Z-6e15286b` completed on November 13, 2026. It repaired five supported findings across three pages in **43.443 seconds**, using three specialist calls and one independent review. The final state is `approval_required`, not deployed.",
+        "qualification": "This is a reported observation from one recorded run, not an independently verified result, benchmark, speed promise, or prediction for other sites or machines."
+      },
+      {
+        "id": "recorded-run-check-results",
+        "text": "The verification record reports source preservation, successful SiteProbe artifact verification before and after repairs, final homepage Lens checks, and a passing independent review, while retaining additional out-of-scope findings.",
+        "sourceId": "verification",
+        "quote": "The original site remained unchanged. SiteProbe artifact verification passed before and after repairs. Lens passed its final homepage desktop/mobile checks, and the independent reviewer returned `pass`. Additional SiteProbe findings outside the four repair types remain in the crawl report; the factory does not hide them.",
+        "qualification": "Reported results for the recorded example only. They do not establish universal behavior, full-site visual coverage, accessibility conformance, SEO performance, or security certification."
+      },
+      {
+        "id": "timing-scope-and-exclusions",
+        "text": "The reported setup and portability timings were collected with warm caches and existing system tools, excluded account login, and are unsuitable as clean-machine onboarding estimates.",
+        "sourceId": "verification",
+        "quote": "A [fresh-clone portability check](portability-check.json) passed against the published repository: clone, `npm ci`, setup, recorded-example import and a fixture mission. Total elapsed time was 75.179 seconds, including the fixture run; setup itself took 48.896 seconds. The check excluded account login and predates the demo-media commits. Existing system tools and warm caches make this unsuitable as a clean-machine onboarding estimate.",
+        "qualification": "This is a reported observation, not independently verified and not a performance or onboarding promise. It predates some commits and excludes login time."
+      },
+      {
+        "id": "demo-review-incomplete",
+        "text": "Automated audio-level checks reportedly passed, but pronunciation and listening comfort were not attested, leaving the demo media review incomplete.",
+        "sourceId": "verification",
+        "quote": "Audio level checks passed at -16.54 LUFS and -1.90 dBTP. Listening for pronunciation and mix comfort has not been attested, so the media review remains `REVIEW_INCOMPLETE`.",
+        "qualification": "Do not describe the demo media review as complete. The automated results and absence of listening attestation were not independently checked."
+      },
+      {
+        "id": "draft-ownership-and-approval-boundary",
+        "text": "The package is proposed rather than approved; the assigned writer is followed by technical review and final human commissioning approval.",
+        "sourceId": "commission",
+        "quote": "Brief WOF-LAUNCH-001 v1 — Commission proposed, not approved. Strategy & Intelligence assigns the draft package to a product-marketing writer, with technical review by WebOps and final human editorial review.",
+        "qualification": "This establishes workflow ownership, not publication authority. The current permission is PROPOSE, so approval, publication, deployment, and calendar commitment remain out of scope."
+      }
+    ],
+    "unknowns": [
+      "The repository URL, linked README, linked verification artifacts, and current product status were not independently accessed or verified.",
+      "No source code, runtime behavior, retained run directory, screenshots, exact patch, reviewer response, or hashed package was independently inspected.",
+      "The captures are dated 2026-11-13T16:56:17Z; no later source or scope changes were checked.",
+      "Rights and licensing were not verified beyond the README's displayed MIT badge; ownership and reuse rights for screenshots, demo footage, narration, bumper, and other media remain unconfirmed.",
+      "Privacy and confidentiality handling for imported sites, model-provider requests, authentication data, screenshots, and retained evidence were not independently assessed.",
+      "Current link integrity and anonymous access to the repository, README, verification document, downloads, and media were not checked.",
+      "Technical accuracy, final craft, package completeness, and compliance of the eventual article, newsletter, three social posts, and landing copy remain unverified until drafts exist."
+    ]
+  },
+  "usage": [
+    {
+      "input_tokens": 17896,
+      "cached_input_tokens": 0,
+      "output_tokens": 2926,
+      "reasoning_output_tokens": 139
+    }
+  ],
+  "role": "standards-evidence-editor",
+  "provider": "codex",
+  "model": "account-default",
+  "durationSeconds": 58.031
+}

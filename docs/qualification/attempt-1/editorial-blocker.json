@@ -1,0 +1,88 @@
+{
+  "adaptations": [],
+  "attempts": {
+    "format-production": 2
+  },
+  "blocker": {
+    "attempt": 2,
+    "code": "factory_phase_failed",
+    "created_at": "2026-11-13T16:55:36Z",
+    "message": "Adaptation review exhausted its revision allowance; inspect versioned reviews and create a revised brief",
+    "phase": "format-production",
+    "retry_limit": 2
+  },
+  "cluster": null,
+  "created_at": "2026-11-13T16:49:51Z",
+  "depends_on": [],
+  "id": "campaign",
+  "phase_index": 6,
+  "plan_id": "campaign-plan",
+  "priority": "normal",
+  "publication": "local-campaign",
+  "publish_window": {},
+  "receipts": [
+    {
+      "artifact": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-164949-a86d6ebb/work/editorial/child-runs/20261113-164950-d38f0ae4/phases/commissioning.json",
+      "external_effect": false,
+      "item_id": "campaign",
+      "phase": "commissioning",
+      "schema_name": "publishing-house.phase-receipt",
+      "schema_version": "1.0.0",
+      "sha256": "62414e0d907d20a43288ad0a300e5cc3827cd22e3f933612a741ce83d232a451"
+    },
+    {
+      "artifact": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-164949-a86d6ebb/work/editorial/child-runs/20261113-164950-d38f0ae4/phases/evidence-dossier.json",
+      "external_effect": false,
+      "item_id": "campaign",
+      "phase": "evidence-dossier",
+      "schema_name": "publishing-house.phase-receipt",
+      "schema_version": "1.0.0",
+      "sha256": "5fec9a7e2069e43367ee3a6e9e902fae9d4acc49ca473219a61c156c2c17d551"
+    },
+    {
+      "artifact": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-164949-a86d6ebb/work/editorial/child-runs/20261113-164950-d38f0ae4/phases/primary-piece.json",
+      "external_effect": false,
+      "item_id": "campaign",
+      "phase": "primary-piece",
+      "schema_name": "publishing-house.phase-receipt",
+      "schema_version": "1.0.0",
+      "sha256": "748a16a36ccd064ba7ea440d58889695b9ff669edbde616f4c386f031d6f49f3"
+    },
+    {
+      "artifact": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-164949-a86d6ebb/work/editorial/child-runs/20261113-164950-d38f0ae4/phases/asset-production.json",
+      "external_effect": false,
+      "item_id": "campaign",
+      "phase": "asset-production",
+      "schema_name": "publishing-house.phase-receipt",
+      "schema_version": "1.0.0",
+      "sha256": "428ac060037843af9ae452edddd604e4d913c69287e4ada5f2a8cdd4f824c5af"
+    },
+    {
+      "artifact": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-164949-a86d6ebb/work/editorial/child-runs/20261113-164950-d38f0ae4/phases/editorial-review.json",
+      "external_effect": false,
+      "item_id": "campaign",
+      "phase": "editorial-review",
+      "schema_name": "publishing-house.phase-receipt",
+      "schema_version": "1.0.0",
+      "sha256": "334a07228464166c4051be6d60db27ac17e642d6776cfb383449b96d351d9465"
+    },
+    {
+      "artifact": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-164949-a86d6ebb/work/editorial/child-runs/20261113-164950-d38f0ae4/phases/adaptation.json",
+      "external_effect": false,
+      "item_id": "campaign",
+      "phase": "adaptation",
+      "schema_name": "publishing-house.phase-receipt",
+      "schema_version": "1.0.0",
+      "sha256": "e65d39ffc8af29c3494d92aff8a11ebc8fb42f7f8b6ddfdcb4140eacea36b16c"
+    }
+  ],
+  "refresh_of": null,
+  "schema_name": "publishing-house.work-item",
+  "schema_version": "1.0.0",
+  "series": null,
+  "source": "/Users/robertdevore/2026/Kujolang/kujo-repos/product-launch-factory/.runtime/runs/20261113-164949-a86d6ebb/work/editorial/child-runs/20261113-164950-d38f0ae4/input/brief.json",
+  "status": "blocked",
+  "title": "Launch WebOps Factory",
+  "type": "campaign",
+  "updated_at": "2026-11-13T16:55:36Z"
+}
