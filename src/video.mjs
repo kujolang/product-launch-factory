@@ -27,6 +27,7 @@ export async function validateRequest(r){
  if(!r||!path.isAbsolute(r.workspace||'')||!path.isAbsolute(r.factoryRoot||''))throw Error('Absolute workspace and factoryRoot required');
  if(r.workspace===r.factoryRoot||r.workspace.startsWith(r.factoryRoot+path.sep))throw Error('Video workspace must be outside the pinned factory');
  if(typeof r.title!=='string'||!r.title.trim()||r.title.length>180||typeof r.objective!=='string'||!r.objective.trim()||r.objective.length>8000)throw Error('Bounded title and objective required');
+ if(r.cta!==undefined&&(typeof r.cta!=='string'||!r.cta.trim()||r.cta.length>120))throw Error('CTA must contain 1–120 characters');
  if(!Number.isFinite(r.duration)||r.duration<3||r.duration>60)throw Error('Duration must be 3–60 seconds');
  if(!Array.isArray(r.facts)||!r.facts.length||r.facts.length>30||r.facts.some(f=>typeof f.text!=='string'||!f.text||f.text.length>2000||typeof f.source!=='string'||!f.source||f.source.length>2000))throw Error('Sourced facts required');
  if(!Array.isArray(r.images)||!r.images.length||r.images.length>4)throw Error('Supply 1–4 registered evidence images');

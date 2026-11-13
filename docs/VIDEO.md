@@ -25,7 +25,7 @@ Run `node src/video.mjs /absolute/request.json`. Standard output contains one JS
 }
 ```
 
-Use one to four PNG/JPEG evidence images, a duration of 3–60 seconds, and facts with source references. Images are checked before any model work. New facts, image bytes or narration inputs require a new video workspace.
+Use one to four PNG/JPEG evidence images, a duration of 3–60 seconds, and facts with source references. Images are checked before any model work. Supply `cta` when the campaign requires a specific next step, such as opening its repository README. The closing text must fit 120 characters; the bumper also displays `kujolang.ai`. New facts, image bytes or narration inputs require a new video workspace.
 
 ## Narration
 
