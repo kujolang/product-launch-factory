@@ -113,6 +113,8 @@ def validate_brief(path):
     for name in ['title', 'audience', 'objective', 'voice']:
         if not isinstance(brief[name], str) or not brief[name].strip() or len(brief[name]) > 8000:
             raise ValueError('Invalid brief '+name)
+    if len(brief['title']) > 180:
+        raise ValueError('Title must be at most 180 characters')
     if not isinstance(brief['constraints'], list) or len(brief['constraints']) > 15 or any(not isinstance(x, str) or len(x)>1500 for x in brief['constraints']):
         raise ValueError('Use up to 15 short constraints')
     if not isinstance(brief['sources'], list) or not 1 <= len(brief['sources']) <= 8:
@@ -176,7 +178,8 @@ def seal(run):
 def verify(run):
     run = Path(run)
     m = read(run/'package/manifest.json')
-    if m.get('schema') != 'kujo.product-launch.package/v1' or m.get('run') != run.name:
+    expected_id = read(run/'state.json')['id'] if (run/'state.json').exists() else run.name
+    if m.get('schema') != 'kujo.product-launch.package/v1' or m.get('run') != expected_id:
         raise ValueError('Invalid launch package identity')
     check_inventory(run/'package', m['files'], ['manifest.json'])
     if identity(inventory(run/'input')) != m['inputHash']:

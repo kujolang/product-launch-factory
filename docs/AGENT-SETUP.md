@@ -38,7 +38,7 @@ A blocked stage is not a successful campaign. Read its error and `.runtime/runs/
 
 ## Adapt it to your product
 
-Copy the example brief and replace its local sources, evidence and visuals. Keep all referenced paths inside the brief's directory. Sources must be captured UTF-8 text with a public HTTPS provenance URL. Use an exported Software Factory evidence package (`software-export`) or a retained WebOps package (`webops-package`). The source station verifies existing evidence; it does not build a new product.
+Use the [brief schema](../schemas/launch-brief.json). Copy the example brief and replace its local sources, evidence and visuals. Keep all referenced paths inside the brief's directory. Sources must be captured UTF-8 text with a public HTTPS provenance URL. Use an exported Software Factory evidence package (`software-export`) or a retained WebOps package (`webops-package`). The source station verifies existing evidence; it does not build a new product.
 
 Set the audience, objective, voice and constraints. The controller stays the same. Keep performance claims tied to observations and state the limits of the source evidence. Supply up to three PNG or JPEG product images with provenance and reuse rights. WebOps adds a screenshot of the generated landing page.
 

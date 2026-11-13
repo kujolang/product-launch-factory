@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 import re
 import shutil
+import signal
 import subprocess
 import sys
 import time
@@ -43,16 +44,16 @@ def command(run, label, args, cwd=None, lock_fd=None, timeout=3600):
         process = subprocess.Popen([str(x) for x in args], cwd=cwd or ROOT,
                     stdout=out, stderr=subprocess.STDOUT,
                     env={**os.environ, 'PYTHONDONTWRITEBYTECODE': '1'},
-                    pass_fds=(() if lock_fd is None else (lock_fd,)))
+                    pass_fds=(() if lock_fd is None else (lock_fd,)), start_new_session=True)
         write(logs/(label+'-process.json'), {'pid': process.pid, 'startedAt': now(), 'command': [str(x) for x in args]})
         try:
             code = process.wait(timeout=timeout)
         except BaseException:
-            process.terminate()
+            os.killpg(process.pid, signal.SIGTERM)
             try:
                 process.wait(timeout=15)
             except subprocess.TimeoutExpired:
-                process.kill()
+                os.killpg(process.pid, signal.SIGKILL)
                 process.wait()
             raise
     receipt = {'command': [str(x) for x in args], 'exitCode': code,
@@ -276,6 +277,8 @@ def advance(run):
         except BlockingIOError:
             raise ValueError('This launch still has an active runner or child; do not start another') from None
         state = read(run/'state.json')
+        if state.get('mode') == 'recorded':
+            raise ValueError('Recorded campaigns are read-only; start a new live run')
         check_inventory(run/'input', read(run/'input-seal.json'))
         if not doctor()['ok']:
             raise ValueError('Dependency check failed; run npm run setup and doctor')
@@ -442,11 +445,29 @@ def serve(port):
     ThreadingHTTPServer(('127.0.0.1', port), Handler).serve_forever()
 
 
+def import_demo():
+    source = ROOT/'docs/example-run'
+    state = read(source/'state.json')
+    verify(source)
+    target = run_path(state['id'])
+    if target.exists():
+        if read(target/'state.json').get('mode') != 'recorded':
+            raise ValueError('A live campaign already uses this ID; refusing to replace it')
+        verify(target)
+    else:
+        copy_tree(source, target)
+        state['mode'] = 'recorded'
+        state['recordedExample'] = True
+        write(target/'state.json', state)
+    return {'ok': True, 'run': state['id'], 'mode': 'recorded', 'providerCalls': 0}
+
+
 def main():
     parser = argparse.ArgumentParser(description='Coordinate reviewed launch artifacts; no deployment.')
     sub = parser.add_subparsers(dest='command', required=True)
     sub.add_parser('doctor')
     sub.add_parser('status')
+    sub.add_parser('demo')
     sub.add_parser('run').add_argument('brief')
     sub.add_parser('resume').add_argument('run')
     sub.add_parser('verify').add_argument('run')
@@ -461,7 +482,9 @@ def main():
     if args.command == 'serve':
         serve(args.port)
         return 0
-    if args.command == 'doctor':
+    if args.command == 'demo':
+        result = import_demo()
+    elif args.command == 'doctor':
         result = doctor()
     elif args.command == 'status':
         result = statuses()

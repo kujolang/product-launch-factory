@@ -14,7 +14,8 @@
     "factory": "python3 src/launch.py",
     "start": "python3 src/launch.py serve",
     "test": "python3 -m unittest discover -s tests -v && node --test tests/video.test.mjs",
-    "verify": "npm test && python3 scripts/check_docs.py"
+    "verify": "npm test && python3 scripts/check_docs.py",
+    "demo": "python3 src/launch.py demo"
   },
   "dependencies": {
     "@openai/codex": "0.144.4",

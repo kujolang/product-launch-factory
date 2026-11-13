@@ -2,12 +2,13 @@
   "schema": "kujo.product-launch.brief/v1",
   "title": "Launch WebOps Factory",
   "audience": "Small web teams and agency owners who need a reviewable way to repair static websites.",
-  "objective": "Create a benefits-first launch campaign for WebOps Factory: explain how the visible factory floor takes a static website through bounded checks, focused repairs and review. Include accurate instructions for trying the public repository.",
+  "objective": "Create a benefits-first launch campaign for WebOps Factory. Show small web teams how a visible factory floor turns supported static-site findings into focused repairs and a reviewable candidate. Invite readers to open the repository README for complete setup instructions. This campaign introduces the product; it is not an installation tutorial.",
   "voice": "Plain, confident English. Concrete benefits, no hype, no invented personal biography.",
   "constraints": [
-    "Attribute repository-described behavior. Treat recorded timings as observations, never promises.",
+    "Attribute repository-described behavior clearly. Treat recorded timings as observations, never promises.",
     "State that supported static-site checks are bounded; human review and deployment remain separate.",
-    "Keep setup commands complete and grounded in the captured README."
+    "Do not reproduce command sequences or partial setup instructions in any format. Link to the repository README for full prerequisites and setup.",
+    "Lead with the practical benefit: a visible path from a finding to a checked repair, with evidence available to reviewers. Use plain language and avoid repetitive qualifications; keep claim-specific limits close to their claims."
   ],
   "sources": [
     {
