@@ -1,0 +1,43 @@
+{
+  "schema": "kujo.product-launch.brief/v1",
+  "title": "Launch WebOps Factory",
+  "audience": "Small web teams and agency owners who need a reviewable way to repair static websites.",
+  "objective": "Create a benefits-first launch campaign for WebOps Factory: explain how the visible factory floor takes a static website through bounded checks, focused repairs and review. Include accurate instructions for trying the public repository.",
+  "voice": "Plain, confident English. Concrete benefits, no hype, no invented personal biography.",
+  "constraints": [
+    "Attribute repository-described behavior. Treat recorded timings as observations, never promises.",
+    "State that supported static-site checks are bounded; human review and deployment remain separate.",
+    "Keep setup commands complete and grounded in the captured README."
+  ],
+  "sources": [
+    {
+      "id": "readme",
+      "path": "sources/README.txt",
+      "url": "https://github.com/kujolang/webops-factory"
+    },
+    {
+      "id": "verification",
+      "path": "sources/VERIFICATION.txt",
+      "url": "https://github.com/kujolang/webops-factory/blob/main/docs/VERIFICATION.md"
+    }
+  ],
+  "evidence": {
+    "kind": "webops-package",
+    "path": "webops-evidence"
+  },
+  "visuals": [
+    {
+      "id": "webops-floor",
+      "path": "visuals/webops-floor.png",
+      "url": "https://github.com/kujolang/webops-factory/blob/main/docs/factory-floor.png",
+      "description": "WebOps Factory floor showing the recorded example website checks and repair stages.",
+      "rights": "First-party Kujo screenshot, reused with owner authorization."
+    }
+  ],
+  "video": {
+    "duration": 30,
+    "narration": {
+      "enabled": false
+    }
+  }
+}
