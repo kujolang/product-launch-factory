@@ -63,6 +63,23 @@ class IntegrityTests(unittest.TestCase):
             result=launch.advance(self.run)
             self.assertIn('Artifact drift',result['error'])
             self.assertEqual(calls,['source'])
+    def test_export_and_recorded_import_preserve_integrity_without_approval(self):
+        core.write(self.run/'state.json',{'id':'test-run','mode':'live','stages':[]})
+        core.write(self.run/'events.jsonl','')
+        core.write(self.run/'handoffs/source.json',{'outputHash':'fixture'})
+        h=core.seal(self.run);core.approve(self.run,h,'test reviewer',True)
+        target=self.root/'docs/example-run'
+        launch.export_campaign(self.run,target)
+        self.assertFalse((target/'approval.json').exists())
+        self.assertTrue(core.verify(target)['ok'])
+        with patch.object(launch,'ROOT',self.root),patch.object(launch,'RUNS',self.root/'recorded'):
+            result=launch.import_demo();self.assertEqual(result['providerCalls'],0)
+            replay=self.root/'recorded/test-run'
+            self.assertEqual(core.read(replay/'state.json')['mode'],'recorded')
+            with self.assertRaisesRegex(ValueError,'read-only'):launch.advance(replay)
+            core.write(replay/'package/article.md','Changed')
+            with self.assertRaises(ValueError):launch.import_demo()
+
     def test_child_nonzero_is_not_success(self):
         with self.assertRaises(ValueError):launch.command(self.run,'failure',[sys.executable,'-c','raise SystemExit(7)'])
         self.assertEqual(core.read(self.run/'logs/failure-receipt.json')['exitCode'],7)

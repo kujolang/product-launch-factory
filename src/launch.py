@@ -13,6 +13,7 @@ import signal
 import subprocess
 import sys
 import time
+import tempfile
 import uuid
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import unquote, urlsplit
@@ -446,6 +447,27 @@ def serve(port):
     ThreadingHTTPServer(('127.0.0.1', port), Handler).serve_forever()
 
 
+def export_campaign(run, destination):
+    proof = verify(run)
+    destination = Path(destination).resolve()
+    if destination.exists():
+        raise ValueError('Export destination already exists')
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    staging = Path(tempfile.mkdtemp(prefix='.launch-export-', dir=destination.parent))
+    try:
+        for name in ['input', 'package', 'handoffs']:
+            copy_tree(run/name, staging/name)
+        for name in ['state.json', 'events.jsonl']:
+            shutil.copyfile(run/name, staging/name)
+        # Approval and private worker directories are deliberately excluded.
+        verify(staging)
+        staging.rename(destination)
+    finally:
+        if staging.exists():
+            shutil.rmtree(staging)
+    return {**proof, 'export': str(destination), 'approvalExported': False}
+
+
 def import_demo():
     source = ROOT/'docs/example-run'
     state = read(source/'state.json')
@@ -472,6 +494,9 @@ def main():
     sub.add_parser('run').add_argument('brief')
     sub.add_parser('resume').add_argument('run')
     sub.add_parser('verify').add_argument('run')
+    p = sub.add_parser('export')
+    p.add_argument('run')
+    p.add_argument('destination')
     p = sub.add_parser('approve')
     p.add_argument('run')
     p.add_argument('--package-sha256', required=True)
@@ -489,6 +514,8 @@ def main():
         result = doctor()
     elif args.command == 'status':
         result = statuses()
+    elif args.command == 'export':
+        result = export_campaign(run_path(args.run), args.destination)
     elif args.command == 'verify':
         result = verify(run_path(args.run))
     elif args.command == 'approve':

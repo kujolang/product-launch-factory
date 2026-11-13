@@ -55,3 +55,13 @@ npm run factory -- approve RUN_ID --package-sha256 EXACT_HASH --reviewer 'YOUR N
 ```
 
 This records local approval only. Changed, added or deleted package files invalidate the reviewed version. Deployment requires a separate workflow and explicit permission.
+
+## Share a recorded campaign
+
+After verification, export the review package without private worker homes or login files:
+
+```sh
+npm run factory -- export RUN_ID /absolute/path/to/new-export
+```
+
+The destination must not exist. Source texts and production evidence are included; inspect them before sharing. Approval is not exported. Historical command records may contain the original machine's paths, which are evidence rather than installation dependencies.

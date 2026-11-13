@@ -4,7 +4,7 @@ Qualification is in progress. Do not treat the first campaign as complete until 
 
 ## Checks completed
 
-Ten Python tests exercise path escape and symlink rejection, failed child commands, reuse of completed handoffs, changed handoff rejection, exact-hash approval, required video review acknowledgment, approval invalidation after changed, added or deleted files, HTTP range playback, private path rejection and preview policy headers. Seven Node tests cover video source integrity, bounded inputs, authorization, receipt validation and the static template overlay.
+Eleven Python tests exercise path escape and symlink rejection, failed child commands, reuse of completed handoffs, changed handoff rejection, exact-hash approval, required video review acknowledgment, approval invalidation after changed, added or deleted files, HTTP range playback, private path rejection and preview policy headers, and private-file exclusion with read-only recorded replay. Nine Node tests cover video source integrity, bounded inputs, authorization, receipt validation and the static template overlay.
 
 The visual floor was checked in headless Chromium at 1440 × 1000 and 390 × 844. All five stations rendered, the live editorial state appeared, no browser errors occurred and the mobile page had no horizontal overflow. Artifact playback still needs the finished campaign.
 
