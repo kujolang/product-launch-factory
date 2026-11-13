@@ -137,8 +137,10 @@ def validate_brief(path):
         raise ValueError('Provide Software Factory or WebOps evidence')
     inventory(confined(path.parent, evidence['path']))
     video = brief['video']
-    if set(video) - {'duration', 'narration'} or 'duration' not in video or not isinstance(video['duration'], (int, float)) or not 12 <= video['duration'] <= 60:
+    if set(video) - {'duration', 'narration', 'cta'} or 'duration' not in video or not isinstance(video['duration'], (int, float)) or not 12 <= video['duration'] <= 60:
         raise ValueError('Video duration must be 12–60 seconds')
+    if 'cta' in video and (not isinstance(video['cta'], str) or not video['cta'].strip() or len(video['cta'])>120):
+        raise ValueError('Video CTA must be 1–120 characters')
     if video.get('narration') is not None and not isinstance(video['narration'], dict):
         raise ValueError('Narration must be an explicit authorization/receipt object')
     visuals = brief.get('visuals', [])

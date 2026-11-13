@@ -34,6 +34,8 @@ npm run factory -- resume RUN_ID
 npm run factory -- verify RUN_ID
 ```
 
+If a video child is blocked before producing a handoff, inspect its review and correct the cause. `npm run factory -- retry-video RUN_ID` preserves that failed attempt and starts a new video job while verifying and reusing completed upstream handoffs. It may incur new provider calls; it never repeats uncertain speech acquisition automatically.
+
 A blocked stage is not a successful campaign. Read its error and `.runtime/runs/RUN_ID/logs`. Resume preserves completed handoffs after checking their hashes. If inputs change, create a new run. Never edit a frozen snapshot or remove a failed review to force the next stage.
 
 ## Adapt it to your product

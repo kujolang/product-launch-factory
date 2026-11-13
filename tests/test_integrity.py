@@ -80,6 +80,18 @@ class IntegrityTests(unittest.TestCase):
             core.write(replay/'package/article.md','Changed')
             with self.assertRaises(ValueError):launch.import_demo()
 
+    def test_video_retry_preserves_failure_and_rejects_completed_handoff(self):
+        core.write(self.run/'state.json',{'id':'test-run','mode':'live','status':'blocked','stage':'video'})
+        core.write(self.run/'work/video/failure.json',{'reason':'missing CTA'})
+        with patch.object(launch,'advance',return_value={'status':'running'}) as advance:
+            self.assertEqual(launch.retry_video(self.run)['status'],'running')
+            advance.assert_called_once_with(self.run)
+        preserved=list((self.run/'work-history').glob('video-*/failure.json'))
+        self.assertEqual(len(preserved),1)
+        self.assertEqual(core.read(preserved[0])['reason'],'missing CTA')
+        core.write(self.run/'handoffs/video.json',{'completed':True})
+        with self.assertRaises(ValueError):launch.retry_video(self.run)
+
     def test_child_nonzero_is_not_success(self):
         with self.assertRaises(ValueError):launch.command(self.run,'failure',[sys.executable,'-c','raise SystemExit(7)'])
         self.assertEqual(core.read(self.run/'logs/failure-receipt.json')['exitCode'],7)

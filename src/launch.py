@@ -231,6 +231,7 @@ def video_stage(run, out, lock_fd):
     work.mkdir(parents=True, exist_ok=True)
     request = write(work/'request.json', {'workspace': str(work), 'factoryRoot': str(FACTORIES/'videoops-factory'),
             'title': brief['title'], 'objective': brief['objective'], 'facts': facts, 'images': images,
+            'cta': brief['video'].get('cta', 'Build your next factory with Kujo. Setup: '+brief['sources'][0]['url']),
             'duration': brief['video']['duration'], 'narration': brief['video'].get('narration', {'enabled': False})})
     command(run, 'videoops', ['node', ROOT/'src/video.mjs', request], lock_fd=lock_fd)
     result = read(work/'result.json')
@@ -447,6 +448,22 @@ def serve(port):
     ThreadingHTTPServer(('127.0.0.1', port), Handler).serve_forever()
 
 
+def retry_video(run):
+    with (run/'runner.lock').open('a') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        state = read(run/'state.json')
+        if state.get('mode') != 'live' or state.get('status') != 'blocked' or state.get('stage') != 'video' or (run/'handoffs/video.json').exists():
+            raise ValueError('A new video attempt requires a blocked live video stage without a completed handoff')
+        work = run/'work/video'
+        if (work/'.video-lock').exists():
+            raise ValueError('Video lock still exists; inspect its process before retrying')
+        history = run/'work-history'/('video-'+str(time.time_ns()))
+        history.parent.mkdir(exist_ok=True)
+        shutil.move(str(work), str(history))
+        event(run, 'video', 'retry-requested', 'Blocked video attempt preserved at '+history.relative_to(run).as_posix())
+    return advance(run)
+
+
 def export_campaign(run, destination):
     proof = verify(run)
     destination = Path(destination).resolve()
@@ -493,6 +510,7 @@ def main():
     sub.add_parser('demo')
     sub.add_parser('run').add_argument('brief')
     sub.add_parser('resume').add_argument('run')
+    sub.add_parser('retry-video').add_argument('run')
     sub.add_parser('verify').add_argument('run')
     p = sub.add_parser('export')
     p.add_argument('run')
@@ -514,6 +532,8 @@ def main():
         result = doctor()
     elif args.command == 'status':
         result = statuses()
+    elif args.command == 'retry-video':
+        result = retry_video(run_path(args.run))
     elif args.command == 'export':
         result = export_campaign(run_path(args.run), args.destination)
     elif args.command == 'verify':
