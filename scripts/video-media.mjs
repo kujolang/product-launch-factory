@@ -22,15 +22,18 @@ function run(bin,args,cwd){
 export async function narrationInputs(n){
  if(!n?.enabled)return [];
  const refs=[];
+ async function evidence(ref,kind){if(!ref)return;const p=contained(n.mediaWorkspace,ref.path);await regular(p);const sha256=await hash(p);if(sha256!==ref.sha256)throw Error('Narration referenced evidence drift');if(!refs.some(x=>x.path===p))refs.push({kind,path:p,sha256});}
+ if(n.receiptPath){const receipt=JSON.parse(await fs.readFile(n.receiptPath,'utf8'));for(const ref of [receipt.original,...(receipt.derived||[])])await evidence(ref,'receiptMedia');if(receipt.manifest_path){const p=contained(n.mediaWorkspace,receipt.manifest_path);await regular(p);refs.push({kind:'usageRegistry',path:p,sha256:await hash(p)});}}
+
  for(const key of ['requestPath','authorizationPath','receiptPath','audioPath'])if(n[key]){await regular(n[key]);refs.push({kind:key,path:n[key],sha256:await hash(n[key])});}
  if(n.requestPath){
   const request=JSON.parse(await fs.readFile(n.requestPath,'utf8'));
   if(request.schema!=='videoops-media-request/v1'||request.capability!=='speech')throw Error('Canonical speech request required');
   const input=contained(n.mediaWorkspace,request.input?.path);await regular(input);const sha256=await hash(input);if(sha256!==request.input?.sha256)throw Error('Narration text drift');
   const text=await fs.readFile(input,'utf8');if(!text.trim()||text.length>500)throw Error('Narration must contain 1–500 characters');
-  refs.push({kind:'narrationText',path:input,sha256});
+  refs.push({kind:'narrationText',path:input,sha256});await evidence(request.rights?.evidence,'rightsEvidence');await evidence(request.budget?.estimate_evidence,'budgetEvidence');
   if(!n.receiptPath){
-   const authority=JSON.parse(await fs.readFile(n.authorizationPath,'utf8'));
+   const authority=JSON.parse(await fs.readFile(n.authorizationPath,'utf8'));for(const bound of authority.request_bounds||[])await evidence(bound.evidence,'scopeEvidence');for(const entitlement of authority.entitlements||[])await evidence(entitlement.evidence,'entitlementEvidence');
    if(request.budget?.max_cost!==0||!Number.isFinite(request.budget?.max_credits)||request.budget.max_credits>500||authority.max_cost!==0||authority.max_calls!==1||authority.max_credits>500||!authority.entitlements?.some(e=>e.capability==='speech'&&e.allowed===true&&e.no_overage===true))throw Error('Speech must be scoped to one included-allowance call, at most 500 credits, no overage');
   }
  }
