@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "source": "fresh public shallow clone, no factory dependencies or login installed",
+  "state": "Recorded example · approval required · 20261113-165918-b8a6af61",
+  "providerCalls": 0,
+  "media": {
+    "duration": 25.433333,
+    "width": 1920,
+    "error": null
+  },
+  "mobileOverflow": false,
+  "browserErrors": []
+}

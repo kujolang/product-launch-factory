@@ -1,0 +1,46 @@
+{
+  "title": "Launch WebOps Factory",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 36,
+  "cta": "Build your next factory with Kujo · kujolang.ai",
+  "scenes": [
+    {
+      "id": "benefit-hook",
+      "start": 0,
+      "duration": 6,
+      "headline": "A clear path from website problems to a checked repair.",
+      "body": "Spend less time chasing handoffs—and more time improving your site.",
+      "assetId": "",
+      "theme": "ink"
+    },
+    {
+      "id": "factory-floor",
+      "start": 6,
+      "duration": 11,
+      "headline": "",
+      "body": "",
+      "assetId": "webops-floor",
+      "theme": "ink"
+    },
+    {
+      "id": "reviewable-candidate",
+      "start": 17,
+      "duration": 11,
+      "headline": "",
+      "body": "",
+      "assetId": "launch-website",
+      "theme": "paper"
+    },
+    {
+      "id": "kujo-bumper",
+      "start": 28,
+      "duration": 8,
+      "headline": "Build your next factory with Kujo · kujolang.ai",
+      "body": "",
+      "assetId": "kujo-logo",
+      "theme": "paper"
+    }
+  ]
+}

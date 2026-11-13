@@ -1,0 +1,4 @@
+{
+  "decision": "BLOCK",
+  "reason": "The plan is structurally bounded and contiguous, but it omits the required invitation to open the WebOps Factory repository README for complete setup instructions. The closing scene only shows “Build your next factory with Kujo · kujolang.ai.” Add the approved README direction without introducing unsupported claims, while preserving the final Kujo bumper."
+}

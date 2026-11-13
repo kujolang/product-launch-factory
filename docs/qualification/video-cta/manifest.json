@@ -1,0 +1,10 @@
+{
+  "run": "20261113-165918-b8a6af61",
+  "childRun": "launch-9bf172a7dc92-2026-11-13T17-03-41-861Z",
+  "files": {
+    "state.json": "f5979e019e05f37795a5a2bf9046499828322374e1d0f9c6f16df86fce0a36f9",
+    "plan.json": "3e437edb84bac0781e836bc8c3499c6bf732d3958e5b05ac4cd6322774089528",
+    "editor.json": "15ac4f92a281371276004ce5deb9cb54fdc79c76fa81fafb8e258a7da0a2c9b9"
+  },
+  "result": "Blocked before rendering and speech generation; new video attempt supplied the setup CTA."
+}
