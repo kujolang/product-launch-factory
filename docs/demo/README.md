@@ -21,3 +21,5 @@ The coordinator demonstration is 31.6 seconds at 1920 × 1080 and 30 fps, with 9
 One Siren speech request used 206 provider-reported credits within the authorized included allowance. The original recording remains unchanged. The music master measured −17.27 LUFS integrated and −4.82 dBTP. The final border correction preserves the AAC packets exactly.
 
 Full media decoding, frame count, artifact hashes and composition checks passed. Frames around every cut and the ending were inspected; all coordinator shots use consistent dark side borders, and the complete five-card handoff is visible. The light ending is the intended Kujo bumper. Technical critic acceptance does not establish listening quality: pronunciation and full listening approval remain unverified.
+
+[Full local playback](local-playback.json) reached the end without errors. The [public README player](readme-playback.json) played and sought into the ending in Chrome desktop and WebKit phone emulation. The [direct download](download-verification.json) matches the final master hash. Phone emulation is not a physical-device test, and these checks do not claim that someone listened to the recording.

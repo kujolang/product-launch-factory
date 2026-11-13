@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "name": "Chrome desktop",
+      "duration": 31.6,
+      "time": 0.218568,
+      "width": 1920,
+      "height": 1080,
+      "error": null,
+      "seek": {
+        "time": 27.824155,
+        "error": null
+      }
+    },
+    {
+      "name": "WebKit phone emulation",
+      "duration": 31.6,
+      "time": 0.24195952900031342,
+      "width": 1920,
+      "height": 1080,
+      "error": null,
+      "seek": {
+        "time": 27.81772235200077,
+        "error": null
+      }
+    }
+  ],
+  "listening": "not_attested",
+  "phone": "emulation, not physical device"
+}
