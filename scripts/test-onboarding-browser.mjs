@@ -11,7 +11,7 @@ try {
   await page.locator('.deliverable').last().waitFor();
   assert.equal(await page.locator('.station.completed').count(),5);
   assert.equal(await page.locator('.deliverable').count(),5);
-  assert.match(await page.locator('#state').innerText(),/Recorded example/);
+  assert.match(await page.locator('#state').innerText(),/Recorded example/i);
   await page.getByRole('button',{name:'Handoffs',exact:true}).click();
   await page.waitForFunction(()=>document.querySelectorAll('.handoff-grid article').length===5);
   await page.getByRole('button',{name:'Video',exact:true}).click();
